@@ -6,7 +6,8 @@ author:
 - Poort, Joost, PhD, University of Amsterdam
 - Botazzi, Guilio, PhD, University of Pisa
 - Andrés García Molina, PhD, Reprex
-- Katarína Remenova 
+- Katarína Remenova
+- Mariá Kmety Barteková
 date: "`r Sys.Date()`"
 output:
   html_document: default
