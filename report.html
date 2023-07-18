@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Daniel Antal">
+<meta name="dcterms.date" content="2023-07-18">
+<meta name="keywords" content="Indicators, Music business, Open Music Europe">
+
+<title>Economy of music in Europe: Novel data collection methods and indicators</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="report_files/libs/clipboard/clipboard.min.js"></script>
+<script src="report_files/libs/quarto-html/quarto.js"></script>
+<script src="report_files/libs/quarto-html/popper.min.js"></script>
+<script src="report_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="report_files/libs/quarto-html/anchor.min.js"></script>
+<link href="report_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="report_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="report_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="report_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="report_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: #00348A;
+      }
+</style>
+
+
+</head>
+
+<body>
+
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Economy of music in Europe: Novel data collection methods and indicators</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Daniel Antal </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">18 July 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#key-research-questions" id="toc-key-research-questions" class="nav-link active" data-scroll-target="#key-research-questions">Key Research Questions</a></li>
+  <li><a href="#literature-review" id="toc-literature-review" class="nav-link" data-scroll-target="#literature-review">Literature review</a>
+  <ul class="collapse">
+  <li><a href="#lit-informal-economy" id="toc-lit-informal-economy" class="nav-link" data-scroll-target="#lit-informal-economy">Informal economy and mixed surveys</a></li>
+  <li><a href="#lit-value-creation" id="toc-lit-value-creation" class="nav-link" data-scroll-target="#lit-value-creation">Value creation in the music industry</a></li>
+  <li><a href="#lit-value-added" id="toc-lit-value-added" class="nav-link" data-scroll-target="#lit-value-added">Adding value</a></li>
+  <li><a href="#lit-employment" id="toc-lit-employment" class="nav-link" data-scroll-target="#lit-employment">Employment</a></li>
+  <li><a href="#lit-zero-price" id="toc-lit-zero-price" class="nav-link" data-scroll-target="#lit-zero-price">Zero-price services</a></li>
+  <li><a href="#lit-valuing-rights" id="toc-lit-valuing-rights" class="nav-link" data-scroll-target="#lit-valuing-rights">Valuing copyright and neighboring rights</a></li>
+  <li><a href="#mapping-the-music-industry-in-the-national-accounts-satellite-accounts" id="toc-mapping-the-music-industry-in-the-national-accounts-satellite-accounts" class="nav-link" data-scroll-target="#mapping-the-music-industry-in-the-national-accounts-satellite-accounts">Mapping the music industry in the national accounts, satellite accounts</a></li>
+  </ul></li>
+  <li><a href="#data-gaps" id="toc-data-gaps" class="nav-link" data-scroll-target="#data-gaps">Data gaps</a>
+  <ul class="collapse">
+  <li><a href="#european-policy-data-gaps" id="toc-european-policy-data-gaps" class="nav-link" data-scroll-target="#european-policy-data-gaps">European policy data gaps</a></li>
+  <li><a href="#national-policy-gaps" id="toc-national-policy-gaps" class="nav-link" data-scroll-target="#national-policy-gaps">National policy gaps</a></li>
+  <li><a href="#pilot-country-slovakia" id="toc-pilot-country-slovakia" class="nav-link" data-scroll-target="#pilot-country-slovakia">Pilot country: Slovakia</a></li>
+  </ul></li>
+  <li><a href="#data-sources" id="toc-data-sources" class="nav-link" data-scroll-target="#data-sources">Data sources</a>
+  <ul class="collapse">
+  <li><a href="#primary-data-sources" id="toc-primary-data-sources" class="nav-link" data-scroll-target="#primary-data-sources">Primary data sources</a></li>
+  <li><a href="#enterprise-surveys" id="toc-enterprise-surveys" class="nav-link" data-scroll-target="#enterprise-surveys">Enterprise surveys</a></li>
+  <li><a href="#secondary-data-sources" id="toc-secondary-data-sources" class="nav-link" data-scroll-target="#secondary-data-sources">Secondary data sources</a></li>
+  <li><a href="#reusable-microdata-and-public-sector-information" id="toc-reusable-microdata-and-public-sector-information" class="nav-link" data-scroll-target="#reusable-microdata-and-public-sector-information">Reusable microdata and public sector information</a></li>
+  </ul></li>
+  <li><a href="#data-gathering-methodology" id="toc-data-gathering-methodology" class="nav-link" data-scroll-target="#data-gathering-methodology">Data gathering methodology</a>
+  <ul class="collapse">
+  <li><a href="#music-industry-registers" id="toc-music-industry-registers" class="nav-link" data-scroll-target="#music-industry-registers">Music industry registers</a></li>
+  <li><a href="#survey-harmonisation" id="toc-survey-harmonisation" class="nav-link" data-scroll-target="#survey-harmonisation">Survey harmonisation</a></li>
+  <li><a href="#enterprise-surveys-1" id="toc-enterprise-surveys-1" class="nav-link" data-scroll-target="#enterprise-surveys-1">Enterprise surveys</a></li>
+  <li><a href="#mixed-surveys" id="toc-mixed-surveys" class="nav-link" data-scroll-target="#mixed-surveys">Mixed surveys</a></li>
+  </ul></li>
+  <li><a href="#towards-evidence-based-music-industry-policies" id="toc-towards-evidence-based-music-industry-policies" class="nav-link" data-scroll-target="#towards-evidence-based-music-industry-policies">Towards evidence-based music industry policies</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="report.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="report.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="report.epub"><i class="bi bi-file"></i>ePub</a></li></ul></div></nav>
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="key-research-questions" class="level2">
+<h2 class="anchored" data-anchor-id="key-research-questions">Key Research Questions</h2>
+<!--- 
+Some formatting:
+Use … instead of ...
+Use — (em dash) as a punctuation mark that can be used to replace commas, parentheses, colons, and semicolons. 
+--->
+<p>In <code>Open Music Europe</code>, we would like to focus our data-driven research on two significant cultural and creative industry/music industry policy problems: how can the European music sector provide more and better employment for music professionals, and how can it create more value-added for the European economy? Our research wants to help design and monitor policies towards these goals and to support the “triple transition” of the music industry: to perform better on digital platforms and be more sustainable environmentally and socially with improved business conduct. In <code>WP2</code> and <code>WP3</code>, we deal with social and environmental sustainability, and in <code>WP4</code>, we talk about the digital transition. In <code>WP1</code>, we focus on ensuring that music professional careers and businesses are financially sustainable.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We are committed to the <code>Open Policy Analysis Guidelines</code>. All documents supporting this report from the proposal and hypothesis-forming part is stored and version on this repository with standardised file structure: <a href="https://github.com/dataobservatory-eu/report-european-music-economy">Report on the European Music Economy</a>. Website: <a href="https://www.openmuse.eu/">Open Music Europe Consortium project website</a>—<a href="https://music.dataobservatory.eu/post/2023-03-06_music-observatory-in-slovakia/">Digital Music Observatory data platform</a>.</p>
+<p>Background documents and earlier versions: proposal stage—<a href="https://zenodo.org/record/6464782">10.5281/zenodo.6464782</a>, comparator model—<a href="https://github.com/dataobservatory-eu/music-market-comparators">repository</a>.</p>
+<p>Funded by the European Union under <a href="https://cordis.europa.eu/project/id/101095295">Grant No.&nbsp;101095295</a>. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Commission’s Citizens, Equality, Rights and Values Programme. Neither the European Union nor the granting authority can be held responsible for them.</p>
+</div>
+</div>
+<p>We are focusing on two key industry and related copyright policy issues: increasing income for more and better employment and increasing the value of music rights. Music is a very-labour intensive sector; therefore, the source of the most value added is the work of musicians and the exploitation of their intellectual property rights. Securing more friendly economic policies for music professionals and better ways to exploit copyrights and neighbouring rights are the most important factors to increase the economic value added to the sector.</p>
+<p>Economic value added is about personal and corporate income; in a sector that is mainly organised around atypical work arrangements, increasing the level and predictability of the currently highly precarious work income is perhaps the most important tool to increase employment quality and quantity. It is also in line with the relevant European Parliament resolution that had been followed by several policy and legislative initiative to reduce the risk of precarious work in the European Union <span class="citation" data-cites="ep_resolution_precarious_employment_2017">(<a href="#ref-ep_resolution_precarious_employment_2017" role="doc-biblioref">European Parliament 2017</a>)</span>.</p>
+<p><code>Open Music Europe</code> mainly aims to help better public and business policy design with data as evidence. The problems of measuring and improving the two key components of the sector’s added value, the compensation for the work of the music professionals and the way they can exploit their rights, are connected to a more theoretical problem. and a more practical one: the heavy decentralisation of the industry combined with a high level of informality makes measuring (and improving) economic activities difficult; the informality also poses challenges for the production of statistics. Many music professionals disappear from the official measurement of income and employment, including the monitoring of copyright and neighbouring rights exploitation-related income.</p>
+<p>In WP1, we aim to address the following research questions:</p>
+<ol type="1">
+<li><p>What does the informality of the music sector mean? How can the informality of the music business be conceptualised, and how can the informal music economy be correctly measured for its value-added and employment? See in <a href="#lit-informal-economy">literature review</a>.</p></li>
+<li><p>How do music-related work income and copyright income develops compared to the average of the European economy? What is the process of music income real convergence between the richer and poorer countries of the EU? See <a href="#lit-value-added">Adding value</a>.</p></li>
+<li><p>How can we conceptualise and measure the precarity of work in the music industry? See <a href="#lit-employment">employment</a>.</p></li>
+<li><p>How can we improve statistical practices to measure and monitor the development of music sector royalty and other income and the income convergence correctly?</p></li>
+<li><p>What kind of policies can help to increase the value added to the sector? What kind of copyright policies can improve the royalty income, particularly in EU countries where such income is below average?</p></li>
+</ol>
+</section>
+<section id="literature-review" class="level2">
+<h2 class="anchored" data-anchor-id="literature-review">Literature review</h2>
+<p>In the previous decade, the former CEEMID project has made significant insight and introduced new methodologies into valuing the (value-added) income and the value of rights in the sector in Hungary, Slovakia and Croatia first, then in the wider and less data-rich Central and Eastern European region.</p>
+<p>The creation of the CEEMID project was motivated by the realisation of the lack of reliable data on how the Hungarian, Slovak and Croatian music sector adds value to their respective national economies []. While the three country studies had slightly different policy focuses, they had to cope with a common problem: the low level of formalisation of the music sectors of these countries. CEEMID introduced measurement methodologies from the economics and statistics of the informal economy; it turned out that these problems are prevalent all over Europe, even in the far more developed UK music sector.</p>
+<section id="lit-informal-economy" class="level3">
+<h3 class="anchored" data-anchor-id="lit-informal-economy">Informal economy and mixed surveys</h3>
+<p>The concept of the “informal economy” has changed significantly. in the last three decades; unfortunately, especially in an Eastern European context, it is still associated with illegality and invisibility for the tax authorities. The last 30 years of economic research have shown that for certain occupational groups and sectors, the informal economy is not only invisible to the taxman—in Hungary and Slovakia, we believe that most of the industry income became visible to the tax authorities over these decades—, but it is mainly invisible for the statistical system that provides evidence for economic policies.</p>
+<p>Informal employment exists in countries at all levels of socio‐economic development. More than 60 per cent of the world´s employed population earn their livelihood in informal employment. While the practice is generally associated with developing countries, developed countries like the EU member states have a significant informal sector <span class="citation" data-cites="women_men_informal_economy_2018">(<a href="#ref-women_men_informal_economy_2018" role="doc-biblioref">International Labour Organization (ILO) 2018</a>)</span>. The modern definition of the informal economy used by the OECD, ILO or the IMF recognises the importance of the informal economy and does not focus on anomalies but regards the informal economy as a core component of economies at every level of development. Informal employment exists in countries at all levels of socio‐economic development.</p>
+<p>While in 2018 the International Labor Organization (ILO) definition was slightly changed, the 1993 definition already gave us a very useful characterization that fits very well the European music industries: “The informal sector may be broadly characterized as consisting of units engaged in the production of goods or services with the primary objective of generating employment and incomes for the persons concerned. These units typically operate at a low level of organization, with little or no division between labour and capital as factors of production and on a small scale” <span class="citation" data-cites="ilo_resolution_informal_employment_1993">(<a href="#ref-ilo_resolution_informal_employment_1993" role="doc-biblioref">International Labour Organization (ILO) 1993</a>)</span>. In addition, they share the characteristics of household enterprises. The resolution defines the concept of the informal economy as “all economic activities by workers and economic units that are—in law or in practice—not covered or insufficiently covered by formal arrangements”.</p>
+<p>The modern definition of the informal economy used by the OECD, ILO or the IMF recognises the importance of the informal economy and does not focus on anomalies but regards the informal economy as a core component of economies at every level of development.</p>
+<p>The creation of the Hungarian and Slovak national music industry reports in the CEEMID project focused on these key aspects, particularly the lack of typical or formal labour arrangements and the lacking division of labour and capital as factors of production. We have shown that in Hungary, Slovakia or Croatia, the typical stakeholder of the music economy is centred around a self-publishing, self-releasing (group of) artist(s), who exploit their labour, own invested assets and copyrights or neighbouring rights. We have shown that a typical music professional receives income from 20-60 “gigs”; in many cases, the closest resemblance to an employer is their relationship with a collective management organisation. Later, the Central European Music Industry Report showed that from Austria to Armenia, the situation is similar regardless of the level of economic development and industry income.</p>
+<p>The ILO and the OECD (following the IMF) suggested using mixed enterprise- and household or personal surveys to capture the employment and income created in the informal economy. This approach is widely used in the European Union -- in our first pilot country, Slovakia, the Statistical Office of the Slovak Republic (SOSR) uses mixed surveys since 2010. CEEMID introduced a similar surveying framework in 2014 in Hungary and refined it in the 2015 Croatian, 2017 Slovak, 2017-2019 Hungarian and 2019 Central European music professional surveys.</p>
+<p>The OECD Manual on <em>Measuring the Non Observed Economy</em> endorses a combination of LFS surveys with in-depth more specific surveys, such as the Digital Music Observatory/CEEMID music professional survey that we want to develop further: “Monitoring the number and characteristics of the persons in the informal sector and the conditions of their employment and work can be achieved by periodically including a few additional questions pertaining to the informal sector definition in an existing labour force or similar household survey […] Labour force or similar household surveys are often conducted at a higher frequency than specialised, in-depth informal sector surveys. Thus, the data obtained from the former concerning the evolution of labour inputs in the informal sector can be used to extrapolate data from the latter […]” <span class="citation" data-cites="imf_informal_sector_production_2002">(<a href="#ref-imf_informal_sector_production_2002" role="doc-biblioref">International Monetary Fund (IMF) 2002, 170</a>)</span>.</p>
+<p>Similarly, the manual on the same topic of the <em>International Labour Organization</em> suggests taking the LFS as a starting point: “There are many advantages to including the measurement of both informal employment and employment in the informal sector in a labour force survey or a household survey that includes the labour force as a topic These include the relative ease with which the topics can be added to an existing survey, cost-effectiveness, conceptual coherence with other labour force statistics, and the analytical possibilities offered by the collected information.” <span class="citation" data-cites="ilo_measuring_informality_2013">(<a href="#ref-ilo_measuring_informality_2013" role="doc-biblioref">International Labour Organization (ILO) 2013</a>)</span></p>
+<p>The application of mixed surveys is not only challenging on the production side of statistics, for example, in surveying. The analysis of industry value added is usually based on the system of national accounts. The main source of the national accounts is administrative (tax) records from enterprises and enterprise surveys which focus on corporate income and income paid mainly in formal and typical labour arrangements to workers. In music, we turn to mixed surveying because the (large) informal part of the music economy is not represented in these administrative data sources and surveys, partly because it is not organised around formal enterprises. With the combined use of LFS or a similar survey, we target to measure personal income in the informal economy. The reconciliation of personal income with the value-added concepts and employment in the informal economy with the full-time equivalent concept of the national accounts is an important task for labour economists.</p>
+<p>We first turn to the the problem of value added and employment, and then we return to the more practical surveying questions.</p>
+</section>
+<section id="lit-value-creation" class="level3">
+<h3 class="anchored" data-anchor-id="lit-value-creation">Value creation in the music industry</h3>
+<p>There are several overlapping factors why we do not have a standardised statistical measurement of the music industry in 2023. The system of national accounts does not cover the music industry. The statistical data classification nomenclature behind the national accounts at the first worldwide adoption did not regard music—and the creative industries—as “industries”. The first global classification nomenclature of economic activities, NACE, even after its significant revision in 2006, does not have a “music” or “film” industry. An important aspect is, of course, informality, which poses both theoretical and very practical problems when trying to measure the economic performance of music consistently.</p>
+<p>Despite the high value added by the informal music sector, of course, the global music economy has some very large enterprises that are well-known in many countries of Europe and beyond, such as the Universal Music Group, Sony Music, Warner Music Group, or Live Nation. There is a standard, well-harmonised definition of the music business across the U.S. and the European Union; however, this self-image of the industry is not well reflected in the European (or American) statistical system or public policies.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="plots/Music_value_chain.png" class="img-fluid figure-img" style="width:90.0%"></p>
+</figure>
+</div>
+<p>For the mapping of the music industry, we use the standard “three income stream model” that is widely accepted in the United States as well as in the European Union <span class="citation" data-cites="hull_music_2011">(<a href="#ref-hull_music_2011" role="doc-biblioref">Hull et al. 2011</a>)</span> or in Europe <span class="citation" data-cites="leurdijk_statistical_2012-1 leurdijk_statistical_2012">(<a href="#ref-leurdijk_statistical_2012-1" role="doc-biblioref">Andra Leurdijk et al. 2013</a>; <a href="#ref-leurdijk_statistical_2012" role="doc-biblioref">Adnra Leurdijk and Ottilie 2012</a>)</span>. We have experience in using this value chain for mapping the national music market’s sales, use and price data in Hungary, Slovakia, Croatia.</p>
+<p>The concept of the value chain shows what processes add value to the services of the music business to the end-user. It should not be confused with the concept of added value. The value chain shows why music businesses can sell music at a higher value than its production cost; the value added is the new income of the music businesses and music professionals they can keep after all their costs are paid. A well-functioning value chain can increase the value added of the industry and the national economy. For our measurement purposes, we used the value chain to pinpoint those units where the new income (and the jobs that the income supports) are generated, and where this income and jobs can be empirically observed.</p>
+<blockquote class="blockquote">
+<p>a bit more should be here about the mapping endorsed by the ESSnet culture and our previous experience in CEEMID.</p>
+</blockquote>
+</section>
+<section id="lit-value-added" class="level3">
+<h3 class="anchored" data-anchor-id="lit-value-added">Adding value</h3>
+<p>On a macroeconomic level, Gross Value Added (GVA) is closely related to the Gross Domestic Product (GDP)—the difference is the net value of subsidies received for the music industry and taxes paid. As we have shown in Hungary and Slovakia, contrary to common belief, the developing music sectors of these countries contributed with far more taxes than received subsidies; in Slovakia, we have shown that the music industry was one of the highest net payers of the national treasury.</p>
+<p>On the level of music businesses, the value added is the sale value of music services and products to their cost of production; this is revenue of the capital and labour factors of the business. As we have cited earlier, in the informal economy, these two factors are undivided. For example, the value-added of a self-publishing and self-releasing individual musician is the personal income of this person, who partly offers work, but also makes investments (into tangible and intangible or intellectual assets) to create the music.</p>
+<p>If we have a sufficiently formalised music business, even if it is centred around a commercially successful artist, the profit and loss statement and the balance sheets of this enterprise allow us to observe the value added, i.e., the economic or accounting income above the cost of production. The problem with the informal music economy is that much of the costs are not accounted for, only the gross income. The reconciliation of the value-added data from an enterprise survey or an administrative record like a financial report and from a personal survey is not straightforward.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The <em>Slovak CCI Strategy</em> identifies a value added KPI and cites the Slovak CCI satellite accounts as data sources; EUBA should discuss what is the KPI about, what are the initial values, introduce the CCI satellite account, and provide us ideas on how to calculate this indicator for the music industry itself.</p>
+</div>
+</div>
+</section>
+<section id="lit-employment" class="level3">
+<h3 class="anchored" data-anchor-id="lit-employment">Employment</h3>
+<p>The work in the music industry, regardless if it is artistic or technical, managerial work, is often described in the music literature as "precarious". CEEMID has used this framework in the last decade to understand how music professionals earn their living. Precarious work is a term originating in work sociology—see for example: <span class="citation" data-cites="haynes_reluctant_2018">(<a href="#ref-haynes_reluctant_2018" role="doc-biblioref">Haynes and Marshall 2018</a>)</span>—, and it refers to working conditions with a high risk of being underpaid, insecure in terms of employment and low working safety, for example, a high risk of sexual harassment. Precarious work is related to the labour economics term "informal work".</p>
+<p>Because music precarity is often researched with qualitative sociological and anthropological methods, it is often ill-designed to be measured with surveys or administrative data. In the Netherlands, Martin Olsthoorn offered two formalised indicator definitions that are compatible with the Dutch OSA survey <span class="citation" data-cites="olsthoorn_measuring_precarious_employment_2014">(<a href="#ref-olsthoorn_measuring_precarious_employment_2014" role="doc-biblioref">Olsthoorn 2014</a>)</span><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. The Central European Music Industry Report and the previous national reports have developed a similar survey but less formally defined as Olsthoorn's first indicator, which focuses on the risk of low total income.</p>
+<p>In the <em>Central European Music Industry Report</em>, and particularly in work conducted for the Czech music export office, we built CART models based on the CEEMID survey data to quantify the achievements required by Austrian and Czech musicians to reach full-time equivalent income from a large number of sources. (This work was not continued due to lacking funds.)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="plots/at_cz_comparison.png" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption class="figure-caption">Achievement required for full-time equivalent musician employment in Austria and Czechia (CEEMID)</figcaption>
+</figure>
+</div>
+<p>This chart shows that in 2019, Austrian musicians with 6-7 years of composition and recording history had a chance to stay in the music business and earn a full-time living; in Czechia, about 12-13 years of composing history were needed. As the Central European Music Industry Report and national reports showed, the difference could be hypothetically explained by a lower level of copyright protection in Czechia (or Slovakia) and generally an underdeveloped recording industry. In the CEE region, we see particularly strong reliance on the author's revenues compared to the UK or Austria in the absence of viable commercial record sales.</p>
+</section>
+<section id="lit-zero-price" class="level3">
+<h3 class="anchored" data-anchor-id="lit-zero-price">Zero-price services</h3>
+<p>In the past years, there has been an increased interest in analysing online platforms where the consumers do not pay a price. Watching a music video on YouTube, or reading amusing content on Facebook, finding accommodation on AirBnB does not cost anything for the buyer money, though the buyer’s time in viewing advertisement, the buyer’s data footprint, or a commission from a two-sided product (the supply side of a rented room) offers a compensation for the platform. As a recent competition study pointed out, such practices are probably originated from the use of music and audiovisual content on radio and television <span class="citation" data-cites="cma_online_platforms_advertising_2020">(<a href="#ref-cma_online_platforms_advertising_2020" role="doc-biblioref">Competition &amp; Markets Authority 2020</a>)</span>.</p>
+<p>What makes understanding music markets so difficult is that they are seemingly in the plain sight of the public and policy makers, but most of the market transactions are invisible. In many advanced music markets more than half of the music uses, i.e., the market volumes are not paid for by the user. Radio stations or the popular UUC platforms like YouTube, TikTok or SoundCloud, but even licensed music streaming platforms like Spotify offer zero-price services for the users. While there is a growing body of consensus and practice on how to incorporate zero price transactions into competition practice, but in our experience the empirical observation of these markets is very challenging. When consumers pay a price, both the quantity of the sales and the price is recorded on the invoice, and this information is translated into tax returns and financial statements. Zero price transactions have no invoices, and no accounting trail.</p>
+<p>Music in these zero-price transactions is valuable because eventually, somewhere, musicians are paid a copyright or neighboring right royalty for the use of their intellectual product. Generally, this payment should be aligned with the norms of fair remuneration and fair value, which is our next research topic; however, the presence of zero-price transactions makes the application of valuation models particularly challenging in a music market.</p>
+</section>
+<section id="lit-valuing-rights" class="level3">
+<h3 class="anchored" data-anchor-id="lit-valuing-rights">Valuing copyright and neighboring rights</h3>
+<p>The concepts of copyright law, such as equitable remuneration, set a legal basis for the remuneration of creators, particularly in cases where the seller has no freedom of contracting the actual user. Such rules, however, do not contain regulations on how to set the payable sum—this often leads to confusion. Copyright law creates valuable rights, but the value of these rights must be interpreted in the light of further legal principles and economic norms.</p>
+<p>In the European Union, copyrights are treated as constitutionally protected rights which are protected on an equal level with fair competition. The states created valuable rights for authors, producers and performers of music with conditions to exploit them fairly. In our understanding the valuation of music and setting its royalty prices should mainly follow the Fair Value standards, which inspired by the more general arm’s length principles.</p>
+<p>Copyrights and neighbouring rights are governed by international law, and in Europe, they are further harmonized by EU law. The valuation principles of intellectual property are set by various standards set by the <em>World Intellectual Property Organization</em> (WIPO) and the <em>International Financial Reporting Standards Board</em> (IFRS). The IFRS standards are incorporated into EU accounting law, and the WIPO standards have a similar international law underpinning as the more specific copyright and neighbouring right. Even though every European Union member state has its own copyright and accounting laws, they are harmonised to the degree that we can create rather portable valuation models.</p>
+<p>Music’s valuation and price setting must comply with the broadest fair value principles (set by international financial reporting standards) in light of the intellectual property standards set by WIPO. Copyright and neighbouring rights law have special provisions, often called “equitable remuneration.” From an economic perspective, we treat equitable remuneration as a special case of fair valuation. Even when equitable remuneration is not applicable in the music industry, we believe the broader fair valuation principle should yield a similar result.</p>
+<p>Because in the past years the term <em>equitable remuneration</em> was often part of music policy debates, we want to clarify that this technical term is often not covering what people would instinctively think to ‘equitable’ or ‘just’. <em>Equitable remuneration</em> is a legal concept which has an economic aspect. In international law, it was first enshrined as <em>Convention C100</em> of the International Labour Organisation (ILO), stipulating that men and women should receive equal pay for equal work <span class="citation" data-cites="ilo_c100">(<a href="#ref-ilo_c100" role="doc-biblioref">International Labour Organization (ILO) 1951</a>)</span>. Within the context of international copyright law, it was introduced as a modification of the <em>Berne Convention</em> by the <em>Rome Convention</em> for the remuneration of the broadcasting of recorded fixation of music works (recordings) since 1971<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Equitable remuneration is originally connected to a compulsory license that must be paid when recorded music is played in a publicly accessible location to the performing artists and music producers. In a compulsory licensing regime, the rightsholders are not in a position to negotiate the royalty rates or deny use to any business entity<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. because it is not a negotiated market rate. The payable rate is called <em>equitable</em> (and, in some jurisdictions, <em>fair</em>) . The law stipulates in these cases the rate must be set <em>as if</em> they have negotiated in a market transaction of two willing parties without monopoly (supplier power) or monopsony (buyer power) In economic terms, these rates must be set on a <em>fair value</em> basis.</p>
+<p>The equitable remuneration standards in international treaties do not set a standard for <em>calculating</em> the monetary value of the equitable remuneration that is paiable to the rightsholders. In an international context, a study of Europe Economics and IVIR has shown that there are notable differences in how <em>equitable remuneration</em> is understood—and it is often used as a synonym for <em>fair</em> remuneration <span class="citation" data-cites="ivir_remuneration_2015">(<a href="#ref-ivir_remuneration_2015" role="doc-biblioref">Europe Economics &amp; IVIR 2015</a>)</span>. Despite the national differences, it is a sufficiently harmonised system that allows the functioning of the global music industry without major barriers and therefore allows the comparison of revenues, prices and volumes, too.</p>
+<p>Equitable remuneration is not a valuation or pricing concept, but it is an important legal mechanism to ensure that copyright and neighbouring rightsholders are remunerated. In our understanding, equitable remuneration should happen at <em>fair value</em> as defined by economics and international accounting standards.</p>
+<p>When intellectual property is sold (against a lump-sum payment), licensed (for periodical payment), or used as a pledge against a loan, the transaction must comply with the <em>Fair Value</em> standard. This standard, similarly to copyright law, follows international law. While it is transposed into national law in somewhat different ways, it cannot be altered fundamentally. The Fair Value standard of the <em>International Financial Reporting Board</em> has been incorporated into national European laws via EU law (and it remained UK law after Brexit, too.) Our understanding is that music prices should mainly follow the Fair Value standards, but they are also inspired by the more general <em>arm’s length</em> principles: whenever a market transaction is not possible, the compulsory conditions should resemble of something that two market powers without power or proximity of interests (<em>at arm’s length</em>) would agree to pay.</p>
+<p>In 2008, the global recording industry body, IFPI, published <em>Valuing the use of recorded music</em>, created by PriceWaterhouseCooper <span class="citation" data-cites="pwc_valuing_2008">(<a href="#ref-pwc_valuing_2008" role="doc-biblioref">PwC 2008</a>)</span>. This excellent methodological guide applies the WIPO and IFRS standards <span class="citation" data-cites="ifrs_fair_value_2011 flignor_orozco_ip_valuation_2006 puca_intangible_2019">(<a href="#ref-ifrs_fair_value_2011" role="doc-biblioref">IFRS 2011</a>; <a href="#ref-flignor_orozco_ip_valuation_2006" role="doc-biblioref">Flignor and Orozco 2006</a>; <a href="#ref-puca_intangible_2019" role="doc-biblioref">Puca and Zyla 2019</a>)</span> on valuing copyrights in more practical terms for the music industry. The valuation principles are enshrined in the fair valuation principles of the WIPO and the fair value principles of the International Financial Standards Board—their use is not a recommendation but a statutory obligation in most IFRS countries.</p>
+<section id="most-applicable-method" class="level4">
+<h4 class="anchored" data-anchor-id="most-applicable-method">Most applicable method</h4>
+<p>The recognised fair valuation principles stipulated that the “most applicable method” must be used in valuations. Because most music is created by natural persons (and in the informal economy, see []), the (historical) “cost approach” is almost never a good option; natural person in a sole proprietorship or in a more informal economic form are not recording their costs. The <em>cost approach</em> is inapplicable because the rightsholders are natural people who do not account for their working time, i.e., the time when they are composing music. There are no appropriate business records of most creative activities related to the composition and performance of music. The cost approach could be used for the rights of the producers, but because their rights are not going to market in separation from the other rights, cost approaches are never used in the music industry.</p>
+<p>The <em>income approach</em> compares the royalty flows of a work of its recording by using an appropriate “discount rate.” When a user buys in a music store an mp3 file on 1 July 2015, it triggers a single royalty payment after the deductions of the cost of sale on the marketplace. In a streaming platform, the same user’s royalty payments appear monthly when she listens to the song and on the radio, usually every year. The discount rate provides a proper comparison between remuneration received in July 2015 and April 2021. The <em>income approach</em> is often impractical when we have irregular or annual payments. With annual payments, the valuation’s timeframe would be too long. Calculating an appropriate discounting rate would also be practically impossible for many uses.</p>
+<p>The <em>market approach</em> tries to identify a payment rate, regardless of if it is made in a lump sum, monthly or annually established, based on sufficiently similar uses. Many ideas were tried internationally to identify the sufficiently similar use of music streaming; for example, relating ad-supported and automatically selected songs to radio streams and relating cases where the user controls the selection of songs and may even download them to music downloads. We will use the market approach for practical uses, although the market approach, unlike the cost or income approaches, is not a fundamental valuation method. In other words, we can use the market approach only if we accept that at least some of the prices are correct on the market, and only some of them can be questioned.</p>
+<p>The application of <em>fair valuation principles</em> is particularly challenging in the case of private copying, where the transactions are not recorded (as they are not market transactions) and in streaming, which is a relatively new technology that is seen in licensing as a mixture of earlier mechanical copy-based and public performance-based licensing, and has so many transactions that most rightsholders (and even their national organisations) like the data processing capacity to administer the rights or challenge incorrect payments.</p>
+<p>Our grant agreement and task list specifically mentions that we will build a market comparator model, i.e., in <code>T1.1</code> we are focusing on methodologies and data collection modes that support this task. If we use the <em>market approach</em> for valuations, we must consider the differences in the way music is licensed and royalties are paid for.</p>
+<ul>
+<li><p>The <strong>public performance model</strong> has various pricing standards for <em>live music</em>, <em>publishing</em> and the <em>recording</em> side. For radio broadcasting, transmission, and background music, it uses annual blanket licensing. When analysing public performance uses and payments, we must be careful with the timeframe of the analysis. Public performance revenues are usually accrued throughout the year and paid once, but there may be different accrual and payment periods present in a market.</p></li>
+<li><p>The <strong>mechanical licensing model</strong> is used for physical products, legalised digital downloads, and home copying and has lump sum values, paid upfront and for perpetuity. In the case of home copying levies/compensation, the sum is not expressed per unit but in annual lump sums, which are historically connected to the mechanical pricing model. (See Private Copying in Croatia, where we explain in detail this analogy (See <em>Private Copying in Croatia</em> where we explain in detail this analogy <span class="citation" data-cites="antal_pcr_croatia_2019">(<a href="#ref-antal_pcr_croatia_2019" role="doc-biblioref">Antal 2019a</a>)</span>). The mechanical licensing model is well harmonised globally via BIEM, is the international organisation representing mechanical rights societies.</p></li>
+<li><p>The <strong>streaming model</strong> is <em>de facto</em> harmonised by the fact that the major players in the world are the same, and they are using similar model contracts. Legally speaking, the solutions differ among the UK, U.S., and EU solutions, but the streaming model is always a hybrid of the mechanical licensing and the public performance models. A streaming provider needs to have a license from both the publishing side (that is present in mechanical licensing) and all interested parties that are present in public performance licensing. In streaming, the default accrual and payment period is the month.</p></li>
+<li><p>The UUC model (mainly applied by YouTube) is very different.</p></li>
+</ul>
+<p>These licensing models are very well harmonised internationally. Our model could be easily transposed to any EU member state or the United Kingdom and even to the U.S. if we consider the problem of radio transmission licensing in that jurisdiction. It is important to notice that while the same principles can be applied in many jurisdictions, the actual value of the rights will differ in each country because of different market and regulatory conditions.</p>
+<p><em>We translated the revenues from these income streams, excluding the background music sold to business-to-business uses in the hotel, restaurant, and catering sectors, into notional hourly royalty figures.</em></p>
+<p><em>In the case of live performances, we took the notional concert visits of each country as a 90-minute performance to compare variously priced live performance revenues with a similar currency unit / per hour format. Live music only uses the public performance model</em>, and it plays a relatively minor role in the live music ecosystem. Our model focuses on the recording and publishing side of the music business—they have two mature business models that are highly comparable internationally or in long-term longitudinal analysis. Both the mechanical licensing model and the public performance model are based on the same international regulation (harmonised on the level of international law) and follow the same business (licensing) model. In most cases, the actual licenses are territorial, and the prices and exact licensing terms are specific to the country. But these aspects of our <em>full market comparator model</em> are very easy to replicate for any year and licensing territory (national jurisdiction.)</p>
+<p>The regulation of free uses, particularly the home copying exception and its remuneration, is different in each country which has this exception at all—-but private copying levies, when applicable, do follow an adapted form of mechanical licensing. The compensation is annualised, like in public performance, and the rates (prices) are somehow related to the mechanical royalty rates.</p>
+</section>
+</section>
+<section id="mapping-the-music-industry-in-the-national-accounts-satellite-accounts" class="level3">
+<h3 class="anchored" data-anchor-id="mapping-the-music-industry-in-the-national-accounts-satellite-accounts">Mapping the music industry in the national accounts, satellite accounts</h3>
+<p>A satellite account is a framework of presentation for the economic data of a particular area in relation to the overall economic analysis of the central framework of the national accounts. The use of satellite accounts for education, health, tourism, environmental issues is commonplace.</p>
+<div class="callout-warnings">
+<p>The Slovak satellite account shoudl be introduced in detail.</p>
+</div>
+</section>
+</section>
+<section id="data-gaps" class="level2">
+<h2 class="anchored" data-anchor-id="data-gaps">Data gaps</h2>
+<p>Music is a very much data-driven industry, and it was one of the first global industries that moved much of its sales to a few global digital platforms that record incredible details of information. Many data gaps in the music industry are illusory from the point of view that the data is recorded somewhere; it is “only” not processed and aggregated into formats that would be required for public policy analysis. And then we have a large informal part of the music economy where many important data, for example, costs or investments, are not recorded systematically.</p>
+<p>The <em>Feasibilty study</em> enumerates most data gaps in the Music Economy Pillar. Most European countries do not have a consistent top-line indicator like the share in GDP, gross value added, or total employment in the sector. This is the result of lacking national accounts for the music industry, which then translates into the lack of further indicators that are usually present in the system of national accounts, such as exports and imports; because we do not have a music industry total, we do not have indicators for the important sub-sectors, such as live music or the recording industry.</p>
+<p>In <code>Open Music Europe</code>, the WP1 provides an exploitation pathway towards increasing the value of music rights. Our planned case studies in Hungary and Bulgaria aim to improve the valuation of music rights in these countries; our primary focus is to find the data needed for this policy intervention. Our second priority is to improve the measurement of perhaps the two most important economic indicators, i.e., various concepts of income (value added) and employment.</p>
+<p>Our main research areas are Hungary, Slovakia and Bulgaria. In Slovakia, we have concluded a MoU. Slovakia is one of the few countries that invested into the creation of a Cultural and Creative Industries Satellite Account: we will add research, methodological and data inputs to this pioneering effort to make these accounts more usable for the music industry—this work will improve the measurement of various types of income (value added) and employment. In Hungary, Artisjus has been developing a particularly comprehensive music valuation system, which has been successfully used in Slovakia and Croatia with less detail. Our aim is to generalise this valuation method and transfer as much as possible to Bulgaria, which is perhaps the least developed music economy in the current European Union, not counting the smallest members states that do not have an economically sizable sector at all.</p>
+<section id="european-policy-data-gaps" class="level3">
+<h3 class="anchored" data-anchor-id="european-policy-data-gaps">European policy data gaps</h3>
+<p>In late 2015, the European Commission started a dialogue with representatives from the music sector<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> in Europe with the aim to identify key challenges and possible ways to tackle them, including EU support. “Music Moves Europe” has become the framework for these discussions and, more broadly, for EU initiatives and actions to promote the diversity and competitiveness of Europe’s music sector in terms of policy and funding. As part of the 2018 Preparatory Action “Music Moves Europe: Boosting European music diversity and talent,” the EU commissioned the creation of the “The feasibility study for the establishment of a European Music Observatory” <span class="citation" data-cites="emo_feasibility_2020">(<a href="#ref-emo_feasibility_2020" role="doc-biblioref">Commission et al. 2020</a>)</span> (in short: EMO Feasibility Study.) The current call, <em>Towards a competitive, fair and sustainable European music ecosystem</em> explicitly refers to the relevance of the <em>Music Moves Europe</em> policy context.</p>
+<p>The <code>Open Music Europe</code> project plan and grant agreement foresees the development of an open science and open data service which complements the existing statistical service of Eurostat. In partnership with the key music industry and policy partners, we will fill as much as possible from the approximately 41 data gaps within the policy context of <em>Music Moves Europe</em>, as identified by the <em>Feasibility Study for a European Music Observatory</em>. We will <strong>develop key performance indicators</strong> for music businesses and <strong>policy indicators</strong> to “better detect the performance of the European music sector and its contribution to economic and social development, as well as to sustainability.”</p>
+<p>At the proposal stage, we mad the following pre-assessment of the data availability for WP1. In the case of <code>Pillar 1 – Music &amp; Economy</code>, we are usually able to locate the source of the data, and we have some experience in processing the data and bringing it to light. We have mapped many perceived data gaps to the various data harmonization projects of GESAC and CISAC, and we will seek cooperation with these organizations and their members to find a secure and voluntary way to retrieve the data. The only data gap that we do not intent do address is the “impact of the non-profit sector”.</p>
+<div class="cell" data-layout-align="center">
+
+<table class=" lightable-classic lightable-striped" style="font-size: 14px; font-family: &quot;Arial Narrow&quot;, &quot;Source Sans Pro&quot;, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; font-size: 24px;" colspan="4">
+Pillar 1 - Music Economy
+</th>
+</tr>
+<tr>
+<th style="padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; text-decoration: underline; font-size: 18px;" colspan="2">
+Topic
+</th>
+<th style="padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; text-decoration: underline; font-size: 18px;" colspan="2">
+Description
+</th>
+</tr>
+<tr>
+<th style="text-align:center;">
+pillar
+</th>
+<th style="text-align:center;">
+problem
+</th>
+<th style="text-align:center;">
+availability
+</th>
+<th style="text-align:center;">
+feasibility
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #00843A !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Value of music sector
+</td>
+<td style="text-align:center;width: 20em; ">
+One-off
+</td>
+<td style="text-align:center;width: 60em; ">
+EY study on the cultural and creative industries (2015)
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #00843A !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Value of music sector
+</td>
+<td style="text-align:center;width: 20em; ">
+One-off or one recast
+</td>
+<td style="text-align:center;width: 60em; ">
+CEEMID studies on national music economies
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #3EA135 !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Employment
+</td>
+<td style="text-align:center;width: 20em; ">
+One-off
+</td>
+<td style="text-align:center;width: 60em; ">
+EY study on the cultural and creative industries (2015)
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #3EA135 !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Employment
+</td>
+<td style="text-align:center;width: 20em; ">
+One-off or one recast
+</td>
+<td style="text-align:center;width: 60em; ">
+CEEMID national music industry reports
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #BAC615 !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Employment
+</td>
+<td style="text-align:center;width: 20em; ">
+Annual
+</td>
+<td style="text-align:center;width: 60em; ">
+Eurostat, lacking granularity
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #FAE000 !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Employment
+</td>
+<td style="text-align:center;width: 20em; ">
+Data gap
+</td>
+<td style="text-align:center;width: 60em; ">
+Absence of granularity on the employment of the various sub-sectors, in particular in defining the roles of the various sub-sectors and the importance of the not-for-profit sector in terms of employment.
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #FAE000 !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Employment
+</td>
+<td style="text-align:center;width: 20em; ">
+Data gap
+</td>
+<td style="text-align:center;width: 60em; ">
+HU, SK pilot successful to add granularity.
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #BAC615 !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Value of music sector
+</td>
+<td style="text-align:center;width: 20em; ">
+Data gap
+</td>
+<td style="text-align:center;width: 60em; ">
+No EU-level assessment since 2015
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #3EA135 !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Strucutre of the market
+</td>
+<td style="text-align:center;width: 20em; ">
+Data gap
+</td>
+<td style="text-align:center;width: 60em; ">
+Absence of pan-European data detailing the number of companies, employees, revenues for the sector and the subsectors.
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #007CBB !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+The impact of the not-forprofit sector on the overall economy of the music sector
+</td>
+<td style="text-align:center;width: 20em; ">
+Data gap
+</td>
+<td style="text-align:center;width: 60em; ">
+No data available on the specific impact of the not-for-profit sector, especially in the live music sub-sector
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #3EA135 !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Recorded music
+</td>
+<td style="text-align:center;width: 20em; ">
+Subject to partnership with IFPI
+</td>
+<td style="text-align:center;width: 60em; ">
+IFPI
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #3EA135 !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Authors and publisher’s stream
+</td>
+<td style="text-align:center;width: 20em; ">
+CISAC partnership
+</td>
+<td style="text-align:center;width: 60em; ">
+CISAC
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #3EA135 !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Authors and publisher’s stream
+</td>
+<td style="text-align:center;width: 20em; ">
+GESAC
+</td>
+<td style="text-align:center;width: 60em; ">
+GESAC
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #FAE000 !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Recorded music stream - performer rights
+</td>
+<td style="text-align:center;width: 20em; ">
+Data gap
+</td>
+<td style="text-align:center;width: 60em; ">
+No aggregated data on neighbouring rights collections Partner with AEPO-ARTIS and SCAP.
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #BAC615 !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Music publishing
+</td>
+<td style="text-align:center;width: 20em; ">
+Data gap
+</td>
+<td style="text-align:center;width: 60em; ">
+No aggregated data on the music European music publishing business
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #BAC615 !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Synchronisation rights
+</td>
+<td style="text-align:center;width: 20em; ">
+Data gap
+</td>
+<td style="text-align:center;width: 60em; ">
+IFPI data available on the recorded music side but not on the publishing side.
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #FAE000 !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Independent music companies
+</td>
+<td style="text-align:center;width: 20em; ">
+Data gap
+</td>
+<td style="text-align:center;width: 60em; ">
+No aggregated data on the independent music sector (value, number of companies, employees, etc.)
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #BAC615 !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Live music
+</td>
+<td style="text-align:center;width: 20em; ">
+Data gap
+</td>
+<td style="text-align:center;width: 60em; ">
+Some data is compiled by Live DMA, ETEP or Yourope, but there is no aggregated data on the pan-European live music sector listing the value of the market, the number and size of venues and shows, number of festivals, share of European artists, among other data points.
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #00843A !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Exports
+</td>
+<td style="text-align:center;width: 20em; ">
+Data gap
+</td>
+<td style="text-align:center;width: 60em; ">
+No pan-European data on the export flows between EU countries and outside the EU.
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #3EA135 !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Exports
+</td>
+<td style="text-align:center;width: 20em; ">
+Data gap
+</td>
+<td style="text-align:center;width: 60em; ">
+Embedded cultural tourism export.
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #FAE000 !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Music retail
+</td>
+<td style="text-align:center;width: 20em; ">
+Data gap
+</td>
+<td style="text-align:center;width: 60em; ">
+Granular data on some countries via retail associations (UK, France, Germany) but no pan-European aggregated data.
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #FAE000 !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Financing of the music sector
+</td>
+<td style="text-align:center;width: 20em; ">
+Data gap
+</td>
+<td style="text-align:center;width: 60em; ">
+No aggregated data on how the sector is financed (from investment fund to bank loans and subsidies).
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #BAC615 !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Live music regulation
+</td>
+<td style="text-align:center;width: 20em; ">
+Data gap
+</td>
+<td style="text-align:center;width: 60em; ">
+No aggregated information available on the various legal and tax systems within the EU applied to the live music sector.
+</td>
+</tr>
+<tr>
+<td style="text-align:center;width: 10em; font-family: monospace;">
+<span style="     color: white !important;border-radius: 4px; padding-right: 4px; padding-left: 4px; background-color: #00843A !important;font-size: 16px;">Pillar 1</span>
+</td>
+<td style="text-align:center;width: 15em; font-family: monospace;">
+Copyright regulations and evolution of copyright regimes
+</td>
+<td style="text-align:center;width: 20em; ">
+Data gap
+</td>
+<td style="text-align:center;width: 60em; ">
+Although many copyright laws applicable in Europe originate from the Commission, there are few instruments available to monitor the state of copyright regulation across the EU
+</td>
+</tr>
+</tbody>
+
+</table>
+</div>
+<p>In Europe, public policies on music are mainly the competencies of member states, who often develop policies for all creative sectors because of their similarities. Furthermore, because of the territorial nature of copyright law, the publishing and recorded side of the industry is also organised according to national markets. Both public and business policy requires most indicators <em>at least</em> on the national level. Therefore, the data gaps must be filled with national indicators.</p>
+</section>
+<section id="national-policy-gaps" class="level3">
+<h3 class="anchored" data-anchor-id="national-policy-gaps">National policy gaps</h3>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>EUBA to provide a short description of national cultural policies, and the fact that the cultural policy is mainly on national level.</p>
+<p>This is a very good document, just published last Friday that can be a good way of filling our MoU with content: <span class="citation" data-cites="katsinis_monitoring_2023">(<a href="#ref-katsinis_monitoring_2023" role="doc-biblioref">Katsinis et al. 2023</a>)</span> and this should be considered, too: <span class="citation" data-cites="swd_2022_346">(<a href="#ref-swd_2022_346" role="doc-biblioref">European Commission 2022</a>)</span>.</p>
+</div>
+</div>
+</div>
+<p>After the kick-off meeting of the project, Sinus as the coordinator of the Open Music Europe project, and EUBA, SOZA and REPREX signed a Memorandum of Understanding with the <em>Slovak Ministry of Culture</em> and the <em>Institute for Cultural Policy</em> <span class="citation" data-cites="open_music_europe_sk_mou_2023">(<a href="#ref-open_music_europe_sk_mou_2023" role="doc-biblioref">Open Music Europe 2023</a>)</span>. This MoU ensures that we apply the Eurostat public policy indicator harmonisation guidelines in at least one member state, i.e., Slovakia.</p>
+<p>The starting point of our needs assessment is a critical revision of the <em>Feasibility study for the establishment of a European Music Observatory</em> (short: <em>EMO Feasibility Study</em>) and the <em>Stratégia kultúry a kreatívneho priemyslu Slovenskej republiky 2030</em> (Strategy of the cultural and creative industries of the Slovak Republic 2030, short: <em>Slovak CCI strategy.</em>)</p>
+</section>
+<section id="pilot-country-slovakia" class="level3">
+<h3 class="anchored" data-anchor-id="pilot-country-slovakia">Pilot country: Slovakia</h3>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>EUBA to introduce the Slovak CCI strategies in the context of the European CCI policy and Music Moves Europe. What is special about Slovakia? What is similar? What is the history of CCI/music policies in Slovakia.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="data-sources" class="level2">
+<h2 class="anchored" data-anchor-id="data-sources">Data sources</h2>
+<p>Open Music Europe is building an open statistical infrastructure that is compatible with the national statistical infrastructures of the EU/EEA/Candidate member states but is based on voluntary industry cooperation. We are building a similar framework that national statistical offices have in Europe, but at a smaller, cheaper, more flexible scale and on a different legal basis.</p>
+<ul>
+<li>We are collecting data using similar statistical processes to statistical offices but based on the voluntary organisation;</li>
+<li>Based on our MoU in Slovakia, we are exploring the possibility to improve national statistical office processes for a better combination of voluntary industry and mandatory official statistical data;</li>
+<li>We are harvesting secondary microdata and processed statistical data sources based on the Open Data Directive.</li>
+</ul>
+<section id="primary-data-sources" class="level3">
+<h3 class="anchored" data-anchor-id="primary-data-sources">Primary data sources</h3>
+<p>As our Data Management Plant indicates, we manage data similarly to official statistical processes.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://doi.org/10.6084/m9.figshare.23600571"><img src="plots/statistical_infrastructure_for_indicators.png" class="img-fluid figure-img" style="width:90.0%" alt="The statistical infrastructure of indicators, DOI: https://doi.org/10.6084/m9.figshare.23600571"></a></p>
+<figcaption class="figure-caption">The statistical infrastructure of indicators, DOI: https://doi.org/10.6084/m9.figshare.23600571</figcaption>
+</figure>
+</div>
+<ul>
+<li>We collect enterprise, mixed and personal <strong>survey data</strong> with questionnaires and procedures that are ex ante harmonised with existing European survey programs, particularly. LFS, AES, EU-SILC, Eurobarometer (natural person units), and the SBS national structural business surveys (enterprise units).</li>
+<li>We are tapping into <strong>administrative records</strong> (i.e., consistent data sources originally not intended for statistical purposes.) In official statistics, this means access to tax records. In our case, this means access to royalty accounts in WP1 and voluntary access to the general ledger of the enterprises bookkeeping.</li>
+<li>We are experimenting with similar data sources, such as data harvested regularly from APIs, that Eurostat also considers <strong>“experimental”</strong> statistical processes.</li>
+</ul>
+<section id="labour-force-survey-lfs" class="level4">
+<h4 class="anchored" data-anchor-id="labour-force-survey-lfs">Labour Force Survey (LFS)</h4>
+<p>Our most important survey is the LFS survey, harmonised across the European Union. The EU labour force survey (EU-LFS) is conducted in all EU countries, 4 candidate countries, and 3 European Free Trade Association (EFTA) countries. EU-LFS microdata for scientific purposes currently contains data for all EU countries, as well as data for Iceland, Norway, Switzerland, and the United Kingdom (up to third quarter of 2020).</p>
+<p>The OECD Manual on <em>Measuring the Non Observed Economy</em> endorses the a combination of LFS surveys with in-depth more specific surveys, such as the Digital Music Observatory/CEEMID music professional survey that we want to further develop:</p>
+<blockquote class="blockquote">
+<p>“Monitoring the number and characteristics of the persons in the informal sector and the conditions of their employment and work can be achieved by periodically including a few additional questions pertaining to the informal sector definition in an existing labour force or similar household survey […] Labour force or similar household surveys are often conducted at a higher frequency than specialised, in-depth informal sector surveys. Thus, the data obtained from the former concerning the evolution of labour inputs in the informal sector can be used to extrapolate data from the latter […]” <span class="citation" data-cites="imf_informal_sector_production_2002">(<a href="#ref-imf_informal_sector_production_2002" role="doc-biblioref">International Monetary Fund (IMF) 2002, 170</a>)</span>.</p>
+</blockquote>
+<p>Similarly, the manual on the same topic of the <em>International Labour Organization</em> suggest to take the LFS as a starting point:</p>
+<blockquote class="blockquote">
+<p>“There are many advantages to including the measurement of both informal employment and employment in the informal sector in a labour force survey or a household survey that includes the labour force as a topic These include the relative ease with which the topics can be added to an existing survey, cost-effectiveness, conceptual coherence with other labour force statistics, and the analytical possibilities offered by the collected information.” <span class="citation" data-cites="ilo_measuring_informality_2013">(<a href="#ref-ilo_measuring_informality_2013" role="doc-biblioref">International Labour Organization (ILO) 2013</a>)</span></p>
+</blockquote>
+<p>Methodologically, this means an ex ante and ex post survey harmonisation task (in T1.2 and T1.3) between the <code>Slovak LFS survey</code> and the <code>Digital Music Observatory Music Professionals survey</code>.</p>
+<p>Nonetheless, a standard LFS is not suitable for us as a primary data source. The LFS records the economic activities of participants on On 1-digit precision level (NACE coding) and at 3-digit level regarding ISCO—this is insufficient prevision for identifying participants whose activity counts into the employment and production of the “music industry”.</p>
+<p>Because NACE does not have a music industry group or class, we find the employment or economic performance of the sector in various parts of NACE. In case we have at least four-digit coding of NACE, we find in a homogeneous form a section. If we can divide the <code>J</code> section, and division <code>59</code> into <code>J591</code> film and television production and post-production activities and <code>J592</code>: Sound recording and music publishing activities. This is however a very small part of the music professionals; and many statistical products do not go down to 3- or 4-digit precision because of the high decentralisation of the industry, and that much of the industry is part of the <em>informal economy</em>.</p>
+<p>The problematic NACE division is <code>R90</code>, which is more important for the music industry than <code>J592</code> but less clearly connected to music. It has only one one group, <code>R90.0</code>, which is further divided into four classes: <code>R90.0.1</code>—Performing arts; <code>R90.0.2</code>—Support activities to performing arts; <code>R90.0.3</code>—Artistic creation; <code>R90.0.4</code>—Operation of arts facilities. Each of them can contain music activities, however, they are mixed with theatre, movie, dance activities.</p>
+<p>Regarding employment, the International Standard Classification of Occupations (<code>ISCO</code>) is an International Labour Organization (ILO) classification structure for organizing information on labour and jobs. It is part of the international family of economic and social classifications of the United Nations. Filtering by ISCO codes may help, however, there is only one “clean” ISCO code that contains music only workers, <code>2652</code>. These artistic roles (musicians, singers and composers) are of primary interest, but as we have stated in the <em>Slovak Music Industry Report</em>, unlike classical and jazz music, popular and folk music is mainly learned via <em>informal learning techniques</em> which do not lead to certification and qualifications defined in ISCO. Generally, the mapping of artistic roles (not only in music, but other creative industries), requires a special occupational questionnaire that incorporates informal and not-school based qualifications.</p>
+<p>The bigger problem with <code>2652</code> that it does not cover the majority of the industry, i.e., persons working in non-artistic roles, for example, conducting activities like <code>R90.0.2</code>—Support activities to performing arts and <code>R90.0.4</code>—Operation of arts facilities.</p>
+<p>The way CEEMID handled this problem in the Hungarian, Croatian and Slovak surveys that it included an ISCO-based but far more detailed coding of activity roles that the respondent was fulfilling. For example, we divided the artistic activities of <code>2652</code> into job roles that are easier to identify with for creators, such as <code>composer</code>, <code>singer-songwriter</code>, <code>performing musician who is not composing</code>, <code>DJ who produces own music</code>, etc.</p>
+<p>The ISCO-based filtering of individuals in an LFS sample is problematic enough in artistic roles, but gets even more difficult in managerial and technical roles. The CEEMID/DMO surveys created an ISCO/NACE based classification with descriptions to technical, managerial and other support roles that align well with <code>R90.0.2</code>—Support activities to performing arts and <code>R90.0.4</code>—Operation of arts facilities. For example, we created categories for transporters and drivers; transporting orchestras and bands usually requires special knowledge, vechicles and in some European cities, special licenses—a band has enough equipment on tour to qualify as heavy truckload, but travels with many artists and technicians to meet trasholds of unchartered bus services. Obviously it makes no sense to try to map professional drivers to the music industry without filtering out in a survey drivers whose activities is particularly aimed and specialised for the music industry.</p>
+<p>Because Slovakia uses the LFS for satellite accounting in CCSI, we belive that they had overcome some of the obstacles of using LFS for this purpose; our intention is review these practices and make them more suitable for particularly the music industry.</p>
+<p>Our aim in Open Music Europe is the creation of a sufficient subset of ex ante harmonised LFS questionnaire items in a database that can be ex post harmonised with LFS-based (official) statistical, and our own surveys.</p>
+<ol type="1">
+<li><p>Identify questionnaire items in the previous year’s Slovak LFS questionnaires, and check their availability in various EU countries, with particular attention placed on Hungary and Bulgaria for replicability.</p></li>
+<li><p>Create a multi-language, open source, linked database of these questinnaire item.</p></li>
+<li><p>Place the questionnaire items on our surveys (in T1.2, T2.2 and T3.2).</p></li>
+</ol>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Since the SOSR claims that it has constructed the cultural satellite accounts on the basis of LFS, I assume that they followed the OECD guidelines and added extra precision and weighting to the cultural sectors. We need to find out how they conducted the LFS that they used for this purpoes.</p>
+</div>
+</div>
+</section>
+<section id="cultural-access-and-participation-cap" class="level4">
+<h4 class="anchored" data-anchor-id="cultural-access-and-participation-cap">Cultural Access and Participation (CAP)</h4>
+<p>CEEMID used extensive personal survey harmonisation to measure music access and participation; this is critical information about zero-price music, such as radio, television, ad-supported streaming, and illegal and home copying. We want to follow the CEEMID practice as the best practice, which followed the best surveying practice identified by the ESSNet-Culture working group of the European Statistical System in the general cultural access and participation (CAP) framework. The CEEMID questionnaires adopted the CAP framework for the music and audiovisual cultural domain.</p>
+<p>CEEMID has used questionnaire items that were standardised with the methodology created by the ESSNet-Culture working group of Eurostat and participating EU national statistical authorities <span class="citation" data-cites="de_haan_virtuele_2008 frank_guy_essnet-culture_2012 de_haan_nowadays_2012">(<a href="#ref-de_haan_virtuele_2008" role="doc-biblioref">Haan and Adolfsen 2008</a>; <a href="#ref-frank_guy_essnet-culture_2012" role="doc-biblioref">Bína, Vladimir et al. 2012</a>; <a href="#ref-de_haan_nowadays_2012" role="doc-biblioref">Haan and Broek 2012</a>)</span>, mainly based on pre-existing best practices developed in the Netherlands. The ex ante harmonisation of questionnaire items (the same question is asked in the same format and with the same national language translations) are one of the prerequisites of joining data from surveys taken at different times, in different countries, or by different organisations. This practice has been developed by CEEMID since 2014 and further improved by the SurveyHarmonies project of SINUS and REPREX with the help of MusicAutor, SOZA, and Artisjus in 2023. It was also the basis of the development of [retroharmonize] R language software package hosted by the rOpenGov community, organised by the University of Turku Data Science group and actively developed by REPREX. Open Music Europe will continue to develop these methodologies and tools for creating a music economy, diversity surveys and collecting data on the societal and sustainability aspects of music.</p>
+<p>Unlike the earlier mentioned LFS, the CAP surveys are not part of a permanent, standardised European statistical data collection program. Instead, a CAP survey module is periodically placed on the questionnaires of various harmonised European personal surveys, such as Eurobarometer, EU-SILC or AES.</p>
+<p><code>CEEMID</code> and the <code>MusicAIRE SurveyHarmonies</code> project have ex ante harmonised the Digital Music Observatory CAP Survey to a great extent with Eurobarometer and to a smaller extent with other personal surveys. However, ex post data harmonisation was not carried out with other European survey metadata than Eurobarometer. In Open Music Europe, we should harmonise with AES, EU-SILC, and improve the personal questionnaire.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Eurobarometer has almost unrestricted open data access and we had already processed CAP surveys for all EU countries from this source. However, we had no microdata access for AES and EU-SILC that have less broad but deeper CAP surveys avaialble for all EU countries and even candidates (deeper means that better and larger samples, less broad means with less questions and answer options.)</p>
+</div>
+</div>
+</section>
+</section>
+<section id="enterprise-surveys" class="level3">
+<h3 class="anchored" data-anchor-id="enterprise-surveys">Enterprise surveys</h3>
+<p>Member states within the European Statistical System (ESS) enjoy some degree of freedom in producing their structural business indicators and national accounts. Some countries with developed electronic infrastructure opt for the use of more administrative data sources (i.e., statisticians receive more data from the company register and tax authorities) or the use of more surveyed data (i.e., statisticians ask the enterprises themselves directly.)</p>
+<p>Because we are building an open, collaborative statistical framework, we tend to be more survey-oriented because we do not have authorisation and would have a hard-time to gain individual access to tax filings of music enterprises. In <code>Open Music Europe</code> our first step will be review the existing practice of the Slovak Republic; when transferring this method to Bulgaria or Hungary, we review if our surveying must be extended with some information points.</p>
+<p>In Slovakia, the structural business statistics are collected by SOSR on two surveys:</p>
+<ul>
+<li><p>Exhaustive survey of large enterprises with questionnaire <code>Roc 1-01</code></p></li>
+<li><p>Survey of small enterprises (sample) with questionnaire <code>Roc 2-01</code></p></li>
+</ul>
+<p>We should build a questionnaire that adapts partly <code>Roc 2-01</code> to be filled out by companies in the <code>SKMBR</code>.</p>
+<p>Information about the enterprise surveys are taken from [] and the Eurostat metadata information page on the Slovak Structural Business statistics<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>.</p>
+<section id="Roc-1-01" class="level5">
+<h5 class="anchored" data-anchor-id="Roc-1-01">Large enterprises questionnaire Roc 1-01</h5>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>1/ the legal units with 20 and more employees registered in the Business register; 2/ the legal units with less than 20 employees registered in the Business register: a) which were statistically important (the decision about including them into survey of big enterprises was done by expert of particular branch statistics, e.g.&nbsp;responsible for branch statistics etc.); b) or of which turnover exceeds 5 million €</p>
+</div>
+</div>
+<p>Only a few music industry players are likely to be included in this data collection. This is a census-like survey that all large companies are required to fill out.</p>
+</section>
+<section id="Roc-2-01" class="level5">
+<h5 class="anchored" data-anchor-id="Roc-2-01">Small enterprises questionnaire Roc 2-02</h5>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>1/ the legal units with less than 20 employees registered in the Business register the turnover of which does not exceed 5 million €</p>
+<p>Data on small entrepreneurs (physical persons [sic!]) are included in SBS data files starting with the data transmission of preliminary 2010 SBS data files. We use the basic information on structures and relations of particular variables from small sample survey for small entrepreneurs to make estimations of missing data in administrative source for this population.</p>
+</div>
+</div>
+<p>This is a sample survey, and because of the sampling method it is unlikely that it can provide data on the music industry (not enough and not well identified companies will enter the sample.)</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+SBS surveys
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Currently this is the only information that we have on Slovak enterprise surveys. They hint to the use of mixed surveys (enterprise + freelancers): Eurostat metadata information page: <em>Structural business statistics (sbs)</em> <a href="https://ec.europa.eu/eurostat/cache/metadata/EN/sbs_esms_sk.htm">National metadata - Slovak Republic</a></p>
+<p>EUBA should describe the Slovak SBS. We must have in copy and in the <code>bib/slovakia.bib</code> referenced all 1 . most recent questionnaires of Roc-1-01 Roc-2-01, 2. methodological description, particularly on mixed surveys, 3. public datasets relevant to our work.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="secondary-data-sources" class="level3">
+<h3 class="anchored" data-anchor-id="secondary-data-sources">Secondary data sources</h3>
+<p>In the last two decades, the availability of statistical data increased to the extent that non-professional users often do not find the information they need. Furthermore, statistical authorities increasingly release data that is less processed and requires statistical and domain-specific know-how to transform into a form that music professionals and researchers, or policy-makers can readily use.</p>
+<p>Our seemingly trivial first data pipelines are building access to curated and if needed, re-processed statistical data towards high-quality statistical data sources. The rOpenGov collaboration maintained by the University of Turku, where REPREX is an active developer, provides reproducible tools to access such sources. These tools will be further developed into a statistical ecosystem with a more friendly user interface in WP4.</p>
+<p>A good example of these tools will be used and further developed in WP3. The iotables R package on rOpenGov, developed by the leadership of REPREX, provides access to the Eurostat data warehouse’s symmetric input-output data. Symmetric input-output and auxiliary tables connect thousands of poorly usable statistical indicators into analytical tables, which can be used for various economic analyses and social or environmental impact assessments. The iotables package helps the user to bring together the necessary data from Eurostat’s data warehouse (that includes that from the European Environmental Agency) and perform data processing and algebraic transformations that result in readily-usable indicators and multipliers. This service can be seen as a middleware between data processing and data analysis: most analysts who know how to work with the Leontieff- or Ghosh system to work with this data would spend days just to put together the necessary indicators from the original source.</p>
+</section>
+<section id="reusable-microdata-and-public-sector-information" class="level3">
+<h3 class="anchored" data-anchor-id="reusable-microdata-and-public-sector-information">Reusable microdata and public sector information</h3>
+<p>The public sector already holds an extraordinary amount of data that can contribute to improving the internal market and to the development of new applications for consumers and legal entities. The 2003/98/EC Directive established a set of minimum rules governing the re-use and the practical arrangements for facilitating re-use of existing documents held by public sector bodies of the Member States; the rules of such data access were updated in 2019 with the adoption of the <em>Directive (EU) 2019/1024 of the European Parliament and of the Council of 20 June 2019 on open data and the re-use of public sector information (recast)</em> <span class="citation" data-cites="eu_directive_2019-1024">(<a href="#ref-eu_directive_2019-1024" role="doc-biblioref">European Parliament and the Council 2019</a>)</span>.</p>
+<p>According to the preamble of the Directive, information collected, produced, reproduced, and disseminated within the exercise of a public task or a service of general interest is an important primary material for digital content products and services, with a special emphasis on publicly funded scientific research, such as Open Music Europe, or other Horizon Europe framework funded projects. They may form data monopolies and prevent innovation, start-ups, and SMEs from entering into the Single market; for natural persons and civil society organisations, they may form an insurmountable barrier to control the political process, public policy, or engage in advocating for better policies<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>.</p>
+<p>Because the amount of data carriers, such as digital documents containing datasets, text, and data visualisations, exceeds what humans can possibly read, curate, and analyse, the directive also emphasises the need to provide access to public sector information in open and machine-readable formats and via APIs<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+</section>
+</section>
+<section id="data-gathering-methodology" class="level2">
+<h2 class="anchored" data-anchor-id="data-gathering-methodology">Data gathering methodology</h2>
+<p>A data pipeline is a method in which raw data is ingested from various data sources and then ported to data store, for further analysis, in this case, to an open, shared, collaborative music observatory.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="plots/OpenMusE_data-to-policy_workflow_TX3.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Recap: Data-to-policy workflow: Business &amp; Public Policy Use Cases and Exploitation of Results</figcaption>
+</figure>
+</div>
+<p>We want to create a data production method that makes already available public data more usable for the purposes of music businesses, researchers, and policymakers and links further data to fill data (information) gaps. The first leg of the data-to-policy pipeline requires the creation of a statistical infrastructure, a data observatory, that can receive processed and unprocessed public and private data, link them, and offer a data pipeline for newly collected data, too.</p>
+<p>The actual statistical collection documentation of the data belongs to <code>T1.2</code> and <code>T2.2</code> and <code>T2.3</code>; however, <code>T1.1</code> and <code>T2.1</code> deals with novel methods to consistently collect data.</p>
+<section id="music-industry-registers" class="level3">
+<h3 class="anchored" data-anchor-id="music-industry-registers">Music industry registers</h3>
+<p>A <code>statistical register</code> is a continuously or regularly updated set of objects for a given population. It contains information on identification and accessibility of population units as well as other attributes which support the surveying process of the population. The statistical register should contain the current and historical statuses of the population and the causes, effects and sources of alterations in the population. Statistical register are stored in a structured database.</p>
+<p>Many industries, particularly if they are heavily regulated, such as banking, insurance, or architecture, use registers that survey industry statistical purposes. For example, banking and insurance activities require a European license; banking and insurance authorities keep a register of all licensed undertakings and require regular data provision. In the creative industries, architecture is usually. an activity that has high compliance requirements and architects are usually bound to some sort of chamber member membership which serves a similar purpose.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The role of a bank or architecture register in simple terms is the following: we can compile any public annual report and financial report data about EU companies; if we have a public register of banks or architecture firms, we can simply select to add together the publicly available turnover or profit of the banks or firms on the bank or architecture register. If we had a similar music industry enterprise register, we could add together the turnover, value-added or profit of the music industry companies in the EU country that manages such a register.</p>
+</div>
+</div>
+<p>In the music industry, we are not aware of a similar statistical register, although music is also relatively highly regulated, and the basic infrastructure for consistent data collection is present.</p>
+<p>The highly globalised music industry generates two important international reports: the <em>Global Collection Reports</em> of CISAC, which contains total revenues from collectively managed author’s revenues, and IFPI’s <em>Global Music Report</em>, which reports the recording (producer) side of the industry, and covers total revenues in almost all territories for producers and partly performers. The more fragmented live music industry has no comprehensive global or European report. We also do not have a truly comprehensive report on global publisher revenues that are not collectively managed.</p>
+<p>CISAC and IFPI are global organisations, and their reports are based on an internal survey of their members. Most industry reports are member self-reported studies; apart from CISAC, in Europe, GESAC complements CISAC’s data collection, and Aepo-Artis collects data about performers. These internal data collection methods often result in datasets that are only available for their members, and in some cases, even the metadata about these datasets is closed. Either their public or private datasets are not comparable to the statistical products of the <em>European Statistical System</em> and disseminated by Eurostat or the national statistical offices, because they do not utilise standardised statistical processes, or often they do not measure standardised economic concepts (such as <em>price</em> or <em>net revenue</em> or <em>export revenue</em>.)</p>
+<p>These reports were designed to set business targets for larger organisations, and they do not contain price or volume data, only revenue data, which allows minimal economic analysis. Their primary shortcoming is that they do not contain prices and quantities, only aggregated revenues. There are many national market studies available, but only a few of them try to quote volume or use data and price data.</p>
+<p>CISAC and IFPI collect (rather different) international data, which is only available to their members. Because CISAC had been earlier accused of price fixing and made an agreement with the European Commission, the organisation is particularly careful about even recording price data. IFPI has a more comprehensive economic analysis; in 2008, it even published a very useful pricing guide <span class="citation" data-cites="pwc_valuing_2008">(<a href="#ref-pwc_valuing_2008" role="doc-biblioref">PwC 2008</a>)</span>. National music industry reports are also available with variable depth of content and analysis, like the UK Music by Numbers series. These reports contain limited information for a thorough economic analysis or valuation, partly because the conflicts of interests within the national music industries, for example, among publishers and producers and producers and performers, do not allow the systematic collection and dissemination of such information.</p>
+<p>Our <code>Open Music Europe</code> project grew out of the Central &amp; Eastern European Music Industry Databases (CEEMID) initiative in 2014 <span class="citation" data-cites="artisjus_measuring_2014">(<a href="#ref-artisjus_measuring_2014" role="doc-biblioref">Artisjus et al. 2014</a>)</span>, in which rightsholders from three countries attempted to solve these data problem, and bring seemingly data poor Central European countries to a level of data availability that allows better price setting or the creation of better creative industry policies or business strategies.</p>
+<p>Music organisations usually do not possess the information that would be desirable for analysing the market from an economic point of view. Surveying rightsholders and users are very difficult, though, because neither rightsholders nor works or recordings have an authoritative description of their population. Only very advanced inverse sampling techniques (which require vast amounts of data) can reveal price and volume movements when the analyst cannot access full transactional logs.</p>
+<p>Our Open Music Europe project grew out of the the Central &amp; Eastern European Music Industry Databases (CEEMID) initiative in 2014 <span class="citation" data-cites="artisjus_measuring_2014">(<a href="#ref-artisjus_measuring_2014" role="doc-biblioref">Artisjus et al. 2014</a>)</span>, in which rightsholders from three countries attempted to solve these data problem, and bring seemingly data poor Central European countries to a level of data availability that allows better price setting or the creation of better creative industry policies or business strategies. The Hungarian, Slovak, and Croatian reports were based on statistical data created by the administrative records of the local collective management agencies, local market research, international data sources, and independent surveys. They showed that many of the data gaps identified by the Feasibility Study for the establishment of a European music observatory can be filled, but with data collection and processing needs that most national organisations alone do not possess <span class="citation" data-cites="antal_proart_2015 antal_growth_2017 antal_slovenskom_hudobnom_2019 antal_pcr_croatia_2019">(<a href="#ref-antal_proart_2015" role="doc-biblioref">Antal 2015</a>, <a href="#ref-antal_growth_2017" role="doc-biblioref">2017</a>, <a href="#ref-antal_slovenskom_hudobnom_2019" role="doc-biblioref">2019b</a>, <a href="#ref-antal_pcr_croatia_2019" role="doc-biblioref">2019a</a>)</span>, and eventually we realised that data problems of more advanced, Western markets and of those future markets like Armenia’ showed very similar data/estimation problems.</p>
+<p>The use of music in public performances (including radio and television (re)transmission, use in restaurants and other public spaces) is based on comprehensive registers of music works, sound recordings and performance identifiers with at least some mandatory coverage. While opt-out is possible from radio blanket licensing, for consistency, the repertoire that is opted-out is identified in the same framework as the licensed repertoire. The work/recording/performer registers of collective management organisations could form the basis of an effective statistical register (similar to banking, insurance or architecture industry statistical references) with one caveat: they would require cooperation among all collective management organisations in one jurisdiction. In some EU member states, producers and performers have one collective management organisation; in others, like Hungary, we have three separate entities for authors, producers and performers. In the Slovak Republic, we had three organisations (SOZA for authors and SLOVGRAM for producers and performers), with OZIS representing some performers but not authors and producers. If the conflicts of interest can be resolved, a strong foundation for an industry statistical register is present.</p>
+</section>
+<section id="survey-harmonisation" class="level3">
+<h3 class="anchored" data-anchor-id="survey-harmonisation">Survey harmonisation</h3>
+</section>
+<section id="enterprise-surveys-1" class="level3">
+<h3 class="anchored" data-anchor-id="enterprise-surveys-1">Enterprise surveys</h3>
+</section>
+<section id="mixed-surveys" class="level3">
+<h3 class="anchored" data-anchor-id="mixed-surveys">Mixed surveys</h3>
+</section>
+</section>
+<section id="towards-evidence-based-music-industry-policies" class="level2">
+<h2 class="anchored" data-anchor-id="towards-evidence-based-music-industry-policies">Towards evidence-based music industry policies</h2>
+</section>
+<section id="references" class="level2 unnumbered">
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-antal_proart_2015" class="csl-entry" role="listitem">
+Antal, Daniel. 2015. <span>‘A <span>Proart</span> <span class="nocase">zeneipari jelentése.</span> [<span>The</span> <span>Music</span> <span>Industry</span> <span>Report</span> of <span>Proart</span>]’</span>. <span>ProArt Szövetség a Szerzői Jogokért Egyesület</span>. <a href="http://zeneipar.info/letoltes/proart-zeneipari-jelentes-2015.pdf">http://zeneipar.info/letoltes/proart-zeneipari-jelentes-2015.pdf</a>.
+</div>
+<div id="ref-antal_growth_2017" class="csl-entry" role="listitem">
+———. 2017. <span>‘The <span>Growth</span> of the <span>Hungarian</span> <span>Popular</span> <span>Music</span> <span>Repertoire</span>: <span>Who</span> <span>Creates</span> <span>It</span> <span>And</span> <span>How</span> <span>Does</span> <span>It</span> <span>Find</span> <span>An</span> <span>Audience</span>’</span>. In <em>Made in <span>Hungary</span></em>, 1st ed. Studies in <span>Popular</span> <span>Music</span>. New York, NY: USA: Routledge.
+</div>
+<div id="ref-antal_pcr_croatia_2019" class="csl-entry" role="listitem">
+———. 2019a. <span>‘Private <span>Copying</span> <span class="nocase">in</span> <span>Croatia</span>’</span>. <a href="https://www.zamp.hr/uploads/documents/Studija_privatno_kopiranje_u_Hrvatskoj_DA_CEEMID.pdf">https://www.zamp.hr/uploads/documents/Studija_privatno_kopiranje_u_Hrvatskoj_DA_CEEMID.pdf</a>.
+</div>
+<div id="ref-antal_slovenskom_hudobnom_2019" class="csl-entry" role="listitem">
+———. 2019b. <span>‘<span>Správa</span> <span class="nocase">o slovenskom hudobnom priemysle</span>’</span>. <a href="https://doi.org/10.17605/OSF.IO/V3BE9">https://doi.org/10.17605/OSF.IO/V3BE9</a>.
+</div>
+<div id="ref-policy_evaluation_cycle_with_indicators_2023" class="csl-entry" role="listitem">
+———. 2023a. <span>‘Policy Evaluation Cycle with Indicators’</span>. <span>Digital Music Observatory</span>. <a href="https://doi.org/10.6084/m9.figshare.23498441">https://doi.org/10.6084/m9.figshare.23498441</a>.
+</div>
+<div id="ref-statistical_infrastructure_indicators_2023" class="csl-entry" role="listitem">
+———. 2023b. <span>‘The Statistical Infrastructure of Indicators’</span>. <span>Digital Music Observatory</span>. <a href="https://doi.org/10.6084/m9.figshare.23600571">https://doi.org/10.6084/m9.figshare.23600571</a>.
+</div>
+<div id="ref-artisjus_measuring_2014" class="csl-entry" role="listitem">
+Artisjus, HDS, SOZA, and Candole Partners. 2014. <span>‘Measuring and <span>Reporting</span> <span>Regional</span> <span>Economic</span> <span>Value</span> <span>Added</span>, <span>National</span> <span>Income</span> and <span>Employment</span> by the <span>Music</span> <span>Industry</span> in a <span>Creative</span> <span>Industries</span> <span>Perspective</span>. <span>Memorandum</span> of <span>Understanding</span> to <span>Create</span> a <span>Regional</span> <span>Music</span> <span>Database</span> to <span>Support</span> <span>Professional</span> <span>National</span> <span>Reporting</span>, <span>Economic</span> <span>Valuation</span> and a <span>Regional</span> <span>Music</span> <span>Study</span>.’</span>
+</div>
+<div id="ref-frank_guy_essnet-culture_2012" class="csl-entry" role="listitem">
+Bína, Vladimir, Chantepie, Philippe, Deboin, Valérie, Kommel, Kutt, Kotynek, Josef, and Robin, Philippe. 2012. <span>‘<span>ESSnet</span>-<span>CULTURE</span>, European Statistical System Network on Culture. Final Report.’</span> Edited by Frank, Guy. <a href="https://ec.europa.eu/assets/eac/culture/library/reports/ess-net-report_en.pdf">https://ec.europa.eu/assets/eac/culture/library/reports/ess-net-report_en.pdf</a>.
+</div>
+<div id="ref-emo_feasibility_2020" class="csl-entry" role="listitem">
+Commission, European, Sport Directorate-General for Education Youth, Culture, M Clarke, P Vroonhof, J Snijders, A Le Gall, et al. 2020. <em>Feasibility Study for the Establishment of a European Music Observatory : Final Report</em>. Publications Office. <a href="https://doi.org/doi/10.2766/9691">https://doi.org/doi/10.2766/9691</a>.
+</div>
+<div id="ref-cma_online_platforms_advertising_2020" class="csl-entry" role="listitem">
+Competition &amp; Markets Authority. 2020. <span>‘Online Platforms and Digital Advertising’</span>. <span>Competition &amp; Markets Authority</span>. <a href="https://assets.publishing.service.gov.uk/media/5fa557668fa8f5788db46efc/Final_report_Digital_ALT_TEXT.pdf">https://assets.publishing.service.gov.uk/media/5fa557668fa8f5788db46efc/Final_report_Digital_ALT_TEXT.pdf</a>.
+</div>
+<div id="ref-ivir_remuneration_2015" class="csl-entry" role="listitem">
+Europe Economics &amp; IVIR. 2015. <span>‘Remuneration of Authors and Performers for the Use of Their Works and the Fixations of Their Performances’</span>. European Commission, Directorate-General of Communications Networks, Content &amp; Technology. <a href="https://www.ivir.nl/publicaties/download/1593.pdf">https://www.ivir.nl/publicaties/download/1593.pdf</a>.
+</div>
+<div id="ref-music_moves_europe_brochure_2019" class="csl-entry" role="listitem">
+European Commission. 2021a. <span>‘Brochure for Music Moves Europe Preparatory Action 2019’</span>. <span>European Commission</span>. <a href="https://ec.europa.eu/culture/sites/default/files/library/mme_2019_brochure_final-web.pdf">https://ec.europa.eu/culture/sites/default/files/library/mme_2019_brochure_final-web.pdf</a>.
+</div>
+<div id="ref-music_moves_europe_first_dialogue_2021" class="csl-entry" role="listitem">
+———. 2021b. <span>‘Music Moves Europe - First Dialogue Meeting. Final Report.’</span> <span>European Commission</span>. <a href="https://ec.europa.eu/culture/sites/default/files/library/mme-conference-report-web.pdf">https://ec.europa.eu/culture/sites/default/files/library/mme-conference-report-web.pdf</a>.
+</div>
+<div id="ref-swd_2022_346" class="csl-entry" role="listitem">
+———. 2022. <span>‘Staff Working Document - Supporting and Connecting Policymaking in the Member States with Scientific Research. <span class="nocase">SWD(2022) 346 final</span>’</span>. <span>European Commission</span>. <a href="https://knowledge4policy.ec.europa.eu/file/staff-working-document-supporting-connecting-policymaking-member-states-scientific-research_en">https://knowledge4policy.ec.europa.eu/file/staff-working-document-supporting-connecting-policymaking-member-states-scientific-research_en</a>.
+</div>
+<div id="ref-ep_resolution_precarious_employment_2017" class="csl-entry" role="listitem">
+European Parliament. 2017. <em>European Parliament Resolution of 4 July 2017 on Working Conditions and Precarious Employment (2016/2221(<span>INI</span>))</em>. <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52017IP0290&amp;qid=1689666586977">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52017IP0290&amp;qid=1689666586977</a>.
+</div>
+<div id="ref-eu_directive_2019-1024" class="csl-entry" role="listitem">
+European Parliament and the Council. 2019. <em>Directive (<span>EU</span>) 2019/1024 of the European Parliament and of the Council on Open Data and the Re-Use of Public Sector Information (Open Data Directive)</em>. <a href="http://data.europa.eu/eli/dir/2019/1024/oj">http://data.europa.eu/eli/dir/2019/1024/oj</a>.
+</div>
+<div id="ref-flignor_orozco_ip_valuation_2006" class="csl-entry" role="listitem">
+Flignor, Paul, and David Orozco. 2006. <span>‘Intangible Asset &amp; Intellectual Property Valuation: A Multidisciplinary Perspective’</span>. <a href="https://www.wipo.int/export/sites/www/sme/en/documents/pdf/ip_valuation.pdf">https://www.wipo.int/export/sites/www/sme/en/documents/pdf/ip_valuation.pdf</a>.
+</div>
+<div id="ref-de_haan_virtuele_2008" class="csl-entry" role="listitem">
+Haan, Jos de, and Anna Adolfsen. 2008. <em>De Virtuele Cultuurbezoeker - <span>Publieke</span> Belangstelling Voor Cultuurwebsites</em>. <span>SCP</span>-<span>Publicatie</span> 2008/9. Den Haag, the Netherlands: Sociaal en Cultureel Planbureau. <a href="https://archief18.archiefweb.eu/archives/archiefweb/20200311100055/https://www.scp.nl/dsresource?objectid=5c6903f1-e6ae-4e62-9a9b-6d5e1529756a&amp;type=org">https://archief18.archiefweb.eu/archives/archiefweb/20200311100055/https://www.scp.nl/dsresource?objectid=5c6903f1-e6ae-4e62-9a9b-6d5e1529756a&amp;type=org</a>.
+</div>
+<div id="ref-de_haan_nowadays_2012" class="csl-entry" role="listitem">
+Haan, Jos de, and Andries van den Broek. 2012. <span>‘Nowadays Cultural Participation - an Update of What to Look for and Where to Look for It’</span>. In <em><span>ESSnet</span>-<span>CULTURE</span>, European Statistical System Network on Culture. Final Report.</em>, 397–417. Luxembourg. <a href="https://ec.europa.eu/assets/eac/culture/library/reports/ess-net-report_en.pdf">https://ec.europa.eu/assets/eac/culture/library/reports/ess-net-report_en.pdf</a>.
+</div>
+<div id="ref-haynes_reluctant_2018" class="csl-entry" role="listitem">
+Haynes, Jo, and Lee Marshall. 2018. <span>‘Reluctant Entrepreneurs: Musicians and Entrepreneurship in the <span>“New”</span> Music Industry’</span>. <em>The British Journal of Sociology</em> 69 (2): 459–82. <a href="https://doi.org/10.1111/1468-4446.12286">https://doi.org/10.1111/1468-4446.12286</a>.
+</div>
+<div id="ref-hull_music_2011" class="csl-entry" role="listitem">
+Hull, Geoffrey P., Thomas W. Hutchison, Richard Strasser, and Geoffrey P. Hull. 2011. <em>The Music Business and Recording Industry Delivering Music in the 21st Century</em>. New York: Routledge. <a href="http://search.ebscohost.com/login.aspx?direct=true&amp;scope=site&amp;db=nlebk&amp;db=nlabk&amp;AN=345262">http://search.ebscohost.com/login.aspx?direct=true&amp;scope=site&amp;db=nlebk&amp;db=nlabk&amp;AN=345262</a>.
+</div>
+<div id="ref-ifrs_fair_value_2011" class="csl-entry" role="listitem">
+IFRS. 2011. <span>‘<span>IFRS 13 Fair Value Measurement</span>’</span>. <span>International Financial Reporting Standards Foundation</span>. <a href="https://www.ifrs.org/issued-standards/list-of-standards/ifrs-13-fair-value-measurement/">https://www.ifrs.org/issued-standards/list-of-standards/ifrs-13-fair-value-measurement/</a>.
+</div>
+<div id="ref-ilo_c100" class="csl-entry" role="listitem">
+International Labour Organization (ILO). 1951. <span>‘<span>C100 - Equal Remuneration Convention, 1951 (No. 100)</span>’</span>. <span>International Labour Organization</span>. <a href="https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C100/">https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C100/</a>.
+</div>
+<div id="ref-ilo_resolution_informal_employment_1993" class="csl-entry" role="listitem">
+———. 1993. <span>‘Resolution Concerning Statistics of Employment in the Informal Sector, Adopted by the 15th International Conference of Labour Statisticians (15th <span>ICLS</span> Resolution on Informality, Geneva, 19‐28 January 1993)’</span>. {ILO} Resolution. <a href="http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087484/lang--en/index.htm">http://www.ilo.org/global/statistics-and-databases/standards-and-guidelines/resolutions-adopted-by-international-conferences-of-labour-statisticians/WCMS_087484/lang--en/index.htm</a>.
+</div>
+<div id="ref-ilo_measuring_informality_2013" class="csl-entry" role="listitem">
+———. 2013. <em>Measuring Informality: A Statistical Manual on the Informal Sector and Informal Employment</em>. Geneva: <span>International Labour Office</span>. <a href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_222979/lang--en/index.htm">http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_222979/lang--en/index.htm</a>.
+</div>
+<div id="ref-women_men_informal_economy_2018" class="csl-entry" role="listitem">
+———. 2018. <em>Women and Men in the Informal Economy: A Statistical Picture. Third Edition</em>. Geneva: International Labour Organization. <a href="http://www.ilo.org/global/publications/books/WCMS_626831/lang--en/index.htm">http://www.ilo.org/global/publications/books/WCMS_626831/lang--en/index.htm</a>.
+</div>
+<div id="ref-imf_informal_sector_production_2002" class="csl-entry" role="listitem">
+International Monetary Fund (IMF). 2002. <span>‘Chapter 10 Informal Sector Production’</span>. In <em>Measuring the Non Observed Economy</em>, 251. Paris:France: <span>Organisation for Economic Co-Operation and Development</span>. <a href="https://doi.org/10.5089/9789264197459.071">https://doi.org/10.5089/9789264197459.071</a>.
+</div>
+<div id="ref-katsinis_monitoring_2023" class="csl-entry" role="listitem">
+Katsinis, Anastasis, Jaime Laguera Gonzalez, Laura Di Bella, and Garcia Pablo De Pedraza. 2023. <span>‘Monitoring <span>SMEs</span>’ Performance in Europe. <span>JRC</span> Publications Repository’</span>. 7 July 2023. <a href="https://doi.org/10.2760/822066">https://doi.org/10.2760/822066</a>.
+</div>
+<div id="ref-leurdijk_statistical_2012" class="csl-entry" role="listitem">
+Leurdijk, Adnra, and Nieuwenhuis Ottilie. 2012. <span>‘Statistical, <span>Ecosystems</span> and <span>Competitiveness</span> <span>Analysis</span> of the <span>Media</span> and <span>Content</span> <span>Industries</span>. <span>The</span> <span>Music</span> <span>Industry</span>’</span>. 25277 EN. Edited by Jean Paul Simon. Luxembourg: Publications Office of the European Union, 2012: Joint Research Centre Institute for Prospective Technological Studies (IPTS). <a href="https://doi.org/10.2791/796">https://doi.org/10.2791/796</a>.
+</div>
+<div id="ref-leurdijk_statistical_2012-1" class="csl-entry" role="listitem">
+Leurdijk, Andra, Sivlian de Munck, Tijs van den Broek, Arjana van der Plas, Walter Manshanden, and Elmer Rietveld. 2013. <span>‘Statistical Ecosystems and Competitiveness Analysis of the Media and Content Industries : A Historical Overview’</span>. EUR 25277 EN. Edited by Jean Paul Simon. Seville:Spain: Joint Research Centre of the European Commission - Institute for Prospective Technological Studies. <a href="https://doi.org/10.2791/7935">https://doi.org/10.2791/7935</a>.
+</div>
+<div id="ref-olsthoorn_measuring_precarious_employment_2014" class="csl-entry" role="listitem">
+Olsthoorn, Martin. 2014. <span>‘Measuring Precarious Employment: A Proposal for Two Indicators of Precarious Employment Based on Set-Theory and Tested with Dutch Labor Market-Data’</span>. <em>Soc Indic Res</em> 119 (1): 421–41. <a href="https://doi.org/10.1007/s11205-013-0480-y">https://doi.org/10.1007/s11205-013-0480-y</a>.
+</div>
+<div id="ref-open_music_europe_sk_mou_2023" class="csl-entry" role="listitem">
+Open Music Europe, Ministerstvo kultúry SR AND. 2023. <span>‘<span>Memorandum o porozumení o využití výsledkov analýz otvorených politík v kontexte slovenského kultúrneho a kreatívneho priemyslu a sektorových verejných politík v spolupráci s konzorciom pre výskum a inovácie s názvom OpenMuse. [Memorandum of Understanding on utilizing the Open Policy Analysis results of the OpenMuse Research and Innovation Consortium in the context of Slovak cultural and creative industries and sectors’ public policies]</span>’</span>. <a href="https://www.crz.gov.sk/zmluva/7645338/">https://www.crz.gov.sk/zmluva/7645338/</a>.
+</div>
+<div id="ref-puca_intangible_2019" class="csl-entry" role="listitem">
+Puca, Antonella, and Mark L. Zyla. 2019. <span>‘The Intangible Valuation Renaissance: Five Methods. Enterprising Investor’</span>. 11 January 2019. <a href="https://blogs.cfainstitute.org/investor/2019/01/11/a-renaissance-in-intangible-valuation-five-methods/">https://blogs.cfainstitute.org/investor/2019/01/11/a-renaissance-in-intangible-valuation-five-methods/</a>.
+</div>
+<div id="ref-pwc_valuing_2008" class="csl-entry" role="listitem">
+PwC. 2008. <span>‘Valuing the Use of Recorded Music’</span>. IFPI PricewaterhouseCoopers. <a href="http://www.ifpi.org/content/library/valuing_the_use_of_recorded_music.pdf">http://www.ifpi.org/content/library/valuing_the_use_of_recorded_music.pdf</a>.
+</div>
+<div id="ref-wipo_copyright_treaty" class="csl-entry" role="listitem">
+WIPO. 1996a. <span>‘<span>WIPO Copyright Treaty</span>’</span>. <span>World Intellectual Property Organization</span>. <a href="https://www.wipo.int/treaties/en/ip/wct/">https://www.wipo.int/treaties/en/ip/wct/</a>.
+</div>
+<div id="ref-wipo_wppt" class="csl-entry" role="listitem">
+———. 1996b. <span>‘<span class="nocase">WIPO Performances and Phonograms Treaty</span>’</span>. <span>World Intellectual Property Organization</span>. <a href="https://www.wipo.int/treaties/en/ip/wppt/">https://www.wipo.int/treaties/en/ip/wppt/</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p> The Dutch ''Organisatie Strategisch Arbeidsmarktonderzoek (OSA) Arbeidsaanbodpanel'' can be translated into English as the ''Organization for Strategic Labor-market research labour-supply panel''. It is a long-established biannual survey.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>This right is further elaborated by the WIPO Performances and Phonograms Treaty (WPPT). These copyright conventions are administered by the WIPO <span class="citation" data-cites="wipo_copyright_treaty wipo_wppt">(<a href="#ref-wipo_copyright_treaty" role="doc-biblioref">WIPO 1996a</a>, <a href="#ref-wipo_wppt" role="doc-biblioref">1996b</a>)</span>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Compulsory licensing never applies to private end-users.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>See <span class="citation" data-cites="music_moves_europe_first_dialogue_2021">European Commission (<a href="#ref-music_moves_europe_brochure_2019" role="doc-biblioref">2021a</a>)</span> about the policy-making process and objectives.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Eurostat metadata information page: <em>Structural business statistics (sbs)</em> <a href="https://ec.europa.eu/eurostat/cache/metadata/EN/sbs_esms_sk.htm">National metadata - Slovak Republic</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>“The preamble of the Directive (EU) 2019/1024 states these aims with justifications (see the legal text for full details):<br>(36) Charges for the re-use of documents constitute an important market entry barrier for start-ups and SMEs. Documents should therefore be made available for re-use free of charge and, where charges are necessary, they should in principle be limited to the marginal costs […]<br> (44) The re-use of documents should not be subject to conditions. However, in some cases justified by a public interest objective, a licence may be issued imposing conditions […]<br> (69) For the purpose of ensuring their maximum impact and to facilitate re-use, the high-value datasets should be made available for re-use with minimal legal restrictions and free of charge.”<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>The preamble of the Directive (EU) 2019/1024 states these further aims […]<br>(34) To facilitate re-use, public sector bodies should, where possible and appropriate, make documents, including those published on websites, available through an open and machine-readable format and together with their metadata, at the best level of precision and granularity, in a format that ensures interoperability[…]<br> (69) For the purpose of ensuring their maximum impact and to facilitate re-use, the high-value datasets should be made available for re-use with minimal legal restrictions and free of charge. They should also be published via APIs.[…]<br>(27)[…] Beside open access, commendable efforts are being made to ensure that data management planning becomes a standard scientific practice and to support the dissemination of research data that are findable, accessible, interoperable and re-usable (the FAIR principle).<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/deed.en_gb">https://creativecommons.org/licenses/by-nd/4.0/deed.en_gb</a></div></div></section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
