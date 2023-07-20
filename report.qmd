@@ -1,6 +1,14 @@
 ---
 title: "Economy of music in Europe: Novel data collection methods and indicators"
-author: "Daniel Antal"
+author:
+  - name: Daniel Antal
+    orcid: 0000-0003-1689-0557
+  - name: Mária Kmety Barteková
+    orcid: 0000-0003-2691-3185
+  - name: Joost Poort
+  - name: Katarína Remeňová
+    orcid: 0000-0002-8885-6756
+
 toc: true
 lang: en-GB
 date: today
@@ -52,7 +60,9 @@ bibliography:
 - bib/wipo.bib
 ---
 
-## Key Research Questions
+{{< pagebreak >}}
+
+# Introduction
 
 ```{=html}
 <!--- 
@@ -61,6 +71,7 @@ Use … instead of ...
 Use — (em dash) as a punctuation mark that can be used to replace commas, parentheses, colons, and semicolons. 
 --->
 ```
+
 In `Open Music Europe`, we would like to focus our data-driven research on two significant cultural and creative industry/music industry policy problems: how can the European music sector provide more and better employment for music professionals, and how can it create more value-added for the European economy? Our research wants to help design and monitor policies towards these goals and to support the "triple transition" of the music industry: to perform better on digital platforms and be more sustainable environmentally and socially with improved business conduct. In `WP2` and `WP3`, we deal with social and environmental sustainability, and in `WP4`, we talk about the digital transition. In `WP1`, we focus on ensuring that music professional careers and businesses are financially sustainable.
 
 ::: {.callout-note}
@@ -72,22 +83,20 @@ Background documents and earlier versions: proposal stage---[10.5281/zenodo.6464
 
 Funded by the European Union under [Grant No. 101095295](https://cordis.europa.eu/project/id/101095295). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Commission’s Citizens, Equality, Rights and Values Programme. Neither the European Union nor the granting authority can be held responsible for them. 
 
-
-
 :::
 
-We are focusing on two key industry and related copyright policy issues: increasing income for more and better employment and increasing the value of music rights. Music is a very-labour intensive sector; therefore, the source of the most value added is the work of musicians and the exploitation of their intellectual property rights. Securing more friendly economic policies for music professionals and better ways to exploit copyrights and neighbouring rights are the most important factors to increase the economic value added to the sector.
+We are focusing on two key industry and related copyright policy issues: increasing income for more and better employment and increasing the value of music rights. Music is a very-labour intensive sector; capital investments in tangible assets are lower than in most economic sectors. Investments in music, like in all copyright-based industries, are mainly made on a personal level and compensated for natural persons. From a macroeconomic point of view, corporate income is relatively low in the European music industries, and most source of the value added to the national economy is earned as personal income.   Such work is either paid directly as personal income or after accruing intellectual property rights (related to the composition of musical works and the fixation of their performance in sound recordings) in the form of royalty income. Securing economic policies that improve the economic position of music professionals to improve the level of security of their pay or the way they can exploit copyrights and neighbouring rights are the most critical factors that can increase the economic value added by the sector to the national or EU economy. 
 
 Economic value added is about personal and corporate income; in a sector that is mainly organised around atypical work arrangements, increasing the level and predictability of the currently highly precarious work income is perhaps the most important tool to increase employment quality and quantity. It is also in line with the relevant European Parliament resolution that had been followed by several policy and legislative initiative to reduce the risk of precarious work in the European Union 
 [@ep_resolution_precarious_employment_2017].
 
 `Open Music Europe` mainly aims to help better public and business policy design with data as evidence. The problems of measuring and improving the two key components of the sector's added value, the compensation for the work of the music professionals and the way they can exploit their rights, are connected to a more theoretical problem. and a more practical one: the heavy decentralisation of the industry combined with a high level of informality makes measuring (and improving) economic activities difficult; the informality also poses challenges for the production of statistics. Many music professionals disappear from the official measurement of income and employment, including the monitoring of copyright and neighbouring rights exploitation-related income.
 
-In WP1, we aim to address the following research questions:
+In WP1, we aim to address the following **key research questions**:
 
 1.  What does the informality of the music sector mean? How can the informality of the music business be conceptualised, and how can the informal music economy be correctly measured for its value-added and employment? See in [literature review](#lit-informal-economy).
 
-2.  How do music-related work income and copyright income develops compared to the average of the European economy? What is the process of music income real convergence between the richer and poorer countries of the EU? See [Adding value](#lit-value-added).
+2.  How do music-related work income and copyright income develop compared to the average of the European economy? What is the process of music income real convergence between the richer and poorer countries of the EU? See [Adding value](#lit-value-added).
 
 3. How can we conceptualise and measure the precarity of work in the music industry? See [employment](#lit-employment).
 
@@ -95,35 +104,20 @@ In WP1, we aim to address the following research questions:
 
 5.  What kind of policies can help to increase the value added to the sector? What kind of copyright policies can improve the royalty income, particularly in EU countries where such income is below average?
 
-## Literature review {#literature-review}
+# Literature review {#literature-review}
+We follow a definition of the music industry developed by the EU JRC; this definition puts the standard American music business/music industry definition into an EU context.  The difference in presentation is that in the American policy context, the music industry is characterised as part of the entertainment industry ("the monetised function of leisure time"); in Europe, it is part of the cultural and creative industries, and recently cultural and creative sectors and industries (CCSI); the European definition is more inclusive to non-monetised forms of music practice and non-profit or social enterprises; recently, the European policy context is talking about cultural and creative sectors with an emphasis on the inclusion of the cultural heritage sector that can hardly be described as an "industry"^[The regulation establishing the EU's Creative Europe program for the period 2021-2027 can be seen as the main defining document [@eu_regulation_2021-818]; for a more elaborate description, please refer to the Commission document for the proposal of the regulation [@european_commission_creative_europe_proposal_2018].].
 
-In the previous decade, the former CEEMID project has made significant insight and introduced new methodologies into valuing the (value-added) income and the value of rights in the sector in Hungary, Slovakia and Croatia first, then in the wider and less data-rich Central and Eastern European region.
+In the American definition, the “music business is a system of delivering music to consumers. Like any system, it creates and delivers things that have value to consumers (songs, recordings, and performances) but must do so within a dynamic external environment. The music business revolves almost entirely around three creative events: the writing of a song, the live performance of a song, and the making of a recording of a song. Three separate, but interrelated, revenue streams exist for the song, the live performance, and the recording.” [@hull_music_2011, p.51.]
 
-The creation of the CEEMID project was motivated by the realisation of the lack of reliable data on how the Hungarian, Slovak and Croatian music sector adds value to their respective national economies \[\]. While the three country studies had slightly different policy focuses, they had to cope with a common problem: the low level of formalisation of the music sectors of these countries. CEEMID introduced measurement methodologies from the economics and statistics of the informal economy; it turned out that these problems are prevalent all over Europe, even in the far more developed UK music sector.
+In the European definitions, various aspects of these activities had been present. The EU JRC settled for the adoption of the American "music trade" or "music business" or "music industry" (synonyms) definition as described above [@leurdijk_statistical_music_2012, pp.15-18].
 
-### Informal economy and mixed surveys {#lit-informal-economy}
+In the late 20th century, the music industry was often used as a synonym for the sound recording industry, which is in the UN and European economic classification system and is part of one economic activity group with music publishing, i.e., `J58.2`. In the 21st century, the live performance of music is a bigger business than the sale of recorded performances.  The live music industry in the standard classification is part of the `R90` division of economic activities, which consists of all forms of performing arts.
 
-The concept of the "informal economy" has changed significantly. in the last three decades; unfortunately, especially in an Eastern European context, it is still associated with illegality and invisibility for the tax authorities. The last 30 years of economic research have shown that for certain occupational groups and sectors, the informal economy is not only invisible to the taxman---in Hungary and Slovakia, we believe that most of the industry income became visible to the tax authorities over these decades---, but it is mainly invisible for the statistical system that provides evidence for economic policies.
+In the previous decade, the former CEEMID project has provided significant insight and introduced new methodologies into valuing the (value-added) income and the value of rights in the sector in Hungary, Slovakia and Croatia first, then in the wider and less data-rich Central and Eastern European region.
 
-Informal employment exists in countries at all levels of socio‐economic development. More than 60 per cent of the world´s employed population earn their livelihood in informal employment. While the practice is generally associated with developing countries, developed countries like the EU member states have a significant informal sector [@women_men_informal_economy_2018]. The modern definition of the informal economy used by the OECD, ILO or the IMF recognises the importance of the informal economy and does not focus on anomalies but regards the informal economy as a core component of economies at every level of development. Informal employment exists in countries at all levels of socio‐economic development.
+The CEEMID project was motivated by the realisation of the lack of reliable data on how the Hungarian, Slovak and Croatian music sector add value to their respective national economies [@antal_proart_2015; @antal_growth_2017; @antal_slovenskom_hudobnom_2019_en; @antal_pcr_croatia_2019]. While the three country studies had slightly different policy focuses, they had to cope with a common problem: the low level of formalisation of the music sectors of these countries. CEEMID introduced measurement methodologies from the economics and statistics of the informal economy; it turned out that these problems are prevalent all over Europe, even in the far more developed UK music sector.
 
-While in 2018 the International Labor Organization (ILO) definition was slightly changed, the 1993 definition already gave us a very useful characterization that fits very well the European music industries: "The informal sector may be broadly characterized as consisting of units engaged in the production of goods or services with the primary objective of generating employment and incomes for the persons concerned. These units typically operate at a low level of organization, with little or no division between labour and capital as factors of production and on a small scale" [@ilo_resolution_informal_employment_1993]. In addition, they share the characteristics of household enterprises. The resolution defines the concept of the informal economy as "all economic activities by workers and economic units that are---in law or in practice---not covered or insufficiently covered by formal arrangements".
-
-The modern definition of the informal economy used by the OECD, ILO or the IMF recognises the importance of the informal economy and does not focus on anomalies but regards the informal economy as a core component of economies at every level of development.
-
-The creation of the Hungarian and Slovak national music industry reports in the CEEMID project focused on these key aspects, particularly the lack of typical or formal labour arrangements and the lacking division of labour and capital as factors of production. We have shown that in Hungary, Slovakia or Croatia, the typical stakeholder of the music economy is centred around a self-publishing, self-releasing (group of) artist(s), who exploit their labour, own invested assets and copyrights or neighbouring rights. We have shown that a typical music professional receives income from 20-60 "gigs"; in many cases, the closest resemblance to an employer is their relationship with a collective management organisation. Later, the Central European Music Industry Report showed that from Austria to Armenia, the situation is similar regardless of the level of economic development and industry income.
-
-The ILO and the OECD (following the IMF) suggested using mixed enterprise- and household or personal surveys to capture the employment and income created in the informal economy. This approach is widely used in the European Union \-- in our first pilot country, Slovakia, the Statistical Office of the Slovak Republic (SOSR) uses mixed surveys since 2010. CEEMID introduced a similar surveying framework in 2014 in Hungary and refined it in the 2015 Croatian, 2017 Slovak, 2017-2019 Hungarian and 2019 Central European music professional surveys.
-
-The OECD Manual on *Measuring the Non Observed Economy* endorses a combination of LFS surveys with in-depth more specific surveys, such as the Digital Music Observatory/CEEMID music professional survey that we want to develop further: "Monitoring the number and characteristics of the persons in the informal sector and the conditions of their employment and work can be achieved by periodically including a few additional questions pertaining to the informal sector definition in an existing labour force or similar household survey \[...\] Labour force or similar household surveys are often conducted at a higher frequency than specialised, in-depth informal sector surveys. Thus, the data obtained from the former concerning the evolution of labour inputs in the informal sector can be used to extrapolate data from the latter \[...\]" [@imf_informal_sector_production_2002, p. 170].
-
-Similarly, the manual on the same topic of the *International Labour Organization* suggests taking the LFS as a starting point: "There are many advantages to including the measurement of both informal employment and employment in the informal sector in a labour force survey or a household survey that includes the labour force as a topic These include the relative ease with which the topics can be added to an existing survey, cost-effectiveness, conceptual coherence with other labour force statistics, and the analytical possibilities offered by the collected information." [@ilo_measuring_informality_2013]
-
-The application of mixed surveys is not only challenging on the production side of statistics, for example, in surveying. The analysis of industry value added is usually based on the system of national accounts. The main source of the national accounts is administrative (tax) records from enterprises and enterprise surveys which focus on corporate income and income paid mainly in formal and typical labour arrangements to workers. In music, we turn to mixed surveying because the (large) informal part of the music economy is not represented in these administrative data sources and surveys, partly because it is not organised around formal enterprises. With the combined use of LFS or a similar survey, we target to measure personal income in the informal economy. The reconciliation of personal income with the value-added concepts and employment in the informal economy with the full-time equivalent concept of the national accounts is an important task for labour economists.
-
-We first turn to the the problem of value added and employment, and then we return to the more practical surveying questions.
-
-### Value creation in the music industry {#lit-value-creation}
+## Value creation in the music industry {#lit-value-creation}
 
 There are several overlapping factors why we do not have a standardised statistical measurement of the music industry in 2023. The system of national accounts does not cover the music industry. The statistical data classification nomenclature behind the national accounts at the first worldwide adoption did not regard music---and the creative industries---as "industries". The first global classification nomenclature of economic activities, NACE, even after its significant revision in 2006, does not have a "music" or "film" industry. An important aspect is, of course, informality, which poses both theoretical and very practical problems when trying to measure the economic performance of music consistently.
 
@@ -135,9 +129,68 @@ For the mapping of the music industry, we use the standard "three income stream 
 
 The concept of the value chain shows what processes add value to the services of the music business to the end-user. It should not be confused with the concept of added value. The value chain shows why music businesses can sell music at a higher value than its production cost; the value added is the new income of the music businesses and music professionals they can keep after all their costs are paid. A well-functioning value chain can increase the value added of the industry and the national economy. For our measurement purposes, we used the value chain to pinpoint those units where the new income (and the jobs that the income supports) are generated, and where this income and jobs can be empirically observed.
 
-> a bit more should be here about the mapping endorsed by the ESSnet culture and our previous experience in CEEMID.
 
-### Adding value {#lit-value-added}
+::: {.callout-note}
+REPREX: a bit more should be here about the mapping endorsed by the ESSnet culture and our previous experience in CEEMID.
+:::
+
+## The concept of Total Economic Value
+
+Our starting point for music policy rooted in welfare economics. Total Economic Value is the sum of all values that governments may seek to maximise (Figure 1). Total Economic Value includes use and non-use value and comprises market and non-market value (Figure 2). A typical structure for Total Economic Value is presented below. As illustrated, non-market values can be both use and non-use values.
+
+Direct use values are more likely than other types of value to have a corresponding market activity, giving rise to a measure of value through a market price or return, e.g., the total income of a creative or cultural enterprise. Direct use values can be categorised as either:
+
+
+
+Indirect use values come from using a good or service but not through one's engagement with it. An example of indirect use value is living near cultural facilities that one does not attend. Indirect use values tend to be overlooked in a market setting. However, they are sometimes reflected in market signals, such as property prices or the values of the final goods or services consumed, which may be influenced by the range of positive or negative impacts from others' direct use. A family's home can increase in monetary value from the fact that a derelict neighbourhood warehouse is converted into a concert hall, even if the family never visits it.
+
+### Non-use value
+Total Economic Value goes beyond direct and indirect use of goods and services to 'non-use' values. Non-use value is the value that people assign to goods and services even if they never have and never will use them. Non-use values have been categorised as follows:
+-    Option value---the value placed on individual willingness to pay for maintaining an asset or resource even if there is little or no likelihood of the individual ever using it,[JP2: is this not indirect value] 
+-    Bequest value---values placed on individual willingness to pay for maintaining or preserving an asset or resource that has no use now so that it is available for future generations,
+-    Existence value---reflecting the benefits people receive from knowing that say, an environmental resource, such as Antarctica, exists, and
+-    Altruistic value---the value placed on an individual willingness to pay for maintaining an asset or resource that is not used by the individual so that others may use it.
+
+Altruism/bequest values arise from others' current or future use of a good or service. Pure existence values arise from merely knowing that a valuable good or service exists. In music, we are well aware of such value; various national, religious or other cultural communities take pride in their music heritage and they value recording, preserving, or passing it via education to new generations even if members of these communities individually do not pay for or enjoy such traditional music all the time. In many European countries, an important role of music educations within the general education system is the introduction of national folk/classical or even popular music heritage to new generations; local and national governments value and spend on music in this way. 
+
+### Market and non-market value
+Market values for creative goods and services are usually reflected in the prices paid. For the industry or an industry sector, the Output value (see Direct Economic Value above) would represent the total market value of that industry or sector; although the music industry is well-known to offer much zero-priced services. In this cases, it is not the final user, but an intermediary, for example, a radio station, that is paying for the music. 
+
+Non-market values are values held by individuals or the community at large for goods and services that are not expressed in a market and hence do not have an accurate price from which to derive a value (i.e. the price differs strongly from the total value society is willing to pay for the good or service).
+
+Public goods and externalities are the most common sources of non-market values. Public goods cannot be restricted or rationed, so a price cannot be charged for their consumption, and the market price does not consider the total social benefits or costs of the good or service, known as externalities.
+
+Total Economic Value provides a conceptual framework to consistently identify non-market values so they can be included in an economic assessment. Non-market values are primarily non-use values (bequest value and existence value). However, they may also include indirect use values (vicarious use of a good or service) and direct use values (actual use of a good or service).
+
+In most of our work, we will focus our attention on the use value of music.
+
+## Informal economy and mixed surveys {#lit-informal-economy}
+
+::: {.callout-note}
+REPREX: References
+:::
+
+The concept of the "informal economy" has changed significantly. in the last three decades; unfortunately, especially in an Eastern European context, it is still associated with illegality and invisibility for the tax authorities. The last 30 years of economic research have shown that for certain occupational groups and sectors, the informal economy is not only invisible to the taxman---in Hungary and Slovakia, we believe that most of the industry income became visible to the tax authorities over these decades---, but it is mainly invisible for the statistical system that provides evidence for economic policies.
+
+Informal employment exists in countries at all levels of socio‐economic development. More than 60 per cent of the world´s employed population earn their livelihood in informal employment. While the practice is generally associated with developing countries, developed countries like the EU member states have a significant informal sector [@women_men_informal_economy_2018]. The modern definition of the informal economy used by the OECD, ILO or the IMF recognises the importance of the informal economy and does not focus on anomalies but regards the informal economy as a core component of economies at every level of development. Informal employment exists in countries at all levels of socio‐economic development.
+
+While in 2018 the International Labor Organization (ILO) definition was slightly changed, the 1993 definition already gave us a very useful characterization that fits very well the European music industries: "The informal sector may be broadly characterized as consisting of units engaged in the production of goods or services with the primary objective of generating employment and incomes for the persons concerned. These units typically operate at a low level of organization, with little or no division between labour and capital as factors of production and on a small scale" [@ilo_resolution_informal_employment_1993]. In addition, they share the characteristics of household enterprises. The resolution defines the concept of the informal economy as "all economic activities by workers and economic units that are---in law or in practice---not covered or insufficiently covered by formal arrangements".
+
+The modern definition of the informal economy used by the OECD, ILO or the IMF recognises the importance of the informal economy and does not focus on anomalies but regards the informal economy as a core component of economies at every level of development.
+
+The creation of the Hungarian and Slovak national music industry reports in the CEEMID project focused on these key aspects, particularly the lack of typical or formal labour arrangements and the lacking division of labour and capital as factors of production. We have shown that **in Hungary, Slovakia or Croatia, the typical stakeholder of the music economy is centred around a self-publishing, self-releasing (group of) artist(s), who exploit their labour, own invested assets and copyrights or neighbouring rights.** We have shown that a typical music professional receives income from 20-60 "gigs"; in many cases, the closest resemblance to an employer is their relationship with a collective management organisation. Later, the [Central European Music Industry Report](https://ceereport2020.ceemid.eu/) showed that from Austria to Armenia, the situation is similar regardless of the level of economic development and industry income.
+
+The ILO and the OECD (following the IMF) suggested using mixed enterprise- and household or personal surveys to capture the employment and income created in the informal economy. This approach is widely used in the European Union \-- in our first pilot country, Slovakia, the Statistical Office of the Slovak Republic (SOSR) uses mixed surveys since 2010. CEEMID introduced a similar surveying framework in 2014 in Hungary and refined it in the 2015 Croatian, 2017 Slovak, 2017-2019 Hungarian and 2019 Central European music professional surveys.
+
+The OECD Manual on *Measuring the Non Observed Economy* endorses a combination of LFS surveys with in-depth more specific surveys, such as the Digital Music Observatory/CEEMID music professional survey that we want to develop further: "Monitoring the number and characteristics of the persons in the informal sector and the conditions of their employment and work can be achieved by periodically including a few additional questions pertaining to the informal sector definition in an existing labour force or similar household survey \[...\] Labour force or similar household surveys are often conducted at a higher frequency than specialised, in-depth informal sector surveys. Thus, the data obtained from the former concerning the evolution of labour inputs in the informal sector can be used to extrapolate data from the latter \[...\]" [@imf_informal_sector_production_2002, p. 170].
+
+Similarly, the manual on the same topic of the *International Labour Organization* suggests taking the LFS as a starting point: "There are many advantages to including the measurement of both informal employment and employment in the informal sector in a labour force survey or a household survey that includes the labour force as a topic These include the relative ease with which the topics can be added to an existing survey, cost-effectiveness, conceptual coherence with other labour force statistics, and the analytical possibilities offered by the collected information." [@ilo_measuring_informality_2013]
+
+The application of mixed surveys is not only challenging on the production side of statistics, for example, in surveying. The analysis of industry value added is usually based on the system of national accounts. The main source of the national accounts is administrative (tax) records from enterprises and enterprise surveys which focus on corporate income and income paid mainly in formal and typical labour arrangements to workers. In music, we turn to mixed surveying because the (large) informal part of the music economy is not represented in these administrative data sources and surveys, partly because it is not organised around formal enterprises. With the combined use of LFS or a similar survey, we target to measure personal income in the informal economy. The reconciliation of personal income with the value-added concepts and employment in the informal economy with the full-time equivalent concept of the national accounts is an important task for labour economists.
+
+We first turn to the the problem of value added and employment, and then we return to the more practical surveying questions.
+
+## Adding value {#lit-value-added}
 
 On a macroeconomic level, Gross Value Added (GVA) is closely related to the Gross Domestic Product (GDP)---the difference is the net value of subsidies received for the music industry and taxes paid. As we have shown in Hungary and Slovakia, contrary to common belief, the developing music sectors of these countries contributed with far more taxes than received subsidies; in Slovakia, we have shown that the music industry was one of the highest net payers of the national treasury.
 
@@ -149,7 +202,7 @@ If we have a sufficiently formalised music business, even if it is centred aroun
 The *Slovak CCI Strategy* identifies a value added KPI and cites the Slovak CCI satellite accounts as data sources; EUBA should discuss what is the KPI about, what are the initial values, introduce the CCI satellite account, and provide us ideas on how to calculate this indicator for the music industry itself.
 :::
 
-### Employment {#lit-employment}
+## Employment {#lit-employment}
 
 The work in the music industry, regardless if it is artistic or technical, managerial work, is often described in the music literature as \"precarious\". CEEMID has used this framework in the last decade to understand how music professionals earn their living. Precarious work is a term originating in work sociology—see for example: [@haynes_reluctant_2018]—, and it refers to working conditions with a high risk of being underpaid, insecure in terms of employment and low working safety, for example, a high risk of sexual harassment. Precarious work is related to the labour economics term \"informal work\".
 
@@ -161,7 +214,7 @@ In the _Central European Music Industry Report_, and particularly in work conduc
 
 This chart shows that in 2019, Austrian musicians with 6-7 years of composition and recording history had a chance to stay in the music business and earn a full-time living; in Czechia, about 12-13 years of composing history were needed. As the Central European Music Industry Report and national reports showed, the difference could be hypothetically explained by a lower level of copyright protection in Czechia (or Slovakia) and generally an underdeveloped recording industry. In the CEE region, we see particularly strong reliance on the author\'s revenues compared to the UK or Austria in the absence of viable commercial record sales.
 
-### Zero-price services {#lit-zero-price}
+## Zero-price services {#lit-zero-price}
 
 In the past years, there has been an increased interest in analysing online platforms where the consumers do not pay a price. Watching a music video on YouTube, or reading amusing content on Facebook, finding accommodation on AirBnB does not cost anything for the buyer money, though the buyer's time in viewing advertisement, the buyer's data footprint, or a commission from a two-sided product (the supply side of a rented room) offers a compensation for the platform. As a recent competition study pointed out, such practices are probably originated from the use of music and audiovisual content on radio and television [@cma_online_platforms_advertising_2020].
 
@@ -169,7 +222,21 @@ What makes understanding music markets so difficult is that they are seemingly i
 
 Music in these zero-price transactions is valuable because eventually, somewhere, musicians are paid a copyright or neighboring right royalty for the use of their intellectual product. Generally, this payment should be aligned with the norms of fair remuneration and fair value, which is our next research topic; however, the presence of zero-price transactions makes the application of valuation models particularly challenging in a music market.
 
-### Valuing copyright and neighboring rights {#lit-valuing-rights}
+## Valuing copyright and neighboring rights {#lit-valuing-rights}
+
+::: {.callout-note}
+REPREX: rewrite
+:::
+
+olicymakers and primarily business entities would like to see a music valuation and pricing model that is economically and legally sound. From a technical point of view, such a model would define statistical and accounting processes that will yield correct values and prices from available accounting- or survey-based evidence. CEEMID did several valuations in Hungary and Slovakia that aimed to meet legal and economic standards; third parties, such as competition authorities, challenged these valuations. We want to build on this experience to standardise a valuation model that can be used practically for business and public policy tasks.
+
+Harmonising such broad concepts as “fairness” or “equitable remuneration” among economics and accounting with the law would require an entire research project, mainly because the legal definitions of these terms vary across copyright, competition, or labour law. Nevertheless, we understand that the business value of a model that can be successfully challenged to be incompatible with copyright, competition, or accounting law would be very little.
+
+We aim to provide actionable data for asset valuation or price setting for copyright or neighbouring right-protected assets in a way consistent across various licensing modes of music and usable across Europe (as much as the legal norm behind these licenses is harmonised). There are countless ways in which a licensing policy may breach copyright or competition laws, and we cannot promise a silver bullet for all pricing and valuation problems. We aim to build a valuation model and then a data-to-policy pipeline that will likely meet requirements to set or present copyright royalty fees, expected payments, and the value of the assets that generate income from such payments.
+
+-   The use of valuations of our model, or licensing fees set based on our model, are likely to meet the fairness criterion in copyright law or in situations when the use of the “equitable remuneration” standard is required.
+-    Such a licensing policy would not violate the terms of fair competition based on price or economic facts.
+-    Valuations used with our data and models would meet the fair value standard of IFRS, and their use would not mispresent the value of the copyright royalty-earning assets or expected future payments.
 
 The concepts of copyright law, such as equitable remuneration, set a legal basis for the remuneration of creators, particularly in cases where the seller has no freedom of contracting the actual user. Such rules, however, do not contain regulations on how to set the payable sum---this often leads to confusion. Copyright law creates valuable rights, but the value of these rights must be interpreted in the light of further legal principles and economic norms.
 
@@ -193,7 +260,7 @@ When intellectual property is sold (against a lump-sum payment), licensed (for p
 
 In 2008, the global recording industry body, IFPI, published *Valuing the use of recorded music*, created by PriceWaterhouseCooper [@pwc_valuing_2008]. This excellent methodological guide applies the WIPO and IFRS standards [@ifrs_fair_value_2011; @flignor_orozco_ip_valuation_2006; @puca_intangible_2019] on valuing copyrights in more practical terms for the music industry. The valuation principles are enshrined in the fair valuation principles of the WIPO and the fair value principles of the International Financial Standards Board---their use is not a recommendation but a statutory obligation in most IFRS countries.
 
-#### Most applicable method
+### Most applicable method
 
 The recognised fair valuation principles stipulated that the "most applicable method" must be used in valuations. Because most music is created by natural persons (and in the informal economy, see \[\]), the (historical) "cost approach" is almost never a good option; natural person in a sole proprietorship or in a more informal economic form are not recording their costs. The *cost approach* is inapplicable because the rightsholders are natural people who do not account for their working time, i.e., the time when they are composing music. There are no appropriate business records of most creative activities related to the composition and performance of music. The cost approach could be used for the rights of the producers, but because their rights are not going to market in separation from the other rights, cost approaches are never used in the music industry.
 
@@ -221,7 +288,7 @@ These licensing models are very well harmonised internationally. Our model could
 
 The regulation of free uses, particularly the home copying exception and its remuneration, is different in each country which has this exception at all----but private copying levies, when applicable, do follow an adapted form of mechanical licensing. The compensation is annualised, like in public performance, and the rates (prices) are somehow related to the mechanical royalty rates.
 
-### Mapping the music industry in the national accounts, satellite accounts
+## Mapping the music industry in the national accounts, satellite accounts
 
 A satellite account is a framework of presentation for the economic data of a particular area in relation to the overall economic analysis of the central framework of the national accounts. The use of satellite accounts for education, health, tourism, environmental issues is commonplace. 
 
@@ -229,7 +296,7 @@ A satellite account is a framework of presentation for the economic data of a pa
 The Slovak satellite account shoudl be introduced in detail.
 :::
 
-## Data gaps
+# Data gaps
 
 Music is a very much data-driven industry, and it was one of the first global industries that moved much of its sales to a few global digital platforms that record incredible details of information. Many data gaps in the music industry are illusory from the point of view that the data is recorded somewhere; it is "only" not processed and aggregated into formats that would be required for public policy analysis. And then we have a large informal part of the music economy where many important data, for example, costs or investments, are not recorded systematically.
 
@@ -239,7 +306,7 @@ In `Open Music Europe`, the WP1 provides an exploitation pathway towards increas
 
 Our main research areas are Hungary, Slovakia and Bulgaria. In Slovakia, we have concluded a MoU. Slovakia is one of the few countries that invested into the creation of a Cultural and Creative Industries Satellite Account: we will add research, methodological and data inputs to this pioneering effort to make these accounts more usable for the music industry---this work will improve the measurement of various types of income (value added) and employment. In Hungary, Artisjus has been developing a particularly comprehensive music valuation system, which has been successfully used in Slovakia and Croatia with less detail. Our aim is to generalise this valuation method and transfer as much as possible to Bulgaria, which is perhaps the least developed music economy in the current European Union, not counting the smallest members states that do not have an economically sizable sector at all.
 
-### European policy data gaps
+## European policy data gaps
 
 In late 2015, the European Commission started a dialogue with representatives from the music sector[^3] in Europe with the aim to identify key challenges and possible ways to tackle them, including EU support. "Music Moves Europe" has become the framework for these discussions and, more broadly, for EU initiatives and actions to promote the diversity and competitiveness of Europe's music sector in terms of policy and funding. As part of the 2018 Preparatory Action "Music Moves Europe: Boosting European music diversity and talent," the EU commissioned the creation of the "The feasibility study for the establishment of a European Music Observatory" [@emo_feasibility_2020] (in short: EMO Feasibility Study.) The current call, *Towards a competitive, fair and sustainable European music ecosystem* explicitly refers to the relevance of the *Music Moves Europe* policy context.
 
@@ -263,12 +330,31 @@ if (! output_to %in% c("html", "epub", "epub2")  ) {
 }
 ```
 
+::: {.callout-note}
+REPREX: Recreate and explain table
+:::
+
 In Europe, public policies on music are mainly the competencies of member states, who often develop policies for all creative sectors because of their similarities. Furthermore, because of the territorial nature of copyright law, the publishing and recorded side of the industry is also organised according to national markets. Both public and business policy requires most indicators *at least* on the national level. Therefore, the data gaps must be filled with national indicators.
 
-### National policy gaps
+## National policy gaps
+
+
+
+In Slovakia, like in many European countries, music policy is part of a wider cultural and creative industry policy. The main policy document is the _Stratégia kultúry a kreatívneho priemyslu Slovenskej republiky 2030_ [Strategy of the cultural and creative industries of the Slovak Republic 2030] [@slovak_cci_strategy_2023]. This policy document envisions culture and creative industries in a Slovak Republic that is free, culturally diverse, self-confident and firmly rooted in democracy; it protects and develops its cultural and natural heritage, invests in education, supports its talents and creativity, and is open to innovation and cooperation with the world. Achieving this vision is articulated in seven interacting strategic objectives, which are detailed in strategic priorities and actions:
+-   A well-governed culture, which aims to strengthen the performance of cultural policy based on quality management, participation and cooperation in and to introduce a results-based evaluation approach.
+-   An effectively funded culture, with the aim of systematically reducing infrastructure and modernisation debt and increasing management efficiency and financing of culture and creative industries, to complement public funding with private sources.
+-   A culture with dignity, which aims to improve the working and creative conditions for people working in culture and the creative industries.
+-   Quality culture aiming at increasing the expertise, innovation and quality in the cultural and creative industries.
+-   Inclusive culture to ensure that culture is accessible and develops its specificities for all.
+-   Respected culture aims to raise the profile of culture and the creative industries and improve their recognition as an important value to society at a national level, to improve its foreign presentation and international cooperation.
+-   Responsible culture to participate in identifying and addressing current environmental and other societal challenges, thereby increasing societal cohesion and resilience. 
 
 ::: {.callout-warning collapse="false"}
 EUBA to provide a short description of national cultural policies, and the fact that the cultural policy is mainly on national level.
+
+- Explicitly refer to the document collected by Richard/Tomas
+- Explain how music is present in this policy
+- Explain what indicators are used by this policy, what are the indicators, and what are their reference values.
 
 This is a very good document, just published last Friday that can be a good way of filling our MoU with content: [@katsinis_monitoring_2023] and this should be considered, too: [@swd_2022_346].
 :::
@@ -277,21 +363,21 @@ After the kick-off meeting of the project, Sinus as the coordinator of the Open 
 
 The starting point of our needs assessment is a critical revision of the *Feasibility study for the establishment of a European Music Observatory* (short: *EMO Feasibility Study*) and the *Stratégia kultúry a kreatívneho priemyslu Slovenskej republiky 2030* (Strategy of the cultural and creative industries of the Slovak Republic 2030, short: *Slovak CCI strategy.*)
 
-### Pilot country: Slovakia
+## Pilot country: Slovakia
 
 ::: callout-warning
 EUBA to introduce the Slovak CCI strategies in the context of the European CCI policy and Music Moves Europe. What is special about Slovakia? What is similar? What is the history of CCI/music policies in Slovakia.
 :::
 
-## Data sources
+# Data sources
 
-Open Music Europe is building an open statistical infrastructure that is compatible with the national statistical infrastructures of the EU/EEA/Candidate member states but is based on voluntary industry cooperation. We are building a similar framework that national statistical offices have in Europe, but at a smaller, cheaper, more flexible scale and on a different legal basis.
+`Open Music Europe` is building an open statistical infrastructure that is compatible with the national statistical infrastructures of the EU/EEA/Candidate member states but is based on voluntary industry cooperation. We are building a similar framework that national statistical offices have in Europe, but at a smaller, cheaper, more flexible scale and on a different legal basis.
 
 -   We are collecting data using similar statistical processes to statistical offices but based on the voluntary organisation;
 -   Based on our MoU in Slovakia, we are exploring the possibility to improve national statistical office processes for a better combination of voluntary industry and mandatory official statistical data;
 -   We are harvesting secondary microdata and processed statistical data sources based on the Open Data Directive.
 
-### Primary data sources
+## Primary data sources
 
 As our Data Management Plant indicates, we manage data similarly to official statistical processes.
 
@@ -301,7 +387,7 @@ As our Data Management Plant indicates, we manage data similarly to official sta
 -   We are tapping into **administrative records** (i.e., consistent data sources originally not intended for statistical purposes.) In official statistics, this means access to tax records. In our case, this means access to royalty accounts in WP1 and voluntary access to the general ledger of the enterprises bookkeeping.
 -   We are experimenting with similar data sources, such as data harvested regularly from APIs, that Eurostat also considers **"experimental"** statistical processes.
 
-#### Labour Force Survey (LFS)
+### Labour Force Survey (LFS)
 
 Our most important survey is the LFS survey, harmonised across the European Union. The EU labour force survey (EU-LFS) is conducted in all EU countries, 4 candidate countries, and 3 European Free Trade Association (EFTA) countries. EU-LFS microdata for scientific purposes currently contains data for all EU countries, as well as data for Iceland, Norway, Switzerland, and the United Kingdom (up to third quarter of 2020).
 
@@ -343,7 +429,7 @@ Our aim in Open Music Europe is the creation of a sufficient subset of ex ante h
 Since the SOSR claims that it has constructed the cultural satellite accounts on the basis of LFS, I assume that they followed the OECD guidelines and added extra precision and weighting to the cultural sectors. We need to find out how they conducted the LFS that they used for this purpoes.
 :::
 
-#### Cultural Access and Participation (CAP)
+### Cultural Access and Participation (CAP)
 
 CEEMID used extensive personal survey harmonisation to measure music access and participation; this is critical information about zero-price music, such as radio, television, ad-supported streaming, and illegal and home copying. We want to follow the CEEMID practice as the best practice, which followed the best surveying practice identified by the ESSNet-Culture working group of the European Statistical System in the general cultural access and participation (CAP) framework. The CEEMID questionnaires adopted the CAP framework for the music and audiovisual cultural domain.
 
@@ -375,7 +461,16 @@ Information about the enterprise surveys are taken from \[\] and the Eurostat me
 
 [^4]: Eurostat metadata information page: *Structural business statistics (sbs)* [National metadata - Slovak Republic](https://ec.europa.eu/eurostat/cache/metadata/EN/sbs_esms_sk.htm)
 
-##### Large enterprises questionnaire Roc 1-01 {#Roc-1-01}
+The Ministry of Culture of the Slovak Republic pursuant to Act No.540/2001 Coll. on State Statistics carries out an annual long-term state statistical survey in the field of culture (KULT). The statistical survey is governed by the programme of state statistical surveys compiled by the Statistical Office of the Slovak Republic in cooperation with the Ministry of Culture for a period of three years. 
+The reporting units, i.e. the persons required to provide data for the State Statistical Survey, are:
+•	state and public institutions,
+•	self-governing regions, municipalities of the Slovak Republic,
+•	private companies, 
+•	non-governmental organisations, churches and religious societies, and 
+•	natural persons active in the field of culture. 
+The reporting unit is obliged by law to provide the requested data free of charge, completely, correctly, truthfully and within the time limits set.
+
+#### Large enterprises questionnaire Roc 1-01 {#Roc-1-01}
 
 ::: callout-note
 1/ the legal units with 20 and more employees registered in the Business register; 2/ the legal units with less than 20 employees registered in the Business register: a) which were statistically important (the decision about including them into survey of big enterprises was done by expert of particular branch statistics, e.g. responsible for branch statistics etc.); b) or of which turnover exceeds 5 million €
@@ -393,13 +488,75 @@ Data on small entrepreneurs (physical persons \[sic!\]) are included in SBS data
 
 This is a sample survey, and because of the sampling method it is unlikely that it can provide data on the music industry (not enough and not well identified companies will enter the sample.)
 
+
+
+### Statistical survey Roč 1-01 Annual statement of production industries
+
 ::: callout-warning
-## SBS surveys
 
-Currently this is the only information that we have on Slovak enterprise surveys. They hint to the use of mixed surveys (enterprise + freelancers): Eurostat metadata information page: *Structural business statistics (sbs)* [National metadata - Slovak Republic](https://ec.europa.eu/eurostat/cache/metadata/EN/sbs_esms_sk.htm)
-
-EUBA should describe the Slovak SBS. We must have in copy and in the `bib/slovakia.bib` referenced all 1 . most recent questionnaires of Roc-1-01 Roc-2-01, 2. methodological description, particularly on mixed surveys, 3. public datasets relevant to our work.
+EUBA: Please give a reference to the survey description and the most recent questionnaire.  Please indicate which questionnaire items do you want to use and what indicators do you propose to create from them.
 :::
+
+
+The purpose of the statistical survey is to obtain information on the indicators characterizing the activity of the enterprise and its plants in the field of resource generation and allocation, financial management, employment, and the specification of economic activities for the purpose of time series recalculation. The selected indicators are specified according to the statistical classification of products by activity (CPA). The results of the statistical survey shall be used in the calculation of basic macroeconomic indicators of the system of national accounts, for the purposes of conceptual work and analytical work, to meet the needs of the information system of the Statistical Office of the Slovak Republic, the requirements of the European Statistical System and international organisations.
+Substantive (content) characteristics and procedures for conducting the statistical survey
+
+::: callout-warning
+
+SOZA: Please provide a 'guess list' which enterprisese my receive such a survey? I.e. that meet the size requirement for this.
+
+:::
+
+
+
+Characteristics of statistical survey variables: 
+financial variables - financial leasing, financial ratios, assets and liabilities, acquisition and sale of fixed assets, fixed assets by type, part of intermediate consumption, equity participation and control in a foreign enterprise, supplementary information on the ultimate owner of the enterprise, selected assets and liabilities in the sectoral structure, acquisition and sale of patents; cross-sectional variables - transport variables, environmental protection - financial variables; plant indicators - gross turnover, intermediate consumption and complementary indicators, taxes, charges and subsidies, specification of selected items of gross turnover, specification of consumption of services, specification of consumption and stocks of materials and energy, specification of goods in wholesale and retail trade, specification of intangible and tangible fixed assets, employees' income in kind, active improvement, employees and wages; in the agricultural sector - product breakdown of gross turnover indicator; sectoral indicators - in agriculture: employees and wages by main occupations in agriculture; in industry: selected indicators in industry; in construction: construction output, construction output by contractor contracts in the domestic sector - by construction direction and contracting authority, construction workers, wage resources, construction output performed by own employees according to the statistical classification of products by activity (CPA), 
+construction output according to supply contracts in the country for new construction, reconstruction and modernisation according to the Classification of Construction, construction output carried out by own employees in the country according to the place of execution; in trade, hospitality and accommodation: retail network and hospitality network; in selected market services: structure of sales according to the location of the buyer; indicators of local units - characteristics and basic indicators of the local unit.
+
+This is a census-like, exhaustive statistical survey. The reporting (statistical) units are enterprises registered in the commercial register, contributory organisations belonging to the sector of non-financial corporations within the meaning of the national accounts methodology with 20 or more employees and organisations with 0 to 19 employees with annual sales of own performance and goods of EUR 5 million or more, which are entered in the register of organisations of the Statistical Office of the Slovak Republic.
+
+#### Statistical survey Roč 2-01: Annual return of production industries in small enterprises
+
+::: callout-warning
+
+EUBA: Please give a reference to the survey description and the most recent questionnaire.  Please indicate which questionnaire items do you want to use and what indicators do you propose to create from them.
+
+Critical information: when can changes be made in the statistical program, what is the annual sample size and how is the sample created.
+
+:::
+
+::: callout-warning
+
+SOZA: Has SOZA ever received the survey.
+
+:::
+
+The purpose of the `Roč 2-01` statistical survey is to obtain information on the indicators characterising small business activity in the areas of resource generation and allocation, financial management, employment and the specification of economic activities for the purpose of time series calculations. The results of the survey will be used in the calculation of basic macroeconomic indicators of the system of national accounts and for the needs of conceptual and analytical work, to meet the needs of the information system of the Statistical Office of the Slovak Republic, the requirements of the European Statistical System and international organisations.
+
+This is a **sample survey**. The reporting statistical units are enterprises registered in the Commercial Register, contributory organisations, which are market producers, with the number of employees from 0 to 19, with annual sales of own performance and goods up to EUR 5 million, which are listed in the Register of Organisations of the Statistical Office of the Slovak Republic.
+
+Characteristics of the proposed indicators: 
+Financial ratios - financial leases, financial ratios, selected financial ratios, securities, assets and liabilities, acquisition and sale of fixed assets, fixed assets, part of intermediate consumption, equity participation in foreign enterprise, supplementary information on foreign capital, services to/from abroad, gross sales, intermediate consumption and complementary indicators, taxes and charges, specification of selected items of gross turnover, specification of consumption of services, specification of consumption of materials and energy, specification of goods in wholesale and retail trade, employees and wages, cross-sectional indicators - transport indicators and environmental protection - financial indicators; sectoral indicators - in forestry - outputs and land; in construction - construction output, construction output by supply contracts in the domestic sector - by construction direction and by contracting authorities according to the Statistical Classification of Construction,26) employees and workers in construction work and their wage bill; in trade, hospitality and accommodation - retail and hospitality (catering) network; in selected market services - structure of sales by location of customer. 
+
+
+#### KULT Surveys
+
+
+::: callout-warning
+
+EUBA
+The Minister of Culture has entrusted the coordination and provision of tasks related to the performance of statistical surveys in the field of culture to the National Enlightenment Centre based in Bratislava.
+KULT surveys focused on the music industry in Slovakia:
+•	KULT 5-01 ANNUAL STATEMENT ON THE MUSICAL ENSEMBLE AND ARTISTIC ENSEMBLE
+•	KULT 16 -01 ANNUAL STATEMENT ON PUBLIC EVENTS IN THE FIELD OF PROFESSIONAL MUSIC CULTURE
+•	KULT 19-01 ANNUAL STATEMENT ON THE PRODUCTION AND DISTRIBUTION OF SOUND RECORDS OF MUSICAL WORKS
+
+Please refer to the methodological description of the surveys and the latest questionnaire Please indicate which questionnaire items do you want to use, and what indicators do you want compute from them.
+
+Please provide a description of the purpose, sample population (size, category, etc.) and topics of the survey. 
+:::
+
+
 
 ### Secondary data sources
 
@@ -421,7 +578,7 @@ Because the amount of data carriers, such as digital documents containing datase
 
 [^6]: The preamble of the Directive (EU) 2019/1024 states these further aims \[...\]</br>(34) To facilitate re-use, public sector bodies should, where possible and appropriate, make documents, including those published on websites, available through an open and machine-readable format and together with their metadata, at the best level of precision and granularity, in a format that ensures interoperability\[...\]</br> (69) For the purpose of ensuring their maximum impact and to facilitate re-use, the high-value datasets should be made available for re-use with minimal legal restrictions and free of charge. They should also be published via APIs.\[...\]</br>(27)\[...\] Beside open access, commendable efforts are being made to ensure that data management planning becomes a standard scientific practice and to support the dissemination of research data that are findable, accessible, interoperable and re-usable (the FAIR principle).
 
-## Data gathering methodology
+# Data gathering methodology
 
 A data pipeline is a method in which raw data is ingested from various data sources and then ported to data store, for further analysis, in this case, to an open, shared, collaborative music observatory.
 
@@ -431,7 +588,7 @@ We want to create a data production method that makes already available public d
 
 The actual statistical collection documentation of the data belongs to `T1.2` and `T2.2` and `T2.3`; however, `T1.1` and `T2.1` deals with novel methods to consistently collect data.
 
-### Music industry registers
+## Music industry registers
 
 A `statistical register` is a continuously or regularly updated set of objects for a given population. It contains information on identification and accessibility of population units as well as other attributes which support the surveying process of the population. The statistical register should contain the current and historical statuses of the population and the causes, effects and sources of alterations in the population. Statistical register are stored in a structured database.
 
@@ -459,12 +616,17 @@ Our Open Music Europe project grew out of the the Central & Eastern European Mus
 
 The use of music in public performances (including radio and television (re)transmission, use in restaurants and other public spaces) is based on comprehensive registers of music works, sound recordings and performance identifiers with at least some mandatory coverage. While opt-out is possible from radio blanket licensing, for consistency, the repertoire that is opted-out is identified in the same framework as the licensed repertoire. The work/recording/performer registers of collective management organisations could form the basis of an effective statistical register (similar to banking, insurance or architecture industry statistical references) with one caveat: they would require cooperation among all collective management organisations in one jurisdiction. In some EU member states, producers and performers have one collective management organisation; in others, like Hungary, we have three separate entities for authors, producers and performers. In the Slovak Republic, we had three organisations (SOZA for authors and SLOVGRAM for producers and performers), with OZIS representing some performers but not authors and producers. If the conflicts of interest can be resolved, a strong foundation for an industry statistical register is present.
 
-### Survey harmonisation
+## Survey harmonisation
 
-### Enterprise surveys
+::: {.callout-note}
+REPREX: short text
+:::
 
-### Mixed surveys
 
-## Towards evidence-based music industry policies
+# Towards evidence-based music industry policies
 
-## References
+::: {.callout-note}
+REPREX: short text
+:::
+
+# References
