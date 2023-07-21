@@ -6,6 +6,7 @@ author:
   - name: Mária Kmety Barteková
     orcid: 0000-0003-2691-3185
   - name: Joost Poort
+    orcid: 0000-0003-4611-8816
   - name: Katarína Remeňová
     orcid: 0000-0002-8885-6756
 
