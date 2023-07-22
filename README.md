@@ -35,6 +35,8 @@ Both follow the [Open Policy Analysis Guidelines](http://www.bitss.org/wp-conten
 
 ## OPA Open Materials
 
+From the [Open Policy Analysis Guidelines](http://www.bitss.org/wp-content/uploads/2019/03/OPA-Guidelines.pdf):
+
 - Label and document each input, including data, research, and guesswork: see contents of documents.
 
 - Standardize the file structure so that materials are organized in a way that is accessible to an informed reader: see below folder documentation.
@@ -45,10 +47,32 @@ Both follow the [Open Policy Analysis Guidelines](http://www.bitss.org/wp-conten
 
 ## Citations, assets, bibliography
 
-The bibliography files (.bib files) can be found in the open repository of the [Report on the European Music Economy](https://github.com/dataobservatory-eu/european_music_economy) (main folder.)
+The bibliography files (`*.bib` files) can be found in the open repository of the [Report on the European Music Economy](https://github.com/dataobservatory-eu/european_music_economy) (main folder.)
 
 The used references are at the end of the report.
 
+-   `ceemid.bib`: The background results of the former [CEEMID project]().
+-   `cci.bib`: Cultural and creative industries studies relevant for the music industry.
+-   `competition.bib`: Relevant competition policy sources for the music economy.
+-   `ifpi.bib`: Publications of IFPI.
+-    `ifrs.bib`:  International Financial Reporting Standards and their adoption to EU or national laws.
+-     `ILO.bib`: Documents, treaties and recommendations of the International Labor Organization.
+-     `indicators.bib`: Methodology of creating public policy or business indicators.
+-    `figures.bib`:  Figures cited in this report.
+-    `mixedsurveys.bib`:  Mixed (household/enterprise) surveys.
+-   `musicindustry.bib`:  Studies on the music industry and its value creation.
+-    `OpenMuse.bib`:  Documents related to the Open Music Europe project.
+-    `openmusicrepositories.bib`:  References to the Open Policy Analysis Guidelines compatible repositories of the `Open Music Europe` project.
+-    `opendata.bib`:  Open data references.
+-    `openscience.bib`:  Open science references.
+-    `ossh.bib`: Open source software and hardware references.
+-    `policyevidence`:  References on evidence-based policies.
+-   `precarious.bib`: References on the informal economy or precarious work.
+-   `mme.bib`: Music moves Europe references.
+-   `slovakia.bib`: Slovak language and Slovakia specific references.
+-   `statreg.bib`: Statistical regulations.
+-    `valuation.bib`: 
+-    `wipo.bib`:  Treaties and publications of the [World Intellectual Property Organization](https://www.wipo.int/).
 
 ## Links
 

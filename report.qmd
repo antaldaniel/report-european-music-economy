@@ -9,7 +9,6 @@ author:
     orcid: 0000-0003-4611-8816
   - name: Katarína Remeňová
     orcid: 0000-0002-8885-6756
-
 toc: true
 lang: en-GB
 date: today
@@ -36,6 +35,7 @@ keywords:
   - Open Music Europe
 bibliography:
 - bib/capsurveys.bib
+- bib/cci.bib
 - bib/ceemid.bib
 - bib/competition.bib
 - bib/datalinking.bib
@@ -59,6 +59,7 @@ bibliography:
 - bib/surveyreuse.bib
 - bib/valuation.bib
 - bib/wipo.bib
+
 ---
 
 {{< pagebreak >}}
@@ -171,13 +172,19 @@ In most of our work, we will focus our attention on the use value of music.
 REPREX: References
 :::
 
-The concept of the "informal economy" has changed significantly. in the last three decades; unfortunately, especially in an Eastern European context, it is still associated with illegality and invisibility for the tax authorities. The last 30 years of economic research have shown that for certain occupational groups and sectors, the informal economy is not only invisible to the taxman---in Hungary and Slovakia, we believe that most of the industry income became visible to the tax authorities over these decades---, but it is mainly invisible for the statistical system that provides evidence for economic policies.
+The concept of the "informal economy" has changed significantly. in the last three decades; unfortunately, especially in an Eastern European context, it is still associated with illegality and invisibility for the tax authorities---in fact, the International Labour Organization (ILO) definition of the informal economy explicitly excludes illicit activities. The modern definition of the informal economy used by the OECD, ILO or the IMF recognises the importance of the informal economy and does not focus on anomalies but regards the informal economy as a core component of economies at every level of development.
+ “The informal economy refers to all economic activities, excluding illicit activities, by workers and economic units that are, in law or in practice, not covered or insufficiently covered by formal arrangements”^[International Labour Organization: _Transition from the Informal to the Formal Economy Recommendation, 2015 (No. 204)_ [@ilo_recommendation_R204_2015].]. Employees are considered informally employed if their employer does not contribute to social security on their behalf or, in the case of a missing answer, if they do not benefit from paid annual leave or sick leave.
 
-Informal employment exists in countries at all levels of socio‐economic development. More than 60 per cent of the world´s employed population earn their livelihood in informal employment. While the practice is generally associated with developing countries, developed countries like the EU member states have a significant informal sector [@women_men_informal_economy_2018]. The modern definition of the informal economy used by the OECD, ILO or the IMF recognises the importance of the informal economy and does not focus on anomalies but regards the informal economy as a core component of economies at every level of development. Informal employment exists in countries at all levels of socio‐economic development.
+“While the informal economy exists everywhere, it is more prevalent in low-income countries, where it represents 89 per cent of total employment, compared to 82 per cent and 50 per cent, respectively, in lower-middle and upper-middle-income countries and 16 per cent in high-income countries". Informality in the creative industries is not specific for Slovakia or the European Union: according the ILO, the 40.2% of the global workforce and 13.9 of the European workforce in the Arts, entertainment and recreation works in informal arrangements [@ilo_informal_economy_update_2023, p. 11, pp. 60-61.]. While globally the insecurity of informal work puts mainly women at risk, this is not the case in this sector; the reason behind this is that the music economy, like many creative sectors, employs more men then women in general. 
+
+In the EU countries, including Slovakia, Hungary and Bulgaria, the informal economy is measured by the The European Union Statistics on Income and Living Conditions (EU-SILC) survey. While the earlier CEEMID/Digital Music Observatory surveys did not strictly follow the EU-SILC and ILO surveying guidelines, with a similar methodology they put the Central and Eastern European music industry employment’s informal component around or above the global average.  We do not think that this is a contradiction: the informality may be lower in the Western and Nordic part of the EU, and it is also likely that many informal arrangements were not properly attributed to the creative sectors.  The Digital Music Observatory surveys have connected formal and informal technical and managerial employment to the sector, which is not possible from the EU-SILC survey alone. It is likely that with a proper mapping the EU-SILC survey methodology would also show a much higher level of informality in the music sector. 
+
+While the earlier CEEMID/Digital Music Observatory surveys did not strictly follow the EU-SILC and ILO surveying guidelines, with a similar methodology they put the Central and Eastern European music industry employment’s informal component around or above the global average.  We do not think that this is a contradiction: the informality may be lower in the Western and Nordic part of the EU, and it is also likely that many informal arrangements were not properly attributed to the creative sectors.  The Digital Music Observatory surveys have connected formal and informal technical and managerial employment to the sector, which is not possible from the EU-SILC survey alone. It is likely that with a proper mapping the EU-SILC survey methodology would also show a much higher level of informality in the music sector.
+
+The last 30 years of economic research have shown that for certain occupational groups and sectors, the informal economy is not only invisible to the taxman---in Hungary and Slovakia, we believe that most of the industry income became visible to the tax authorities over these decades---, but it is mainly invisible for the statistical system that provides evidence for economic policies.
 
 While in 2018 the International Labor Organization (ILO) definition was slightly changed, the 1993 definition already gave us a very useful characterization that fits very well the European music industries: "The informal sector may be broadly characterized as consisting of units engaged in the production of goods or services with the primary objective of generating employment and incomes for the persons concerned. These units typically operate at a low level of organization, with little or no division between labour and capital as factors of production and on a small scale" [@ilo_resolution_informal_employment_1993]. In addition, they share the characteristics of household enterprises. The resolution defines the concept of the informal economy as "all economic activities by workers and economic units that are---in law or in practice---not covered or insufficiently covered by formal arrangements".
 
-The modern definition of the informal economy used by the OECD, ILO or the IMF recognises the importance of the informal economy and does not focus on anomalies but regards the informal economy as a core component of economies at every level of development.
 
 The creation of the Hungarian and Slovak national music industry reports in the CEEMID project focused on these key aspects, particularly the lack of typical or formal labour arrangements and the lacking division of labour and capital as factors of production. We have shown that **in Hungary, Slovakia or Croatia, the typical stakeholder of the music economy is centred around a self-publishing, self-releasing (group of) artist(s), who exploit their labour, own invested assets and copyrights or neighbouring rights.** We have shown that a typical music professional receives income from 20-60 "gigs"; in many cases, the closest resemblance to an employer is their relationship with a collective management organisation. Later, the [Central European Music Industry Report](https://ceereport2020.ceemid.eu/) showed that from Austria to Armenia, the situation is similar regardless of the level of economic development and industry income.
 
@@ -209,6 +216,8 @@ The work in the music industry, regardless if it is artistic or technical, manag
 
 Because music precarity is often researched with qualitative sociological and anthropological methods, it is often ill-designed to be measured with surveys or administrative data. In the Netherlands, Martin Olsthoorn offered two formalised indicator definitions that are compatible with the Dutch OSA survey [@olsthoorn_measuring_precarious_employment_2014]^[ The Dutch \'\'Organisatie Strategisch Arbeidsmarktonderzoek (OSA) Arbeidsaanbodpanel\'\' can be translated into English as the \'\'Organization for Strategic Labor-market research labour-supply panel\'\'. It is a long-established biannual survey.]. The Central European Music Industry Report and the previous national reports have developed a similar survey but less formally defined as Olsthoorn\'s first indicator, which focuses on the risk of low total income.
 
+
+
 In the _Central European Music Industry Report_, and particularly in work conducted for the Czech music export office, we built CART models based on the CEEMID survey data to quantify the achievements required by Austrian and Czech musicians to reach full-time equivalent income from a large number of sources. (This work was not continued due to lacking funds.)
 
 ![Achievement required for full-time equivalent musician employment in Austria and Czechia (CEEMID)](plots/at_cz_comparison.png){width="90%" fig-align="center"}
@@ -229,37 +238,31 @@ Music in these zero-price transactions is valuable because eventually, somewhere
 REPREX: rewrite
 :::
 
-olicymakers and primarily business entities would like to see a music valuation and pricing model that is economically and legally sound. From a technical point of view, such a model would define statistical and accounting processes that will yield correct values and prices from available accounting- or survey-based evidence. CEEMID did several valuations in Hungary and Slovakia that aimed to meet legal and economic standards; third parties, such as competition authorities, challenged these valuations. We want to build on this experience to standardise a valuation model that can be used practically for business and public policy tasks.
+Policymakers and primarily business entities would like to see a music valuation and pricing model that is economically and legally sound. From a technical point of view, such a model would define statistical and accounting processes that will yield correct values and prices from available accounting- or survey-based evidence. Harmonising such broad concepts as “fairness” or “equitable remuneration” among economics and accounting with the law would require an entire research project, mainly because the legal definitions of these terms vary across copyright, competition, or labour law. Nevertheless, we understand that the business value of a model that can be successfully challenged to be incompatible with copyright, competition, or accounting law would be very little.  Our aim is the creation of "market comparator model" that is economically consistent and unlikely to be challenged on various legal grounds. Furthermore, we aim to provide actionable data or data collection and processing procedures for asset valuation or price setting.
 
-Harmonising such broad concepts as “fairness” or “equitable remuneration” among economics and accounting with the law would require an entire research project, mainly because the legal definitions of these terms vary across copyright, competition, or labour law. Nevertheless, we understand that the business value of a model that can be successfully challenged to be incompatible with copyright, competition, or accounting law would be very little.
+There are countless ways in which a licensing policy may breach copyright or competition laws, and we cannot promise a silver bullet for all pricing and valuation problems. We aim to build a valuation model and then a data-to-policy pipeline that can create fair valuations or prices for copyright or neighbouring right-protected assets in a way consistent across various licensing modes of music and usable across Europe (as much as the legal norm behind these licenses is harmonised).
 
-We aim to provide actionable data for asset valuation or price setting for copyright or neighbouring right-protected assets in a way consistent across various licensing modes of music and usable across Europe (as much as the legal norm behind these licenses is harmonised). There are countless ways in which a licensing policy may breach copyright or competition laws, and we cannot promise a silver bullet for all pricing and valuation problems. We aim to build a valuation model and then a data-to-policy pipeline that will likely meet requirements to set or present copyright royalty fees, expected payments, and the value of the assets that generate income from such payments.
+Nevertheless, a model is only a model: a consistent framework to conceptualise an economic problem. Fair copyright or competition policies do not only require a correct price, but generally fair licensing terms. Therefore, our aim is the creation of a model that is not only economically consistent but internalises tests of legal compliance.
 
 -   The use of valuations of our model, or licensing fees set based on our model, are likely to meet the fairness criterion in copyright law or in situations when the use of the “equitable remuneration” standard is required.
 -    Such a licensing policy would not violate the terms of fair competition based on price or economic facts.
 -    Valuations used with our data and models would meet the fair value standard of IFRS, and their use would not mispresent the value of the copyright royalty-earning assets or expected future payments.
 
-The concepts of copyright law, such as equitable remuneration, set a legal basis for the remuneration of creators, particularly in cases where the seller has no freedom of contracting the actual user. Such rules, however, do not contain regulations on how to set the payable sum---this often leads to confusion. Copyright law creates valuable rights, but the value of these rights must be interpreted in the light of further legal principles and economic norms.
+CEEMID did several valuations in Hungary and Slovakia that aimed to meet legal and economic standards; third parties, such as competition authorities, challenged these valuations. We want to build on this experience to standardise a valuation model that can be used practically for business and public policy tasks.
 
-In the European Union, copyrights are treated as constitutionally protected rights which are protected on an equal level with fair competition. The states created valuable rights for authors, producers and performers of music with conditions to exploit them fairly. In our understanding the valuation of music and setting its royalty prices should mainly follow the Fair Value standards, which inspired by the more general arm's length principles.
-
+### Correct accounting data
 Copyrights and neighbouring rights are governed by international law, and in Europe, they are further harmonized by EU law. The valuation principles of intellectual property are set by various standards set by the *World Intellectual Property Organization* (WIPO) and the *International Financial Reporting Standards Board* (IFRS). The IFRS standards are incorporated into EU accounting law, and the WIPO standards have a similar international law underpinning as the more specific copyright and neighbouring right. Even though every European Union member state has its own copyright and accounting laws, they are harmonised to the degree that we can create rather portable valuation models.
 
 Music's valuation and price setting must comply with the broadest fair value principles (set by international financial reporting standards) in light of the intellectual property standards set by WIPO. Copyright and neighbouring rights law have special provisions, often called "equitable remuneration." From an economic perspective, we treat equitable remuneration as a special case of fair valuation. Even when equitable remuneration is not applicable in the music industry, we believe the broader fair valuation principle should yield a similar result.
 
-Because in the past years the term *equitable remuneration* was often part of music policy debates, we want to clarify that this technical term is often not covering what people would instinctively think to 'equitable' or 'just'. *Equitable remuneration* is a legal concept which has an economic aspect. In international law, it was first enshrined as *Convention C100* of the International Labour Organisation (ILO), stipulating that men and women should receive equal pay for equal work [@ilo_c100]. Within the context of international copyright law, it was introduced as a modification of the *Berne Convention* by the *Rome Convention* for the remuneration of the broadcasting of recorded fixation of music works (recordings) since 1971[^1]. Equitable remuneration is originally connected to a compulsory license that must be paid when recorded music is played in a publicly accessible location to the performing artists and music producers. In a compulsory licensing regime, the rightsholders are not in a position to negotiate the royalty rates or deny use to any business entity[^2]. because it is not a negotiated market rate. The payable rate is called *equitable* (and, in some jurisdictions, *fair*) . The law stipulates in these cases the rate must be set *as if* they have negotiated in a market transaction of two willing parties without monopoly (supplier power) or monopsony (buyer power) In economic terms, these rates must be set on a *fair value* basis.
-
-[^1]: This right is further elaborated by the WIPO Performances and Phonograms Treaty (WPPT). These copyright conventions are administered by the WIPO [@wipo_copyright_treaty; @wipo_wppt].
-
-[^2]: Compulsory licensing never applies to private end-users.
-
-The equitable remuneration standards in international treaties do not set a standard for *calculating* the monetary value of the equitable remuneration that is paiable to the rightsholders. In an international context, a study of Europe Economics and IVIR has shown that there are notable differences in how *equitable remuneration* is understood---and it is often used as a synonym for *fair* remuneration [@ivir_remuneration_2015]. Despite the national differences, it is a sufficiently harmonised system that allows the functioning of the global music industry without major barriers and therefore allows the comparison of revenues, prices and volumes, too.
-
-Equitable remuneration is not a valuation or pricing concept, but it is an important legal mechanism to ensure that copyright and neighbouring rightsholders are remunerated. In our understanding, equitable remuneration should happen at *fair value* as defined by economics and international accounting standards.
-
+### Fair value
 When intellectual property is sold (against a lump-sum payment), licensed (for periodical payment), or used as a pledge against a loan, the transaction must comply with the *Fair Value* standard. This standard, similarly to copyright law, follows international law. While it is transposed into national law in somewhat different ways, it cannot be altered fundamentally. The Fair Value standard of the *International Financial Reporting Board* has been incorporated into national European laws via EU law (and it remained UK law after Brexit, too.) Our understanding is that music prices should mainly follow the Fair Value standards, but they are also inspired by the more general *arm's length* principles: whenever a market transaction is not possible, the compulsory conditions should resemble of something that two market powers without power or proximity of interests (*at arm's length*) would agree to pay.
 
-In 2008, the global recording industry body, IFPI, published *Valuing the use of recorded music*, created by PriceWaterhouseCooper [@pwc_valuing_2008]. This excellent methodological guide applies the WIPO and IFRS standards [@ifrs_fair_value_2011; @flignor_orozco_ip_valuation_2006; @puca_intangible_2019] on valuing copyrights in more practical terms for the music industry. The valuation principles are enshrined in the fair valuation principles of the WIPO and the fair value principles of the International Financial Standards Board---their use is not a recommendation but a statutory obligation in most IFRS countries.
+In 2008, the global recording industry body, IFPI, published *Valuing the use of recorded music*, created by PriceWaterhouseCooper [@pwc_valuing_2008]. This methodological guide applies the WIPO and IFRS standards [@ifrs_fair_value_2011; @flignor_orozco_ip_valuation_2006; @puca_intangible_2019] on valuing copyrights in more practical terms for the music industry.
+
+> For Joost: I do not think that this is a partisan study; no wonder that it is no longer available on the IFPI website. It is a highly methodological paper where PWC tried to show with case studies how the WIPO standards were applied with the various allowed methods in copyright disputes globally. I am not aware of any similar publication that is not either based on one actual litigation, or which is not purely theoretical.
+
+The valuation principles are enshrined in the fair valuation principles of the WIPO and the fair value principles of the International Financial Standards Board---their use is not a recommendation but a statutory obligation in most IFRS countries.
 
 ### Most applicable method
 
@@ -289,6 +292,54 @@ These licensing models are very well harmonised internationally. Our model could
 
 The regulation of free uses, particularly the home copying exception and its remuneration, is different in each country which has this exception at all----but private copying levies, when applicable, do follow an adapted form of mechanical licensing. The compensation is annualised, like in public performance, and the rates (prices) are somehow related to the mechanical royalty rates.
 
+
+
+### Equitable remuneration
+Because in the past years the term *equitable remuneration* was often part of music policy debates, we want to clarify that this technical term is often not covering what people would instinctively think to 'equitable' or 'just'. *Equitable remuneration* is a legal concept which has an economic aspect. 
+
+In international law, it was first enshrined as *Convention C100* of the International Labour Organisation (ILO), stipulating that men and women should receive equal pay for equal work [@ilo_c100]. 
+
+Within the context of international copyright law, it was introduced as a modification of the *Berne Convention* by the *Rome Convention* for the remuneration of the broadcasting of recorded fixation of music works (recordings) since 1971[^1]. Equitable remuneration is originally connected to a compulsory license that must be paid when recorded music is played in a publicly accessible location to the performing artists and music producers. In a compulsory licensing regime, the rightsholders are not in a position to negotiate the royalty rates or deny use to any business entity[^2], because it is not a negotiated market rate. The payable rate is called *equitable* (and, in some jurisdictions, *fair*) . The law stipulates in these cases the rate must be set *as if* they have negotiated in a market transaction of two willing parties without monopoly (supplier power) or monopsony (buyer power).
+
+The equitable remuneration standards in international treaties do not 
+set a standard for *calculating* the monetary value of the equitable remuneration that is paiable to the rightsholders. In an international context, a study of Europe Economics and IVIR has shown that there are notable differences in how *equitable remuneration* is understood---and it is often used as a synonym for *fair* remuneration [@ivir_remuneration_2015]. Despite the national differences, it is a sufficiently harmonised system that allows the functioning of the global music industry without major barriers and therefore allows the comparison of revenues, prices and volumes, too.
+
+The concepts of copyright law, such as equitable remuneration, set a legal basis for the remuneration of creators, particularly in cases where the seller has no freedom of contracting the actual user. Such rules, however, do not contain regulations on how to set the payable sum---this often leads to confusion. Copyright law creates valuable rights, but the value of these rights must be interpreted in the light of further legal principles and economic norms.
+
+In the European Union, copyrights are treated as constitutionally protected rights which are protected on an equal level with fair competition. The states created valuable rights for authors, producers and performers of music with conditions to exploit them fairly. In our understanding the valuation of music and setting its royalty prices should mainly follow the Fair Value standards, which inspired by the more general arm's length principles.
+
+
+> For Joost: we tried to reconcile "equitable remuneration" with competition law, because remuneration schemes are usually challenged on the basis of competition law. What we tried to go in the last years is to try to reconcile terms in this direction to gain actionable, practical tests about price adequacity. In my understanding, equitable remuneration must meet at least some arm's length standard, because the entire regulation is necessary due to the absense of the seller. 
+
+> I understand that it is a big claim to equate equitable remuneration with fairness from accounting or competition policy point of view, but it is still necessary, otherwise there would be a legal collusion; if there are cases when competition law or accounting law requires the use of a different price/value than competition law, then the market players cannot fulfill all their legal obligations at the same time.
+
+> I can see that the relationship among these rights is hierarchical: a country that does not establish equitable remuneration or a similar rights does not set into motion the possibility for certain types of remuneration. However, when the legal framework is there, it must work in accord with other legal constraints. Equitable remuneration must not be exploitative either for buyer or seller, it must create some arm's length solution as if the license was negotiated without undue power misue.
+
+> Another similar issue is that because this is part of the formal economy, there must be ways how to account for the calculus or payment of the remuneration, so it must comply at least with bookkeeping laws and accounting laws on how to understand the recorded economic data. I do not claim that whatever is put into the books of an enterprises as 'fair value' is OK for equitable remuneration, but, for example, if a copyright tribunal settles the amount of equitable remuneration and it is paid or received by a party, that amount must not be challenged any longer on the basis that it is not 'fair'. 
+
+
+In economic terms, these rates must be set on a *fair value* basis.
+
+[^1]: This right is further elaborated by the WIPO Performances and Phonograms Treaty (WPPT). These copyright conventions are administered by the WIPO [@wipo_copyright_treaty; @wipo_wppt].
+
+[^2]: Compulsory licensing never applies to private end-users, therefore they cannot conflict with consumer protection laws and can be challenged only on limited competition law basis.
+
+Equitable remuneration is not a valuation or pricing concept, but it is an important legal mechanism to ensure that copyright and neighbouring rightsholders are remunerated. In our understanding, equitable remuneration must consider the *fair value* of copyright- or neighboring right royalty earning assets, as defined by economics and international accounting standards. How this value is converted into royalty payouts and earnings varies; partly because of different legal definitions of the remuneration and the right behind the remuneartion, and partly because of the different licensing practices and their implications on royalty payments (accruals, payment frequency.) 
+
+
+
+### Consistent surveying
+
+
+
+
+
+
+
+
+
+
+
 ## Mapping the music industry in the national accounts, satellite accounts
 
 A satellite account is a framework of presentation for the economic data of a particular area in relation to the overall economic analysis of the central framework of the national accounts. The use of satellite accounts for education, health, tourism, environmental issues is commonplace. 
@@ -301,7 +352,7 @@ The Slovak satellite account shoudl be introduced in detail.
 
 Music is a very much data-driven industry, and it was one of the first global industries that moved much of its sales to a few global digital platforms that record incredible details of information. Many data gaps in the music industry are illusory from the point of view that the data is recorded somewhere; it is "only" not processed and aggregated into formats that would be required for public policy analysis. And then we have a large informal part of the music economy where many important data, for example, costs or investments, are not recorded systematically.
 
-The *Feasibilty study* enumerates most data gaps in the Music Economy Pillar. Most European countries do not have a consistent top-line indicator like the share in GDP, gross value added, or total employment in the sector. This is the result of lacking national accounts for the music industry, which then translates into the lack of further indicators that are usually present in the system of national accounts, such as exports and imports; because we do not have a music industry total, we do not have indicators for the important sub-sectors, such as live music or the recording industry.
+The *Feasibility study* enumerates most data gaps in the Music Economy Pillar. Most European countries do not have a consistent top-line indicator like the share in GDP, gross value added, or total employment in the sector. This is the result of lacking national accounts for the music industry, which then translates into the lack of further indicators that are usually present in the system of national accounts, such as exports and imports; because we do not have a music industry total, we do not have indicators for the important sub-sectors, such as live music or the recording industry.
 
 In `Open Music Europe`, the WP1 provides an exploitation pathway towards increasing the value of music rights. Our planned case studies in Hungary and Bulgaria aim to improve the valuation of music rights in these countries; our primary focus is to find the data needed for this policy intervention. Our second priority is to improve the measurement of perhaps the two most important economic indicators, i.e., various concepts of income (value added) and employment.
 
@@ -626,8 +677,20 @@ REPREX: short text
 
 # Towards evidence-based music industry policies
 
-::: {.callout-note}
-REPREX: short text
-:::
+After the 2008 world economic crisis, much attention was paid to the cultural and creative industries that weathered the storm very well and well maintained a relatively high level of employment and value creation in very difficult economic circumstances. The 2014 study on _Creating growth: measuring cultural and creative markets in the EU_ [@eygm_creating_2014] emphasised these sectors' exceptional ability to create jobs where they are most needed: among young people with relatively low levels of education.
+
+The in-depth national studies of the CEEMID project showed that contrary to the common belief that associate music with public funding and subsidies, music contributes above average to the public treasury. We first showed in Hungary, then in greater detail in Slovakia, that music professionals pay magnitude higher taxes than institutional investors favoured by the manufacturing-oriented economic policies of these countries. 
+
+Our in-depth studies showed a darker side of this employment flexibility with high net tax receipts: in the desired European flexicurity (flexible and secure) job market, the creative industries create overtly flexible working conditions at the expense of the well-being of music creators, technicians and managers. Music in many European countries is subject to such high levels of value-added taxes that stifle its growth and potential to create jobs. The key concept of this false job security is the high level of informality.  Informal workers who do not have guaranteed sick or paid leave and perhaps no employment track record in better-compensated sectors stay in precarious working positions that European and global policymakers want to improve. Furthermore, a highly informal sector cannot bargain effectively for better industrial policies, and informal enterprises usually cannot participate in tax shelters or favourable tax instruments and end up paying unusually high effective taxes on a very hard-earned income.
+
+Music is an important part of our shared cultural heritage and many European communities or person’s identities.  We started with a total value theory to show that music has many non-use values for the community that are often not priced into music services.  Neighbourhoods with access to cultural facilities can be characterised by increasing household wealth through increasing real estate prices. Europeans, despite a housing crisis, are paying a significant premium to live in cultured cities.  The music ecosystem can only provide these cultural services to the community if the creators, their technical and managerial support teams earn a decent income.
+
+Because music is a labour-intensive sector with a high level of informality and low levels of institutional external financing or capital investments, increasing the value creation in the European music ecosystem mainly requires industrial policies that target work and copyrights. 
+
+
+## Decent work
+
+A very large segment of the music industry workers, at least 13.9% of the people working in artistic roles and an unknown, but presumably high rate of technical and managerial workers earns their living in the informal music and creative economy, or in microenterprises with low levels of formalisation.  In these cases, even if the microenterprise’s employment form fulfils the minimum requirements of formal employment (with social security contributions and paid sick leave), it is unlikely to provide the same pensions, life-long learning, work safety protection that most European workers in larger organisations enjoy.  We believe that at least half of the European music workforce is employment this highly informal state, which goes against the UN Sustainable Goals and the EU’s employment policies.  Open Music Europe sees a methodological challenge in measuring the highly informal music sector, but we hope to provide data for policies that reduce the informality of the sector. 
+
 
 # References
