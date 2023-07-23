@@ -96,17 +96,29 @@ Economic value added is about personal and corporate income; in a sector that is
 
 `Open Music Europe` mainly aims to help better public and business policy design with data as evidence. The problems of measuring and improving the two key components of the sector's added value, the compensation for the work of the music professionals and the way they can exploit their rights, are connected to a more theoretical problem. and a more practical one: the heavy decentralisation of the industry combined with a high level of informality makes measuring (and improving) economic activities difficult; the informality also poses challenges for the production of statistics. Many music professionals disappear from the official measurement of income and employment, including the monitoring of copyright and neighbouring rights exploitation-related income.
 
+Our grant agreement and task list specifically mentions that we will build a market comparator model, i.e., in `T1.1` we are focusing on methodologies and data collection modes that support this task. If we use the *market approach* for valuations, we must consider the differences in the way music is licensed and royalties are paid for. 
+
+Valuation aims to establish a calculated value of copyright-protected assets consistent with the expected, legally acceptable future income streams of the assets; taking a future income stream as given, we arrive at the asset value; and the taking the asset value, we can exclude future revenue streams that are incompatible with this value. From an economic point of view, these questions are the two sides of the same coin, but different stakeholders in the music economy are facing different sides depending on their ability to set prices or they only take prices.
+
+Collective rights management organisations are usually concerned with price setting on the income stream, and individual rights management organisations with implied (transfer) asset value given currently foreseeable, projected income. 
+
+For collective rights management organisations establishing a fair price for a defined quantity of music use is one of their core business tasks, and proper pricing can be seen as part of their fiduciary duty towards the rightsholders that they represent. On the other hand, individual rights management entities, i.e. record labels, music publishers and their distributors, mainly use valuation with an asset value view if they cannot negotiate prices. Labels and publishers, perhaps with the exception of global "major"players, in most cases, are price accepting; they do not have the market power to set their terms. Their concern is usually the transfer of assets: they want to acquire royalty-earning assets (musical works or recordings) that are undervalued or dispose of those that are overvalued compared to their earnings outlooks. 
+
+For labels or even self-releasing musicians, a simpler, but equally important decisions is based on similar information: which elements of the repertoire should be actively promoted, against marketing expenses, and which should be passively managed without dedicated marketing expenditures? In a public policy context, this is the decision facing a music export office, too, which must set priorities on the use oflimited promotion funds available for an almost infinitely large protected repertoire.
+
 In WP1, we aim to address the following **key research questions**:
 
-1.  What does the informality of the music sector mean? How can the informality of the music business be conceptualised, and how can the informal music economy be correctly measured for its value-added and employment? See in [literature review](#lit-informal-economy).
+1. How do music-related work income and copyright income develop compared to the average of the European economy? What is the process of music income real convergence between the richer and poorer countries of the EU? See [Adding value](#lit-value-added).
 
-2.  How do music-related work income and copyright income develop compared to the average of the European economy? What is the process of music income real convergence between the richer and poorer countries of the EU? See [Adding value](#lit-value-added).
+2. What kind of policies can help to increase the value added to the sector? What kind of copyright policies can improve the royalty income, particularly in EU countries where such income is below average?
 
-3. How can we conceptualise and measure the precarity of work in the music industry? See [employment](#lit-employment).
+3.  What does the informality of the music sector mean? How can the informality of the music business be conceptualised, and how can the informal music economy be correctly measured for its value-added and employment? How can we conceptualise and measure the precarity of work in the music industry? See in [literature review](#lit-informal-economy). See [employment](#lit-employment).
 
-4.  How can we improve statistical practices to measure and monitor the development of music sector royalty and other income and the income convergence correctly?
+4. How can we support a consistent price setting or asset valuation for business policies (such as price setting by collective management organisation or repertoire acquisitions of labels and publishers) and for public policies (policies aimed at a better protection and administration of copyrights and neighboring rights, or music export priorities.) What are the special tasks related to zero-price-transactions and shadow pricing?
 
-5.  What kind of policies can help to increase the value added to the sector? What kind of copyright policies can improve the royalty income, particularly in EU countries where such income is below average?
+5.  How can we improve statistical practices to measure and monitor to support research and innovation that supports evidence-gathering and smooth business administration related to the above questions?
+
+
 
 # Literature review {#literature-review}
 We follow a definition of the music industry developed by the EU JRC; this definition puts the standard American music business/music industry definition into an EU context.  The difference in presentation is that in the American policy context, the music industry is characterised as part of the entertainment industry ("the monetised function of leisure time"); in Europe, it is part of the cultural and creative industries, and recently cultural and creative sectors and industries (CCSI); the European definition is more inclusive to non-monetised forms of music practice and non-profit or social enterprises; recently, the European policy context is talking about cultural and creative sectors with an emphasis on the inclusion of the cultural heritage sector that can hardly be described as an "industry"^[The regulation establishing the EU's Creative Europe program for the period 2021-2027 can be seen as the main defining document [@eu_regulation_2021-818]; for a more elaborate description, please refer to the Commission document for the proposal of the regulation [@european_commission_creative_europe_proposal_2018].].
@@ -234,13 +246,7 @@ In the _Central European Music Industry Report_, and particularly in work conduc
 
 This chart shows that in 2019, Austrian musicians with 6-7 years of composition and recording history had a chance to stay in the music business and earn a full-time living; in Czechia, about 12-13 years of composing history were needed. As the Central European Music Industry Report and national reports showed, the difference could be hypothetically explained by a lower level of copyright protection in Czechia (or Slovakia) and generally an underdeveloped recording industry. In the CEE region, we see particularly strong reliance on the author\'s revenues compared to the UK or Austria in the absence of viable commercial record sales.
 
-## Zero-price services {#lit-zero-price}
 
-In the past years, there has been an increased interest in analysing online platforms where the consumers do not pay a price. Watching a music video on YouTube, or reading amusing content on Facebook, finding accommodation on AirBnB does not cost anything for the buyer money, though the buyer's time in viewing advertisement, the buyer's data footprint, or a commission from a two-sided product (the supply side of a rented room) offers a compensation for the platform. As a recent competition study pointed out, such practices are probably originated from the use of music and audiovisual content on radio and television [@cma_online_platforms_advertising_2020].
-
-What makes understanding music markets so difficult is that they are seemingly in the plain sight of the public and policy makers, but most of the market transactions are invisible. In many advanced music markets more than half of the music uses, i.e., the market volumes are not paid for by the user. Radio stations or the popular UUC platforms like YouTube, TikTok or SoundCloud, but even licensed music streaming platforms like Spotify offer zero-price services for the users. While there is a growing body of consensus and practice on how to incorporate zero price transactions into competition practice, but in our experience the empirical observation of these markets is very challenging. When consumers pay a price, both the quantity of the sales and the price is recorded on the invoice, and this information is translated into tax returns and financial statements. Zero price transactions have no invoices, and no accounting trail.
-
-Music in these zero-price transactions is valuable because eventually, somewhere, musicians are paid a copyright or neighboring right royalty for the use of their intellectual product. Generally, this payment should be aligned with the norms of fair remuneration and fair value, which is our next research topic; however, the presence of zero-price transactions makes the application of valuation models particularly challenging in a music market.
 
 ## Valuing copyright and neighboring rights {#lit-valuing-rights}
 
@@ -278,8 +284,14 @@ The administration of prices is strongly related to accounting, financial report
 
 To sum up, we are looking for a model that will not translate to excessively high or low prices in Europe for music users, and keeps the arm's length standard to prevent the illegal transfer of profits with applying unfair prices. At the same time, it will decently remunerate the rightsholders.
 
-### Valuation
+## Zero price transactions {#zero-price-transaction}
+What makes understanding music markets so difficult is that they are seemingly in plain sight of the public and policymakers, but most market transactions are invisible. In many advanced music markets, more than half of the music users, i.e., the market volumes, are not paid for by the user. Radio stations or the popular UUC platforms like YouTube, TikTok or SoundCloud, but even licensed music streaming platforms like Spotify offer zero-price services for the users. While there is a growing body of consensus and practice on incorporating zero-price transactions into competition practice, in our experience, the empirical observation of these markets is very challenging. When consumers pay a price, both the quantity of the sales and the price is recorded on the invoice, and this information is translated into tax returns and financial statements. Zero-price transactions have no invoices and no accounting trail.
 
+In the past years, there has been an increased interest in analysing online platforms where consumers do not pay a price. Watching a music video on YouTube, or reading amusing content on Facebook, finding accommodation on AirBnB does not cost anything for the buyer money, though the buyer's time in viewing an advertisement, the buyer's data footprint, or a commission from a two-sided product (the supply side of a rented room) offers compensation for the platform. As a recent competition study pointed out, such practices probably originated from using music and audiovisual content on radio and television [@cma_online_platforms_advertising_2020].
+
+Just because a transaction has no direct price, it is not valueless. The practice of assigning a monetary value to an item, commodity, or service that is not ordinarily bought and sold in any marketplace is called shadow pricing in economics. **Shadow prices** are assigned on the basis assumptions and estimations from economic facts. Shadow pricing is mainly used in the valuation of intangible assets like copyright/neighboring right protected assets. The widespread use of zero-price transactions in music makes it particularly important that we develop a data-to-policy pipeline that collects information necessary for the computation of shadow prices.
+
+### Valuation
 An important technique when setting the price for transferring copyright-protected work or setting a price on its licensing to a user is called valuation.  One of the prerequisites of intellectual property valuation is that the assets have an income stream. Typical motivations behind a valuation are transaction strategy (i.e., setting future conditions to exploit the asset) or litigation concerning the adequacy of the existing conditions set [@flignor_orozco_ip_valuation_2006].
 
 The valuation principles are enshrined in the fair valuation principles of the WIPO and the fair value principles of the *International Financial Reporting Board*---their use is not a recommendation but a statutory obligation in IFRS countries, which includes the European Union's member states. The Fair Value standard [@ifrs_fair_value_2011]  of IFRS has been incorporated into national European laws via EU law (and it remained UK law after Brexit, too.)
@@ -306,11 +318,9 @@ When creating the background model of CEEMID, we followed closely the jurisdicti
 
 The application of *fair valuation principles* is particularly challenging in the case of private copying, where the transactions are not recorded (as they are not market transactions) and in streaming, which is a relatively new technology that is seen in licensing as a mixture of earlier mechanical copy-based and public performance-based licensing, and has so many transactions that most rightsholders (and even their national organisations) like the data processing capacity to administer the rights or challenge incorrect payments.
 
-Our grant agreement and task list specifically mentions that we will build a market comparator model, i.e., in `T1.1` we are focusing on methodologies and data collection modes that support this task. If we use the *market approach* for valuations, we must consider the differences in the way music is licensed and royalties are paid for. 
 
-Collective rights management organisations are usually concerned with price setting on the income stream, and individual rights management organisations with implied (transfer) asset value given currently foreseeable, projected income. From an economic point of view, these questions are the two sides of the same coin. Valuation aims to establish a calculated value of copyright-protected assets consistent with the expected, legally acceptable future income streams of the assets; taking a future income stream as given, we arrive at the asset value; and the taking the asset value, we can exclude future revenue streams that are incompatible with this value.
 
-Collective rights management organisations are usually more interested in establishing the price for a set quantity of use; in fact, this is one of their core business tasks, and proper pricing can be seen as part of their fiduciary duty towards the rightsholders that they represent. On the other hand, individual rights management entities, i.e. record labels, music publishers and their distributors, mainly use valuation with an asset value view if they cannot negotiate prices: for example, labels and publishers in the global marketplaces of music are, in most cases, price accepting; they do not have the market power to set their terms. Their concern is usually to acquire royalty-earning assets (musical works or recordings) that are undervalued or dispose of those that are overvalued compared to their earnings outlooks. 
+
 
 ### Transactions data
 The economy pillar of a future European Music Observatory must provide methodologies to create indicators and, when possible, actual, observed indicators that help valuation either for a transaction (price) setting or an asset value appraisal perspective. The same set of transaction data is required for both perspectives.
@@ -331,20 +341,7 @@ These licensing models are very well harmonised internationally. Our model could
 
 The regulation of free uses, particularly the home copying exception and its remuneration, is different in each country which has this exception at all----but private copying levies, when applicable, do follow an adapted form of mechanical licensing. The compensation is annualised, like in public performance, and the rates (prices) are somehow related to the mechanical royalty rates.
 
-
-
 ### Zero-price transactions
-
-
-
-
-
-
-
-
-
-
-
 
 ### Correct accounting data
 Copyrights and neighbouring rights are governed by international law, and in Europe, they are further harmonized by EU law. The valuation principles of intellectual property are set by various standards set by the *World Intellectual Property Organization* (WIPO) and the *International Financial Reporting Standards Board* (IFRS). The IFRS standards are incorporated into EU accounting law, and the WIPO standards have a similar international law underpinning as the more specific copyright and neighbouring right. Even though every European Union member state has its own copyright and accounting laws, they are harmonised to the degree that we can create rather portable valuation models.
@@ -506,6 +503,13 @@ This is a very good document, just published last Friday that can be a good way 
 After the kick-off meeting of the project, Sinus as the coordinator of the Open Music Europe project, and EUBA, SOZA and REPREX signed a Memorandum of Understanding with the *Slovak Ministry of Culture* and the *Institute for Cultural Policy* [@open_music_europe_sk_mou_2023]. This MoU ensures that we apply the Eurostat public policy indicator harmonisation guidelines in at least one member state, i.e., Slovakia.
 
 The starting point of our needs assessment is a critical revision of the *Feasibility study for the establishment of a European Music Observatory* (short: *EMO Feasibility Study*) and the *Stratégia kultúry a kreatívneho priemyslu Slovenskej republiky 2030* (Strategy of the cultural and creative industries of the Slovak Republic 2030, short: *Slovak CCI strategy.*)
+
+### Business administration data gaps
+
+On of the shortcomings of the _EMO Feasibility Study_ is that it is almost exclusively focused on public policy data gaps. Our view is that because the music industry is data-rich, a sufficient reconciliation of the business and policy administration data needs may bring to the surface much existing industry datasets that can be used for both private and public interests.
+
+
+
 
 ## Pilot country: Slovakia
 
@@ -756,9 +760,17 @@ Our `Open Music Europe` project grew out of the Central & Eastern European Music
 
 Music organisations usually do not possess the information that would be desirable for analysing the market from an economic point of view. Surveying rightsholders and users are very difficult, though, because neither rightsholders nor works or recordings have an authoritative description of their population. Only very advanced inverse sampling techniques (which require vast amounts of data) can reveal price and volume movements when the analyst cannot access full transactional logs.
 
-Our Open Music Europe project grew out of the the Central & Eastern European Music Industry Databases (CEEMID) initiative in 2014 [@artisjus_measuring_2014], in which rightsholders from three countries attempted to solve these data problem, and bring seemingly data poor Central European countries to a level of data availability that allows better price setting or the creation of better creative industry policies or business strategies. The Hungarian, Slovak, and Croatian reports were based on statistical data created by the administrative records of the local collective management agencies, local market research, international data sources, and independent surveys. They showed that many of the data gaps identified by the Feasibility Study for the establishment of a European music observatory can be filled, but with data collection and processing needs that most national organisations alone do not possess [@antal_proart_2015; @antal_growth_2017; @antal_slovenskom_hudobnom_2019; @antal_pcr_croatia_2019], and eventually we realised that data problems of more advanced, Western markets and of those future markets like Armenia' showed very similar data/estimation problems.
+Our `Open Music Europe` project grew out of the the Central & Eastern European Music Industry Databases (CEEMID) initiative in 2014 [@artisjus_measuring_2014], in which rightsholders from three countries attempted to solve these data problem, and bring seemingly data poor Central European countries to a level of data availability that allows better price setting or the creation of better creative industry policies or business strategies. The Hungarian, Slovak, and Croatian reports were based on statistical data created by the administrative records of the local collective management agencies, local market research, international data sources, and independent surveys. They showed that many of the data gaps identified by the Feasibility Study for the establishment of a European music observatory can be filled, but with data collection and processing needs that most national organisations alone do not possess [@antal_proart_2015; @antal_growth_2017; @antal_slovenskom_hudobnom_2019; @antal_pcr_croatia_2019], and eventually we realised that data problems of more advanced, Western markets and of those future markets like Armenia' showed very similar data/estimation problems.
 
-The use of music in public performances (including radio and television (re)transmission, use in restaurants and other public spaces) is based on comprehensive registers of music works, sound recordings and performance identifiers with at least some mandatory coverage. While opt-out is possible from radio blanket licensing, for consistency, the repertoire that is opted-out is identified in the same framework as the licensed repertoire. The work/recording/performer registers of collective management organisations could form the basis of an effective statistical register (similar to banking, insurance or architecture industry statistical references) with one caveat: they would require cooperation among all collective management organisations in one jurisdiction. In some EU member states, producers and performers have one collective management organisation; in others, like Hungary, we have three separate entities for authors, producers and performers. In the Slovak Republic, we had three organisations (SOZA for authors and SLOVGRAM for producers and performers), with OZIS representing some performers but not authors and producers. If the conflicts of interest can be resolved, a strong foundation for an industry statistical register is present.
+The use of music in public performances (including radio and television (re)transmission, use in restaurants and other public spaces) is based on comprehensive registers of music works, sound recordings and performance identifiers with at least some mandatory coverage. While opt-out is possible from radio blanket licensing, for consistency, the repertoire that is opted-out is identified in the same framework as the licensed repertoire. 
+
+The work/recording/performer registers of collective management organisations could form the basis of an effective statistical register (similar to banking, insurance or architecture industry statistical references) with one caveat: they would require cooperation among all collective management organisations in one jurisdiction. The Directive 2014/26/EU on _Collective management of copyright and related rights and multi-territorial licensing of rights in musical works for online use in the internal market_ (CRMD) [@directive_eu_2014-26] _de facto_ created the basis of such a register in Art. 21 when it created mandatory and public information disclosure rules that included "a list of the representation agreements it has entered into, and the names of the collective management organisations with which those representation agreements have been concluded."
+
+In some EU member states, producers and performers have one collective management organisation; in others, like Hungary, we have three separate entities for authors, producers and performers. In the Slovak Republic, we had three organisations (SOZA for authors and SLOVGRAM for producers and performers), with OZIS representing some performers but not authors and producers. If the conflicts of interest can be resolved, a strong foundation for an industry statistical register is present.
+
+
+## Zero-price transactions {#zero-price-transactions}
+
 
 ## Survey harmonisation
 
