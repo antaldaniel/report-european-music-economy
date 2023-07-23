@@ -51,13 +51,15 @@ The bibliography files (`*.bib` files) can be found in the open repository of th
 
 The used references are at the end of the report.
 
--   `ceemid.bib`: The background results of the former [CEEMID project]().
+-   `ceemid.bib`: The background results of the former [CEEMID project](https://reprex.nl/project/ceemid/).
+-   `caselaw.bib`: Jurisprudence and cases reviewed for this report.
 -   `cci.bib`: Cultural and creative industries studies relevant for the music industry.
 -   `competition.bib`: Relevant competition policy sources for the music economy.
+-   `copyrightlaw.bib`: Relevant copyright laws for the economic valuations.
 -   `ifpi.bib`: Publications of IFPI.
--    `ifrs.bib`:  International Financial Reporting Standards and their adoption to EU or national laws.
--     `ILO.bib`: Documents, treaties and recommendations of the International Labor Organization.
--     `indicators.bib`: Methodology of creating public policy or business indicators.
+-   `ifrs.bib`:  International Financial Reporting Standards and their adoption to EU or national laws.
+-    `ILO.bib`: Documents, treaties and recommendations of the International Labor Organization.
+-    `indicators.bib`: Methodology of creating public policy or business indicators.
 -    `figures.bib`:  Figures cited in this report.
 -    `mixedsurveys.bib`:  Mixed (household/enterprise) surveys.
 -   `musicindustry.bib`:  Studies on the music industry and its value creation.
