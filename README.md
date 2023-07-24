@@ -2,11 +2,13 @@
 
 This repo is created two deliverable. This deliverable is preceded by [Music Economy: Methods & Indicators](https://github.com/dataobservatory-eu/music_economy_methods_indicators/).
 
-1. [Report on the European Music Economy](https://zenodo.org/record/6464782#.Ylq7JNpBzIU) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6464782.svg)](https://doi.org/10.5281/zenodo.6464782)
+1. [Report on the European Music Economy](https://zenodo.org/record/6464782#.Ylq7JNpBzIU) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6464782.svg)](https://doi.org/10.5281/zenodo.6464782). Follow the creation of this deliverable here:
+
+-    T1.1. [Economy of music in Europe: Novel data collection methods and indicators](https://music.dataobservatory.eu/documents/open_music_europe/economy/report/report.html)
+-   T1.2 Not yet started
+-   T1.3 Not yet started
 
 2. [Economy of music in Europe: Novel data collection methods and indicators](https://doi.org/10.5281/zenodo.6464990) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6464990.svg)](https://doi.org/10.5281/zenodo.6464990)
-
-
 
 Both follow the [Open Policy Analysis Guidelines](http://www.bitss.org/wp-content/uploads/2019/03/OPA-Guidelines.pdf) and the best practices of the European Union's Knowledge For Policy and the [European Open Science Cloud](https://eosc-portal.eu/) portal.
 
@@ -14,7 +16,7 @@ Both follow the [Open Policy Analysis Guidelines](http://www.bitss.org/wp-conten
 
 **root** - The two articles, `.bib` bibliography files, and `yml` files for markdown conversions, plus reproducbile `docx`, `pdf`, `epub` versions. Work in the `Rmd` markdown files. If you do not write R code, just ignore the R code chunks, and use it as a clean markdown text.
 
-**bib** - please save here individual BibTex entries.  The consolidated entries will should be placed in one of the main `.bib` files in the root folder. The pandoc / knitr / RStudio workflow can have hickuups with bib files, so try to save individual files first in `bib/xyz.bib`
+**bib** - The bibliographic references in BibTex entries are organised into `bib/xyz.bib` text files.  For example, `bib/musicindustry.bib` contains references about the definition of the Music Industry, or `bib/openscience.bib` about the use of Open science sources.
 
 **not_included** - user's scrap directory, excluded by `.gitignore`.  Please put your non-synchronized scaps and code doodles here.
 
@@ -33,6 +35,8 @@ Both follow the [Open Policy Analysis Guidelines](http://www.bitss.org/wp-conten
 
 ## OPA Open Materials
 
+From the [Open Policy Analysis Guidelines](http://www.bitss.org/wp-content/uploads/2019/03/OPA-Guidelines.pdf):
+
 - Label and document each input, including data, research, and guesswork: see contents of documents.
 
 - Standardize the file structure so that materials are organized in a way that is accessible to an informed reader: see below folder documentation.
@@ -43,11 +47,35 @@ Both follow the [Open Policy Analysis Guidelines](http://www.bitss.org/wp-conten
 
 ## Citations, assets, bibliography
 
-The bibliography files (.bib files) can be found in the open repository of the [Report on the European Music Economy](https://github.com/dataobservatory-eu/european_music_economy) (main folder.)
+The bibliography files (`*.bib` files) can be found in the open repository of the [Report on the European Music Economy](https://github.com/dataobservatory-eu/european_music_economy) (main folder.)
 
 The used references are at the end of the report.
 
+-   `ceemid.bib`: The background results of the former [CEEMID project](https://reprex.nl/project/ceemid/).
+-   `caselaw.bib`: Jurisprudence and cases reviewed for this report.
+-   `cci.bib`: Cultural and creative industries studies relevant for the music industry.
+-   `competition.bib`: Relevant competition policy sources for the music economy.
+-   `copyrightlaw.bib`: Relevant copyright laws for the economic valuations.
+-   `ifpi.bib`: Publications of IFPI.
+-   `ifrs.bib`:  International Financial Reporting Standards and their adoption to EU or national laws.
+-    `ILO.bib`: Documents, treaties and recommendations of the International Labor Organization.
+-    `indicators.bib`: Methodology of creating public policy or business indicators.
+-    `figures.bib`:  Figures cited in this report.
+-    `mixedsurveys.bib`:  Mixed (household/enterprise) surveys.
+-   `musicindustry.bib`:  Studies on the music industry and its value creation.
+-    `OpenMuse.bib`:  Documents related to the Open Music Europe project.
+-    `openmusicrepositories.bib`:  References to the Open Policy Analysis Guidelines compatible repositories of the `Open Music Europe` project.
+-    `opendata.bib`:  Open data references.
+-    `openscience.bib`:  Open science references.
+-    `ossh.bib`: Open source software and hardware references.
+-    `policyevidence`:  References on evidence-based policies.
+-   `precarious.bib`: References on the informal economy or precarious work.
+-   `mme.bib`: Music moves Europe references.
+-   `slovakia.bib`: Slovak language and Slovakia specific references.
+-   `statreg.bib`: Statistical regulations.
+-    `valuation.bib`: 
+-    `wipo.bib`:  Treaties and publications of the [World Intellectual Property Organization](https://www.wipo.int/).
 
 ## Links
 
-See the deliverable legal description [here](https://openmuse.dataobservatory.eu/resources/music-economy/) and the results on the [music.dataobservatory.eu](https://music.dataobservatory.eu/) website.
+See the deliverable legal description [here](https://openmuse.dataobservatory.eu/resources/music-economy/) and the results on the [music.dataobservatory.eu](https://music.dataobservatory.eu/) website; currently this is a document that is work in progress here: [Economy of music in Europe: Novel data collection methods and indicators](https://music.dataobservatory.eu/documents/open_music_europe/economy/report/report.html).
