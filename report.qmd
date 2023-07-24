@@ -285,6 +285,15 @@ The regulation of free uses, particularly the home copying exception and its rem
 
 #### The ICET model
 
+The ESSNet-Culture working group recommends the measurement of cultural access and participation (including market- and non-market forms) on the basis of the ICET model [@frank_guy_essnet-culture_2012, pp 237-239].
+
+- **I**nformation: to seek, collect and spread information on culture;
+- **C**ommunication and community: to interact with others on cultural issues and to participate in cultural networks;
+- **E**njoyment and expression: to enjoy exhibitions, art performances and other forms of cultural expression, to practice the arts for leisure, and to create online content;
+- **T**ransaction: to buy art and to buy or reserve tickets for shows.
+
+The ICET model is based on a long history of quantitative sociology and media research which has almost 50 years of research history. It is a well-established methodology endorsed by important statistical standard-setters, and therefore surveys based on this methods are difficult to challenge in court. For more details on the ICET model and conducted cultural access and participation surveys with it see [@de_haan_virtuele_2008; @de_haan_nowadays_2012].
+
 #### Equitable remuneration
 
 Because in the past years the term *equitable remuneration* was often part of music policy debates, we want to clarify that this technical term is often not covering what people would instinctively think to 'equitable' or 'just'. *Equitable remuneration* is a legal concept which has an economic aspect.
