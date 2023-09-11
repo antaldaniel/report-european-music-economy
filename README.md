@@ -4,13 +4,11 @@ This repo is created two deliverable. This deliverable is preceded by [Music Eco
 
 1. [Report on the European Music Economy](https://zenodo.org/record/6464782#.Ylq7JNpBzIU) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6464782.svg)](https://doi.org/10.5281/zenodo.6464782). Follow the creation of this deliverable here:
 
--    T1.1. [Economy of music in Europe: Novel data collection methods and indicators](https://music.dataobservatory.eu/documents/open_music_europe/economy/report/report.html)
+-    T1.1. [Economy of music in Europe: Novel data collection methods and indicators](https://music.dataobservatory.eu/documents/open_music_europe/economy/report/report.html), [Authoritative copies in pdf, docx, epub](https://doi.org/10.5281/zenodo.8334648) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8334648.svg)](https://doi.org/10.5281/zenodo.8334648)
 -   T1.2 Not yet started
 -   T1.3 Not yet started
 
-2. [Economy of music in Europe: Novel data collection methods and indicators](https://doi.org/10.5281/zenodo.6464990) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6464990.svg)](https://doi.org/10.5281/zenodo.6464990)
-
-Both follow the [Open Policy Analysis Guidelines](http://www.bitss.org/wp-content/uploads/2019/03/OPA-Guidelines.pdf) and the best practices of the European Union's Knowledge For Policy and the [European Open Science Cloud](https://eosc-portal.eu/) portal.
+The tasks follow the [Open Policy Analysis Guidelines](http://www.bitss.org/wp-content/uploads/2019/03/OPA-Guidelines.pdf) and the best practices of the European Union's Knowledge For Policy and the [European Open Science Cloud](https://eosc-portal.eu/) portal.
 
 ## Folders
 
