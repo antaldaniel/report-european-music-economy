@@ -17,10 +17,10 @@ The [Economy of music in Europe: Novel data collection methods and indicators](h
 - The working source document is `report_muisc_europe_data_collection.qmd`. It can be opened with any text editor but best viewed with a markdown editor or Posit's free data science editor RStudio. 
 - The rendered versions which are easier to read (but may not be in minute-to-minute sync with the source document) are in the `docs/` folder: [report_music_europe_data_collection.html](https://github.com/antaldaniel/report-european-music-economy/raw/main/docs/report_music_europe_data_collection.html) and [epub](https://github.com/antaldaniel/report-european-music-economy/raw/main/docs/report_music_europe_data_collection.epub), [docx](https://github.com/antaldaniel/report-european-music-economy/raw/main/docs/report_music_europe_data_collection.epub), [pdf](https://github.com/antaldaniel/report-european-music-economy/raw/main/docs/report_music_europe_data_collection.pdf)
 - The versions approved by the Work Package Leader are available under separate (versioned) DOI on the European Open Science long-term repository Zenodo in the Digital Music Observatory collection, click below on the DOI number or look it up in your browser:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6464782.svg)](https://doi.org/10.5281/zenodo.6464782)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8334648.svg)](https://doi.org/10.5281/zenodo.8334648)
 
 
-The working source document of the [Data coordination and indicator methodology for Open Music Europe]() auxiliary document for _Novel data collection methods and indicators_.  
+The working auxiliary document _Data coordination and indicator methodology for Open Music Europe_ became part of the [Data Pillars in the Open Music Observatory](https://zenodo.org/record/8108720) document.
 - The working source document is `economy_music_data_indicators.qmd`. It can be opened with any text editor but best viewed with a markdown editor or Posit's free data science editor RStudio. 
 - The rendered versions which are easier to read (but may not be in minute-to-minute sync with the source document) are in the `docs/` folder: [economy_music_data_indicators.html](https://github.com/antaldaniel/report-european-music-economy/raw/main/docs/economy_music_data_indicators.html), [epub](https://github.com/antaldaniel/report-european-music-economy/raw/main/docs/economy_music_data_indicators.epub), [pdf](https://github.com/antaldaniel/report-european-music-economy/raw/main/docs/economy_music_data_indicators.pdf),
 
