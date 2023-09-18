@@ -13,7 +13,6 @@ This repo is created two deliverable. This deliverable is preceded by [Music Eco
 Both follow the [Open Policy Analysis Guidelines](http://www.bitss.org/wp-content/uploads/2019/03/OPA-Guidelines.pdf) and the best practices of the European Union's Knowledge For Policy and the [European Open Science Cloud](https://eosc-portal.eu/) portal.
 
 ## Main files
-
 The [Economy of music in Europe: Novel data collection methods and indicators]() document's files are available as follows: 
 - The working source document is `report_muisc_europe_data_collection.qmd`. It can be opened with any text editor but best viewed with a markdown editor or Posit's free data science editor RStudio. 
 - The rendered versions which are easier to read (but may not be in minute-to-minute sync with the source document) are in the `docs/` folder: [report_music_europe_data_collection.html](https://github.com/antaldaniel/report-european-music-economy/raw/main/docs/report_music_europe_data_collection.html) and [epub](https://github.com/antaldaniel/report-european-music-economy/raw/main/docs/report_music_europe_data_collection.epub), [docx](https://github.com/antaldaniel/report-european-music-economy/raw/main/docs/report_music_europe_data_collection.epub), [pdf](https://github.com/antaldaniel/report-european-music-economy/raw/main/docs/report_music_europe_data_collection.pdf
