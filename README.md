@@ -12,6 +12,20 @@ This repo is created two deliverable. This deliverable is preceded by [Music Eco
 
 Both follow the [Open Policy Analysis Guidelines](http://www.bitss.org/wp-content/uploads/2019/03/OPA-Guidelines.pdf) and the best practices of the European Union's Knowledge For Policy and the [European Open Science Cloud](https://eosc-portal.eu/) portal.
 
+## Main files
+
+The [Economy of music in Europe: Novel data collection methods and indicators]() document's files are available as follows: 
+- The working source document is `report_muisc_europe_data_collection.qmd`. It can be opened with any text editor but best viewed with a markdown editor or Posit's free data science editor RStudio. 
+- The rendered versions (may not be in minute-to-minute sync with the source document) are in the `docs/` folder: `port_muisc_europe_data_collection.html` and `.epub` and `.docx` and `.pdf`
+- The versions approved by the Work Package Leader are available under separate (versioned) DOI on the European Open Science long-term repository Zenodo in the Digital Music Observatory collection, click below on the DOI number or look it up in your browser:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6464782.svg)](https://doi.org/10.5281/zenodo.6464782)
+
+
+` `: The working source document of the [Data coordination and indicator methodology for Open Music Europe]() auxiliary document for _Novel data collection methods and indicators_.  The rendered versions (may not be day-to-day in sync with the source document) are in `docs/report_muisc_europe_data_collection.html` and `.epub` and `.docx` and `.pdf`
+- The rendered versions (may not be in minute-to-minute sync with the source document) are in the `docs/` folder: [economy_music_data_indicators.html]([pdf](https://github.com/antaldaniel/report-european-music-economy/raw/main/docs/economy_music_data_indicators.html)), [epub](https://github.com/antaldaniel/report-european-music-economy/raw/main/docs/economy_music_data_indicators.epub), [pdf](https://github.com/antaldaniel/report-european-music-economy/raw/main/docs/economy_music_data_indicators.pdf),
+
+`_quarto.yml`: Some metadata on how to render the source files. For reference see [Quarto Project Basics](https://quarto.org/docs/projects/quarto-projects.html).
+
 ## Folders
 
 **root** - The two articles, `.bib` bibliography files, and `yml` files for markdown conversions, plus reproducbile `docx`, `pdf`, `epub` versions. Work in the `Rmd` markdown files. If you do not write R code, just ignore the R code chunks, and use it as a clean markdown text.
