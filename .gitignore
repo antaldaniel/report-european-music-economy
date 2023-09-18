@@ -29,6 +29,10 @@ vignettes/*.pdf
 *.knit.md
 # R Environment Variables
 .Renviron
-economy_music_data_indicators.toc
-economy_music_data_indicators.tex
-economy_music_data_indicators.aux
+docs/economy_music_data_indicators.toc
+docs/economy_music_data_indicators.tex
+docs/economy_music_data_indicators.aux
+README_files/
+README.html
+
+/.quarto/

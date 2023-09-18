@@ -1,5 +1,6 @@
 ---
-title: "Economy of music in Europe: Novel data collection methods and indicators"
+title: "Data coordination and indicator methodology for Open Music Europe"
+subtitle: "Background document for: Economy of music in Europe: Novel data collection methods and indicators"
 author: "Daniel Antal"
 toc: true
 lang: en-GB
@@ -77,14 +78,13 @@ In terms of research aims, this document contributes to T1.2 and T5.1 with defin
 ::: callout-note
 There are three differents documents:
 
-_To quote the task description_:
+*To quote the task description*:
 
-1.  _The methods and indicators will be presented in D1.1._ Because the same indicator development methodology is used in `WP1`, `WP2`, `WP3` and `WP4`, this is part of a **separate document** which defines the entire data-to-policy pipeline, i.e., the main objective of the grant. [Data Pillars in the Open Music Observatory](https://music.dataobservatory.eu/documents/open_music_europe/data-to-policy/music-observatory-pillars.html) (html, pdf, docx, epub). If we need more details in D1.1 we can bring over from that document.
+1.  *The methods and indicators will be presented in D1.1.* Because the same indicator development methodology is used in `WP1`, `WP2`, `WP3` and `WP4`, this is part of a **separate document** which defines the entire data-to-policy pipeline, i.e., the main objective of the grant. [Data Pillars in the Open Music Observatory](https://music.dataobservatory.eu/documents/open_music_europe/data-to-policy/music-observatory-pillars.html) (html, pdf, docx, epub). If we need more details in D1.1 we can bring over from that document.
 
-2.  _Indicators that bring transparency to music streaming and zero-marginal-price (free) uses of music are developed, as well as indicators about the economic contributions of music to the national economy._ This is the subject of this main document, and can be found [here](https://music.dataobservatory.eu/documents/open_music_europe/economy/report/economy_music_data_indicators.html) in html, pdf, docx, epub formats.
+2.  *Indicators that bring transparency to music streaming and zero-marginal-price (free) uses of music are developed, as well as indicators about the economic contributions of music to the national economy.* This is the subject of this main document, and can be found [here](https://music.dataobservatory.eu/documents/open_music_europe/economy/report/economy_music_data_indicators.html) in html, pdf, docx, epub formats.
 
-3.  _A market comparator model for valuing public performance and free uses, such as representative music streams (based on CEEMID ‘full market model’ and a DCF model) is developed._ This is a **separate document**: [A Market Comparator Model for Valuing the Use of Music](https://music.dataobservatory.eu/documents/open_music_europe/economy/market-comparators-model/comparators.html). We need to summarise this document in D1.1, but to me it is rather different.
-
+3.  *A market comparator model for valuing public performance and free uses, such as representative music streams (based on CEEMID 'full market model' and a DCF model) is developed.* This is a **separate document**: [A Market Comparator Model for Valuing the Use of Music](https://music.dataobservatory.eu/documents/open_music_europe/economy/market-comparators-model/comparators.html). We need to summarise this document in D1.1, but to me it is rather different.
 :::
 
 ### High-level overview of what should go into D1.1 {.unnumbered}
@@ -95,7 +95,6 @@ D1.1 [The Music Economy Data Pillar](#D1-1) The main aim of T1.1 (D1.1) and T2.1
 ![Data-to-policy workflow: scientific policy analysis and methodology](plots/OpenMusE_data-to-policy_workflow_TX1.png){width="80%" fig-align="center"}
 
 For clarity, the background material on how data should be collected is numbered with Roman numerals, and the parts that are intended to go into D1.1 are numbered with arabic numbers.
-
 :::
 
 Because the *Open Music Europe General Assembly* endorsed the idea to open up these task for a longer period of time, currently we do not aim to provide a full data gap analysis. Instead, we do the following:
@@ -107,20 +106,19 @@ Because the *Open Music Europe General Assembly* endorsed the idea to open up th
 
 This is feasible on this generalisation level by 31 July, however, this is a very early and intermediary output; it is more of a summary of pre-existing research.
 
-::: callout-note 
-**T1.1.** Methods and indicators (lead: SSSA; contributors: UVA, EUBA, REPREX, SOZA, ALOADED, ECSA, MUSICAUTOR). [Start: M1, End: M7] Indicators that capture the economic value of music in Europe are developed.
+::: callout-note
+**T1.1.** Methods and indicators (lead: SSSA; contributors: UVA, EUBA, REPREX, SOZA, ALOADED, ECSA, MUSICAUTOR). \[Start: M1, End: M7\] Indicators that capture the economic value of music in Europe are developed.
 
 ![Data-to-policy workflow schema, focus on data coordination, reuse and collection](plots/OpenMusE_data-to-policy_workflow_TX1.png){width="80%" fig-align="center" width="90%"}
 
-- Indicators developed in the Central European Music Industry Report are refined (which made use of 300 million  individual royalty statements). 
-- Indicators that bring transparency to music streaming and zero-marginal-price (free) uses of music are developed, as well as indicators about the economic contributions of music to the national economy. **A market comparator model** for valuing public performance and free uses, such as representative music streams (based on CEEMID ‘full market model’ and a DCF model) **is developed.** [A Market Comparator Model for Valuing the Use of Music](https://music.dataobservatory.eu/documents/open_music_europe/economy/market-comparators-model/comparators.html)
-- Design of an enterprise surveying method that is appropriate for MSMEs and freelancers, who are excluded from current (official) data collection. The method will entail simple questions, simplified financial statements, and special sampling and weighting strategies designed to mitigate bias. 
--  Exploration of individual dynamics and problems in music data improvement and harmonisation, and potential  stumbling blocks which may thwart data improvement projects, via desk research and stakeholder interviews; this will include a legal-comparative study and an economic analysis. 
+-   Indicators developed in the Central European Music Industry Report are refined (which made use of 300 million individual royalty statements).
+-   Indicators that bring transparency to music streaming and zero-marginal-price (free) uses of music are developed, as well as indicators about the economic contributions of music to the national economy. **A market comparator model** for valuing public performance and free uses, such as representative music streams (based on CEEMID 'full market model' and a DCF model) **is developed.** [A Market Comparator Model for Valuing the Use of Music](https://music.dataobservatory.eu/documents/open_music_europe/economy/market-comparators-model/comparators.html)
+-   Design of an enterprise surveying method that is appropriate for MSMEs and freelancers, who are excluded from current (official) data collection. The method will entail simple questions, simplified financial statements, and special sampling and weighting strategies designed to mitigate bias.
+-   Exploration of individual dynamics and problems in music data improvement and harmonisation, and potential stumbling blocks which may thwart data improvement projects, via desk research and stakeholder interviews; this will include a legal-comparative study and an economic analysis.
 
-Methodological approaches, data collection instruments, and indicators are discussed in a methodology workshop (M1). 
+Methodological approaches, data collection instruments, and indicators are discussed in a methodology workshop (M1).
 
-Further sectors may be added on the basis of the feedback collected through interviews with policymakers (M2-6) and stakeholders’ and expert workshops (M7). The market comparator model will be designed in M1-6, tested in M17-18, and released in M27. The methods and indicators will be presented in D1.1.
-
+Further sectors may be added on the basis of the feedback collected through interviews with policymakers (M2-6) and stakeholders' and expert workshops (M7). The market comparator model will be designed in M1-6, tested in M17-18, and released in M27. The methods and indicators will be presented in D1.1.
 :::
 
 ### Connecting tasks
@@ -179,12 +177,11 @@ People not familiar with the *indicator* design and production concept should fo
 
 This task will comprise three phases:
 
-- Open policy analysis of the musical economy in Europe. The policy analysis will show that many "data gaps" on the economy of music in Europe are illusory, and data is often not directly usable because of conflicts of interests, or data interoperability/processing problems.
+-   Open policy analysis of the musical economy in Europe. The policy analysis will show that many "data gaps" on the economy of music in Europe are illusory, and data is often not directly usable because of conflicts of interests, or data interoperability/processing problems.
 
-- Implementation of a pilot study in Bulgaria and Hungary. The pilot study focuses on transferring data collection and modelling methods pioneered in Slovakia to more accurately capture total music value. The capacity of stakeholders to leverage better data collection and modelling in order to improve artist revenues is demonstrated.
+-   Implementation of a pilot study in Bulgaria and Hungary. The pilot study focuses on transferring data collection and modelling methods pioneered in Slovakia to more accurately capture total music value. The capacity of stakeholders to leverage better data collection and modelling in order to improve artist revenues is demonstrated.
 
-- Co-creation of policy guidelines and recommendations for scaling and transferring the pilot on an EU27+ level. Using the Open Policy Analysis guidelines, we demonstrate how to fill partially or fully the data gaps on the economy of music identified in the Feasibility Study of the European Music Industry. The policy analysis, pilot study design and results, and transfer potential is presented in D1.2.
-
+-   Co-creation of policy guidelines and recommendations for scaling and transferring the pilot on an EU27+ level. Using the Open Policy Analysis guidelines, we demonstrate how to fill partially or fully the data gaps on the economy of music identified in the Feasibility Study of the European Music Industry. The policy analysis, pilot study design and results, and transfer potential is presented in D1.2.
 :::
 
 Then we can turn to the second, detachable part of the document.
@@ -268,7 +265,7 @@ The *ex post harmonisation* means the creation of joint datasets with the data a
 
 ### Digital Music Observatory/CEEMID Music Professional surveys
 
-Most of the data gaps defined by the *EMO Feasibility Study* cannot be filled with public data, and it is unlikely that the cost/benefit considerations of surveying would allow a census-like data collection beyond the data that these enterprises already made public. Therefore, the most important function of the ``SKMBR`` in Slovakia is the preparation of the surveys that target only a sample of the relevant music industry preparation.
+Most of the data gaps defined by the *EMO Feasibility Study* cannot be filled with public data, and it is unlikely that the cost/benefit considerations of surveying would allow a census-like data collection beyond the data that these enterprises already made public. Therefore, the most important function of the `SKMBR` in Slovakia is the preparation of the surveys that target only a sample of the relevant music industry preparation.
 
 In the past years, CEEMID used an open framework connected to collective management membership registers, considering that some music industry players were not associated with SOZA, HDS, and Artisjus in Slovakia, Croatia and Hungary. Our experience in the preparation of surveying the Hungarian, Slovak, and Croatian music industries first, then moving on to many other countries, was that for the music industry stakeholders, it is always a cost/benefit decision itself if they join a collective rights management organisation, even if the choice of not joining (and registering an intellectual property) results in revenues that will never be paid to the music creator or the business entity.
 
@@ -318,7 +315,9 @@ Unlike the earlier mentioned LFS, the CAP surveys are not part of a permanent, s
 REPREX & SOZA to provide a CCI-based context of past efforts.
 :::
 
-In late 2015, the European Commission started a dialogue with representatives from the music sector^[See [@music_moves_europe_first_dialogue_2021, @music_moves_europe_brochure_2019] about the policy-making process and objectives.] in Europe with the aim to identify key challenges and possible ways to tackle them, including EU support. “Music Moves Europe” has become the framework for these discussions and, more broadly, for EU initiatives and actions to promote the diversity and competitiveness of Europe’s music sector in terms of policy and funding. As part of the 2018 Preparatory Action “Music Moves Europe: Boosting European music diversity and talent,” the EU commissioned the creation of the “The feasibility study for the establishment of a European Music Observatory” [@emo_feasibility_2020] (in short: EMO Feasibility Study.) The current call, *Towards a competitive, fair and sustainable European music ecosystem* explicitly refers to the relevance of the *Music Moves Europe* policy context.
+In late 2015, the European Commission started a dialogue with representatives from the music sector[^2] in Europe with the aim to identify key challenges and possible ways to tackle them, including EU support. "Music Moves Europe" has become the framework for these discussions and, more broadly, for EU initiatives and actions to promote the diversity and competitiveness of Europe's music sector in terms of policy and funding. As part of the 2018 Preparatory Action "Music Moves Europe: Boosting European music diversity and talent," the EU commissioned the creation of the "The feasibility study for the establishment of a European Music Observatory" [@emo_feasibility_2020] (in short: EMO Feasibility Study.) The current call, *Towards a competitive, fair and sustainable European music ecosystem* explicitly refers to the relevance of the *Music Moves Europe* policy context.
+
+[^2]: See [@music_moves_europe_first_dialogue_2021, @music_moves_europe_brochure_2019] about the policy-making process and objectives.
 
 The `Open Music Europe` project plan and grant agreement foresees the development of an open science and open data service which complements the existing statistical service of Eurostat. In partnership with the key music industry and policy partners, we will fill as much as possible from the approximately 41 data gaps within the policy context of *Music Moves Europe*, as identified by the *Feasibility Study for a European Music Observatory*. We will **develop key performance indicators** for music businesses and **policy indicators** to "better detect the performance of the European music sector and its contribution to economic and social development, as well as to sustainability."
 
@@ -350,7 +349,6 @@ if (! output_to %in% c("html", "epub", "epub2")  ) {
 EUBA to provide a short description of national cultural policies, and the fact that the cultural policy is mainly on national level.
 
 This is a very good document, just published last Friday that can be a good way of filling our MoU with content: [@katsinis_monitoring_2023] and this should be considered, too: [@swd_2022_346].
-
 :::
 
 ### Pilot country: Slovakia
@@ -463,13 +461,13 @@ The `Open Music Europe` `Data Management Plan` follows the *European Statistics 
 
 ### Slovak Music Industry Business Register Concept
 
-The role of the business register is to provide a framework for the data collection to help precisely establish the target population of the data collection and carry out the surveying and microdata linking. For example, if a nationally representative organisation like SOZA in the Slovak Republic sets up the *Slovak Music Business Register* (``SKMBR``), then this enables us to collect systematic data on the Slovak music businesses in a way that we can create similar statistics to Eurostat and the Statistical Office of Slovakia.
+The role of the business register is to provide a framework for the data collection to help precisely establish the target population of the data collection and carry out the surveying and microdata linking. For example, if a nationally representative organisation like SOZA in the Slovak Republic sets up the *Slovak Music Business Register* (`SKMBR`), then this enables us to collect systematic data on the Slovak music businesses in a way that we can create similar statistics to Eurostat and the Statistical Office of Slovakia.
 
 A large, decisive part of the music industry comprises freelancers and microenterprises who cannot be (well) surveyed with enterprise surveys. Because of this high level of fragmentation, we suggest an unusual business register, partly containing enterprises and partly freelancers and music professionals.
 
 #### Enterprise registry
 
-The enterprise registry of the ``SKMBR`` could be based on public membership/representation lists of national membership-based organisations like SOZA and SLOVGRAM with write-in and opt-in procedures to add further enterprises. In this case, writing in is relatively unconstrained because we need to create a list of legal persons who are publicly associated with the music industry: they have publicly listed a relevant NACE code, or they have publicly visible music activities (for example, organising public concerts and they sell licensed tickets to them.) The opt-in procedure would allow the identification of non-trivial microenterprises which may not have a relevant NACE code or have a NACE R90.0x code that does not allow the identification of music activities.
+The enterprise registry of the `SKMBR` could be based on public membership/representation lists of national membership-based organisations like SOZA and SLOVGRAM with write-in and opt-in procedures to add further enterprises. In this case, writing in is relatively unconstrained because we need to create a list of legal persons who are publicly associated with the music industry: they have publicly listed a relevant NACE code, or they have publicly visible music activities (for example, organising public concerts and they sell licensed tickets to them.) The opt-in procedure would allow the identification of non-trivial microenterprises which may not have a relevant NACE code or have a NACE R90.0x code that does not allow the identification of music activities.
 
 The enterprise registry can support two statistical processes:
 
@@ -485,7 +483,7 @@ Mixed household-enterprise surveys are usually used to measure the "informal" ec
 
 #### Personal registry
 
-Because the freelance part of the ``SKMBR`` would relate to freelancers in the industry who are natural persons, the procedure of creating a personal register is more difficult because the general data protection rules apply. The starting point would be again the public membership/representation list of SOZA and SLOVGRAM; these lists are public by the act of copyright law. Any further write-in is only possible via explicit consent from the music professional.
+Because the freelance part of the `SKMBR` would relate to freelancers in the industry who are natural persons, the procedure of creating a personal register is more difficult because the general data protection rules apply. The starting point would be again the public membership/representation list of SOZA and SLOVGRAM; these lists are public by the act of copyright law. Any further write-in is only possible via explicit consent from the music professional.
 
 The `SKMBR` would be the basis for administering a periodic (preferably annual) enterprise and professional survey. The burden on the music industry enterprises would not be excessive because they are almost certainly excluded from most regular statistical data collection because of their size or freelance legal form.
 
@@ -501,9 +499,9 @@ An `observation unit` or *statistical unit* is an identifiable entity about whic
 
 Regardless if we want to use questionnaires in surveys or we want to sample royalty accounts, we must be able who can answer the questions or provide us with accounting data: we need to define the geographical scope of our data collection and its economic (industry) scope.
 
-Business registers have a "live" component: the registrar must include new industry players at all times and delete deceased entities. A good starting point for this can be the list of legal and natural persons represented by music industry organisations in a given country. SOZA, for example, collects authors' rights (copyright) revenues on the territory of Slovakia and must identify the intellectual property owners. Therefore it has an up-to-date list of composers and publishers who make their music works available on the territory of the Slovak Republic. SLOVGRAM has a similar list of entities that release recordings in Slovakia or have significant business revenue from neighbouring rights. These membership and representation lists provide a good base for the "live" component of the `SKMBR`. Because the administration of copyrights follows national jurisdictions, in this case, it is logical to create a national business registry[^2].
+Business registers have a "live" component: the registrar must include new industry players at all times and delete deceased entities. A good starting point for this can be the list of legal and natural persons represented by music industry organisations in a given country. SOZA, for example, collects authors' rights (copyright) revenues on the territory of Slovakia and must identify the intellectual property owners. Therefore it has an up-to-date list of composers and publishers who make their music works available on the territory of the Slovak Republic. SLOVGRAM has a similar list of entities that release recordings in Slovakia or have significant business revenue from neighbouring rights. These membership and representation lists provide a good base for the "live" component of the `SKMBR`. Because the administration of copyrights follows national jurisdictions, in this case, it is logical to create a national business registry[^3].
 
-[^2]: From a technical, statistical point of view, it is important to notice that this registry can collect data on a domestic view (statistical units operating on the territory of Slovakia) and national view (statistical units domiciled for tax or residency purposes in Slovakia.)
+[^3]: From a technical, statistical point of view, it is important to notice that this registry can collect data on a domestic view (statistical units operating on the territory of Slovakia) and national view (statistical units domiciled for tax or residency purposes in Slovakia.)
 
 The voluntary SKMIR should follow as much as possible the actual national statistical business registry in Slovakia and provide more industry-specific detail when the national registry does not have it. In other words, it should use the same data definitions as the national authorities' business registry.
 
@@ -614,11 +612,11 @@ In Slovakia, the structural business statistics are collected by SOSR on two sur
 
 -   Survey of small enterprises (sample) with questionnaire `Roc 2-01`
 
-We should build a questionnaire that adapts partly `Roc 2-01` to be filled out by companies in the ``SKMBR``.
+We should build a questionnaire that adapts partly `Roc 2-01` to be filled out by companies in the `SKMBR`.
 
-Information about the enterprise surveys are taken from \[\] and the Eurostat metadata information page on the Slovak Structural Business statistics[^3].
+Information about the enterprise surveys are taken from \[\] and the Eurostat metadata information page on the Slovak Structural Business statistics[^4].
 
-[^3]: Eurostat metadata information page: *Structural business statistics (sbs)* [National metadata - Slovak Republic](https://ec.europa.eu/eurostat/cache/metadata/EN/sbs_esms_sk.htm)
+[^4]: Eurostat metadata information page: *Structural business statistics (sbs)* [National metadata - Slovak Republic](https://ec.europa.eu/eurostat/cache/metadata/EN/sbs_esms_sk.htm)
 
 ### Mixed surveys
 
@@ -660,10 +658,9 @@ This is a connection to the`D5.2` *Dissemination, Communication and Exploitation
 
 ## References
 
-_Not odered yet_
-Figure 1: *Data-to-policy schema*: will be made reusable only in final format. 
+*Not odered yet* Figure 1: *Data-to-policy schema*: will be made reusable only in final format.
 
-Figure 2: *Data-to-policy schema for D1.1*: will be made reusable only in final format, or may not need to be reused (this is zooming in Figure 1.) 
+Figure 2: *Data-to-policy schema for D1.1*: will be made reusable only in final format, or may not need to be reused (this is zooming in Figure 1.)
 
 Figure 3: *The statistical infrastructure of indicators*, DOI: [10.608](https://doi.org/10.6084/m9.figshare.23600571)[4](https://doi.org/10.6084/m9.figshare.23600571){target="_blank"}[/m9.figshare.23600571](https://doi.org/10.6084/m9.figshare.23600571)
 
