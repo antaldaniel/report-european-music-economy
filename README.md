@@ -1,19 +1,19 @@
 # Report on the European Music Economy
 
-This repo is created two deliverable. This deliverable is preceded by [Music Economy: Methods & Indicators](https://github.com/dataobservatory-eu/music_economy_methods_indicators/).
-
-1. [Report on the European Music Economy](https://zenodo.org/record/6464782#.Ylq7JNpBzIU) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6464782.svg)](https://doi.org/10.5281/zenodo.6464782). Follow the creation of this deliverable here:
-
--    T1.1. [Economy of music in Europe: Novel data collection methods and indicators](https://music.dataobservatory.eu/documents/open_music_europe/economy/report/report.html)
+-    T1.1. [Economy of music in Europe: Novel data collection methods and indicators](https://music.dataobservatory.eu/documents/open_music_europe/economy/report/report.html), [Authoritative copies in pdf, docx, epub](https://doi.org/10.5281/zenodo.8334648) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8334648.svg)](https://doi.org/10.5281/zenodo.8334648)
 -   T1.2 Not yet started
 -   T1.3 Not yet started
 
-2. [Economy of music in Europe: Novel data collection methods and indicators](https://doi.org/10.5281/zenodo.6464990) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6464990.svg)](https://doi.org/10.5281/zenodo.6464990)
+The tasks follow the [Open Policy Analysis Guidelines](http://www.bitss.org/wp-content/uploads/2019/03/OPA-Guidelines.pdf) and the best practices of the European Union's Knowledge For Policy and the [European Open Science Cloud](https://eosc-portal.eu/) portal.
 
-Both follow the [Open Policy Analysis Guidelines](http://www.bitss.org/wp-content/uploads/2019/03/OPA-Guidelines.pdf) and the best practices of the European Union's Knowledge For Policy and the [European Open Science Cloud](https://eosc-portal.eu/) portal.
+## How to contribute?
+
+- We have a [Contributor's Handbook](https://manual.dataobservatory.eu/).
+- Make sure you __fork__ this repository (i.e., create an own copy for yourself, see [Introduction to GitHub](https://manual.dataobservatory.eu/)) and do not try to work in the master joint repository. 
+- Create a `not_included/` subfolder in your local copy if you want a sandbox for your doodles and unfinished work. They will be excluded by `.gitignore`, i.e., they will never leave your computer.
 
 ## Main files
-The [Economy of music in Europe: Novel data collection methods and indicators]() document's files are available as follows: 
+The [Economy of music in Europe: Novel data collection methods and indicators](https://music.dataobservatory.eu/documents/open_music_europe/economy/report/report.html) document's files are available as follows: 
 - The working source document is `report_muisc_europe_data_collection.qmd`. It can be opened with any text editor but best viewed with a markdown editor or Posit's free data science editor RStudio. 
 - The rendered versions which are easier to read (but may not be in minute-to-minute sync with the source document) are in the `docs/` folder: [report_music_europe_data_collection.html](https://github.com/antaldaniel/report-european-music-economy/raw/main/docs/report_music_europe_data_collection.html) and [epub](https://github.com/antaldaniel/report-european-music-economy/raw/main/docs/report_music_europe_data_collection.epub), [docx](https://github.com/antaldaniel/report-european-music-economy/raw/main/docs/report_music_europe_data_collection.epub), [pdf](https://github.com/antaldaniel/report-european-music-economy/raw/main/docs/report_music_europe_data_collection.pdf
 - The versions approved by the Work Package Leader are available under separate (versioned) DOI on the European Open Science long-term repository Zenodo in the Digital Music Observatory collection, click below on the DOI number or look it up in your browser:
@@ -38,44 +38,18 @@ The working source document of the [Data coordination and indicator methodology 
 
 - `survey-documentation/`: Questionnaires and other background documents of the surveys mentioned in the main files.
 
-## Raw data 
+## Unprocessed and Processed Data 
 `data-raw/` - data as downloaded, received, as a starting point of our reproducible work. 
-
-## Processed data 
 `data/` - data that has been processed for the new work.
 
-## Document templates
+## Document Templates
 `docsx/` - templat for rendering into a Word document.
 
 ## Program files
 _Not yet present in this project task_
-
-
 `R/` - R code written for the publications.  It is better to write stand-alone R codes, and put final 'chunks' into the `.Rmd` files.
-
 `Py/` - You can use optionally Python files. 
 
-
-## For your own work
-
-**not_included** - user's scrap directory, excluded by `.gitignore`.  Please put your non-synchronized scaps and code doodles here.
-
-
-
-**data** - Final data outputs that will be placed in the articles.
-
-
-## OPA Open Materials
-
-From the [Open Policy Analysis Guidelines](http://www.bitss.org/wp-content/uploads/2019/03/OPA-Guidelines.pdf):
-
-- Label and document each input, including data, research, and guesswork: see contents of documents.
-
-- Standardize the file structure so that materials are organized in a way that is accessible to an informed reader: see below folder documentation.
-
-- Ensure that code/spreadsheets are reproducible. 
-
-- All research and innovation team members use version control software and track changes in a shared project repository. It is clear who contributed to the research, when, and who approved or rejected the contribution.
 
 ## Citations, assets, bibliography
 
@@ -110,6 +84,15 @@ The used references are at the end of the report.
 -    `bib/valuation.bib`: 
 -    `bib/wipo.bib`:  Treaties and publications of the [World Intellectual Property Organization](https://www.wipo.int/).
 
-## Links
 
-See the deliverable legal description [here](https://openmuse.dataobservatory.eu/resources/music-economy/) and the results on the [music.dataobservatory.eu](https://music.dataobservatory.eu/) website; currently this is a document that is work in progress here: [Economy of music in Europe: Novel data collection methods and indicators](https://music.dataobservatory.eu/documents/open_music_europe/economy/report/report.html).
+## OPA Open Materials
+
+From the [Open Policy Analysis Guidelines](http://www.bitss.org/wp-content/uploads/2019/03/OPA-Guidelines.pdf):
+
+- Label and document each input, including data, research, and guesswork: see contents of documents.
+
+- Standardize the file structure so that materials are organized in a way that is accessible to an informed reader: see below folder documentation.
+
+- Ensure that code/spreadsheets are reproducible. 
+
+- All research and innovation team members use version control software and track changes in a shared project repository. It is clear who contributed to the research, when, and who approved or rejected the contribution.
