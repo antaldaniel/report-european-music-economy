@@ -73,6 +73,8 @@ Both follow the [Open Policy Analysis Guidelines](https://www.bitss.org/wp-conte
 
 1.  You can access this document, see changes, comment, and make suggestions in our open repository.
 2.  You can find in the open repository, with a standardised file system, reusable text, figures, bibliography, and data.
+3. Download the presentation slides of the Bratislava Slovak national stakeholder consultation [here](https://github.com/dataobservatory-eu/report-european-music-economy/raw/main/presentations/Open_Music_Europe_Slovakia_20230921.pptx).
+
 :::
 
 Revision history:
