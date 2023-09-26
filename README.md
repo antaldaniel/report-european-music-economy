@@ -1,6 +1,7 @@
 # Report on the European Music Economy
 
--    T1.1. [Economy of music in Europe: Novel data collection methods and indicators](https://music.dataobservatory.eu/documents/open_music_europe/economy/report/report.html), [Authoritative copies in pdf, docx, epub](https://doi.org/10.5281/zenodo.8334648) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8334648.svg)](https://doi.org/10.5281/zenodo.8334648)
+-    T1.1. _Economy of music in Europe: Novel data collection methods and indicators_. The [website view](https://music.dataobservatory.eu/documents/open_music_europe/economy/report/report.html) has the latest [not reviewed] working version with epub, PDF downloads on the rigth hands side. This is updated whenever there is a significant change in the document. The authoritative copies can be found on Zenodo, the European open science repository for long-term archiving and linking, citing 
+[in pdf, docx, epub](https://doi.org/10.5281/zenodo.8334648) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8334648.svg)](https://doi.org/10.5281/zenodo.8334648). The authoritative copy is updated at significant changes and after internal or external quality control steps.
 -   T1.2 Not yet started
 -   T1.3 Not yet started
 
@@ -27,9 +28,15 @@ The working auxiliary document _Data coordination and indicator methodology for 
 
 `_quarto.yml`: Some metadata on how to render the source files. For reference see [Quarto Project Basics](https://quarto.org/docs/projects/quarto-projects.html).
 
+## Presentation
+
+`presentations/` folder: Stand-alone presentation files related to the main report.
+
+
 ## Graphics
 
 `plots/` folder: Illustrations used in the documents in `png` or `jpeg` formats.
+- [plots/Open_Music_Europe_Slovakia_20230921.pptx](https://github.com/dataobservatory-eu/report-european-music-economy/blob/main/presentations/Open_Music_Europe_Slovakia_20230921.pptx): the presentation slides for the Slovak national stakeholder consultation held on 21 September 2023. 
 
 ## Background documents
 
