@@ -31,12 +31,11 @@ The working auxiliary document _Data coordination and indicator methodology for 
 ## Presentation
 
 `presentations/` folder: Stand-alone presentation files related to the main report.
-
+- [presentations/Open_Music_Europe_Slovakia_20230921.pptx](https://github.com/dataobservatory-eu/report-european-music-economy/raw/main/presentations/Open_Music_Europe_Slovakia_20230921.pptx): the presentation slides for the Slovak national stakeholder consultation held on 21 September 2023. 
 
 ## Graphics
 
 `plots/` folder: Illustrations used in the documents in `png` or `jpeg` formats.
-- [plots/Open_Music_Europe_Slovakia_20230921.pptx](https://github.com/dataobservatory-eu/report-european-music-economy/blob/main/presentations/Open_Music_Europe_Slovakia_20230921.pptx): the presentation slides for the Slovak national stakeholder consultation held on 21 September 2023. 
 
 ## Background documents
 
